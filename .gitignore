@@ -1,0 +1,4 @@
+.vs/
+.history/
+node_modules/
+*.log
