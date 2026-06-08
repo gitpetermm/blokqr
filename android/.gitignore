@@ -1,0 +1,10 @@
+keystore.properties
+*.keystore
+*.jks
+release.keystore
+local.properties
+.gradle/
+build/
+backend/keys/*.json
+backend/.env
+__pycache__/

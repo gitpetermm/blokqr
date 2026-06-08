@@ -1,0 +1,48 @@
+name: Android CI/CD
+
+on:
+  push:
+    paths:
+      - 'android/**' # Se déclenche uniquement si vous modifiez la partie Android
+    branches:
+      - main
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Configuration de Java (requis pour compiler Android)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Configuration du SDK Android
+        uses: android-actions/setup-android@v3
+
+      - name: Donner les permissions d'exécution au wrapper Gradle
+        run: chmod +x android/gradlew
+
+      - name: Compiler l'APK de Release
+        run: |
+          cd android
+          ./gradlew assembleRelease
+
+      # Optionnel mais recommandé : Signature de l'APK (si vous avez un keystore)
+      # - name: Signer l'APK
+      #   uses: r0adkll/sign-android-release@v1
+      #   ...
+
+      - name: Déployer l'APK sur le VPS cible (via SSH)
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "android/app/build/outputs/apk/release/app-release.apk"
+          target: "/var/www/blokqr/public/download/"
+          strip_components: 5 # Permet de ne garder que le fichier app-release.apk

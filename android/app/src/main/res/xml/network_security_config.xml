@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Politique réseau stricte : trafic chiffré uniquement (pas de cleartext).
+  L'épinglage de certificat du service BlokQR est appliqué dans le code
+  (OkHttp CertificatePinner) afin de pouvoir effectuer la rotation des clés
+  via configuration distante sans recompiler.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

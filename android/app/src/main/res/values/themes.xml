@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.BlokQr" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0B2545</item>
+        <item name="android:navigationBarColor">#0B2545</item>
+    </style>
+</resources>
