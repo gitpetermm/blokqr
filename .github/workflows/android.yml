@@ -49,7 +49,7 @@ jobs:
 
       # Genere le wrapper s'il n'a pas encore ete commite (premier build).
       - name: Wrapper si absent
-        run: if [ ! -f ./gradlew ]; then gradle wrapper --gradle-version 8.9; fi
+        run: if [ ! -f ./gradlew ]; then gradle wrapper --gradle-version 9.4.1; fi
 
       # Compilation OBLIGATOIRE : l'app doit compiler, sinon le build echoue.
       - name: Compilation de l'APK de debug (OBLIGATOIRE)
