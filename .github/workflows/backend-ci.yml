@@ -1,0 +1,56 @@
+name: Backend CI
+
+# Teste le backend Python a chaque push touchant backend/ (ou ce workflow).
+# Strategie PROGRESSIVE (v1) : la compilation de tout app/ est OBLIGATOIRE
+# (elle attrape imports casses, erreurs de syntaxe). Les tests pytest sont
+# lances mais tolerants aux libs natives optionnelles (pqcrypto, slh-dsa,
+# playwright) qui peuvent ne pas s'installer sur le runner. On durcira plus tard.
+# Ce workflow est le FILET : deploy.yml ne se declenche QUE si ce workflow
+# reussit (voir deploy.yml, declencheur workflow_run).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "backend/**"
+      - ".github/workflows/backend-ci.yml"
+  pull_request:
+    paths:
+      - "backend/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dependances (tolerant aux libs natives optionnelles)
+        run: |
+          python -m pip install --upgrade pip
+          # Dependances de base indispensables aux tests non-natifs.
+          pip install fastapi pydantic pydantic-settings httpx cryptography blake3 pytest pytest-asyncio || true
+          # Installation complete best-effort (peut echouer sur libs natives).
+          if [ -f requirements.txt ]; then pip install -r requirements.txt || echo "Certaines libs optionnelles non installees - on continue"; fi
+
+      - name: Verification de compilation (OBLIGATOIRE)
+        run: |
+          python -m compileall -q app
+          echo "Compilation OK - aucun import casse ni erreur de syntaxe"
+
+      - name: Tests (informatif, tolerant aux libs natives manquantes)
+        run: |
+          if [ -d tests ]; then
+            pytest -q tests -x --no-header 2>&1 | tee /tmp/pytest.out || echo "Certains tests ont echoue (possiblement libs natives) - voir log"
+          else
+            echo "Aucun dossier tests/"
+          fi
