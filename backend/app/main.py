@@ -207,3 +207,4 @@ async def internal_health(request: Request):
         "web_risk": bool(getattr(request.app.state, "web_risk", None) is not None),
         "pq_envelope": bool(getattr(request.app.state, "gateway_keys", None) is not None),
     }
+# CI/CD test - deploiement verifie le 16 aout 2026
