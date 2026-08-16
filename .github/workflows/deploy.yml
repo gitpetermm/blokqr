@@ -1,24 +1,33 @@
 name: Deploy to VPS
 
+# Deploiement automatique sur le VPS, MAIS avec garde-fou : ce workflow ne se
+# declenche QUE lorsque le workflow "Backend CI" s'est termine avec SUCCES sur
+# la branche main. Si les tests echouent, aucun deploiement n'a lieu et la
+# production reste sur la version qui fonctionne.
+#
+# Le deploiement lui-meme delegue au script /opt/blokqr/deploy.sh sur le VPS,
+# qui : pull GitHub -> rsync backend/ (en preservant .env, secrets/, keys/,
+# data/) -> rebuild du conteneur Docker -> verification.
+
 on:
-  push:
-    branches:
-      - main # Déclenche le déploiement automatique lors d'un push sur "main"
+  workflow_run:
+    workflows: ["Backend CI"]
+    types:
+      - completed
+    branches: [main]
 
 jobs:
   deploy:
+    # Ne s'execute QUE si le workflow Backend CI a reussi.
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout du code
-        uses: actions/checkout@v4
-
-      - name: Déploiement via SSH sur le VPS
+      - name: Deploiement via SSH sur le VPS
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/blokqr
-            git pull origin main
+            set -e
+            bash /opt/blokqr/deploy.sh
