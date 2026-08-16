@@ -40,3 +40,10 @@ android/app/build/
 # --- Scripts temporaires racine ---
 add_trial_cta_strings.py
 android/add_pro_teaser_strings.py
+# --- Scripts de patch / reliquats de construction backend ---
+backend/patch_*.py
+backend/write_*.py
+backend/remove_*.py
+# fichiers parasites (noms aberrants)
+backend/-e
+backend/-v
