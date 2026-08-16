@@ -1,0 +1,38 @@
+{
+  "values": {
+    "tools_phone_country_cd": "Sélecteur de pays, indicatif"
+  },
+  "values-en": {
+    "tools_phone_country_cd": "Country selector, dialing code"
+  },
+  "values-es": {
+    "tools_phone_country_cd": "Selector de país, prefijo"
+  },
+  "values-pt": {
+    "tools_phone_country_cd": "Seletor de país, indicativo"
+  },
+  "values-it": {
+    "tools_phone_country_cd": "Selettore paese, prefisso"
+  },
+  "values-de": {
+    "tools_phone_country_cd": "Länderauswahl, Vorwahl"
+  },
+  "values-ar": {
+    "tools_phone_country_cd": "محدد البلد، رمز الاتصال"
+  },
+  "values-tr": {
+    "tools_phone_country_cd": "Ülke seçici, alan kodu"
+  },
+  "values-hi": {
+    "tools_phone_country_cd": "देश चयनकर्ता, कोड"
+  },
+  "values-zh-rCN": {
+    "tools_phone_country_cd": "国家/地区选择器，区号"
+  },
+  "values-ja": {
+    "tools_phone_country_cd": "国の選択、国番号"
+  },
+  "values-ru": {
+    "tools_phone_country_cd": "Выбор страны, код"
+  }
+}

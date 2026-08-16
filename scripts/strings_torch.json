@@ -1,0 +1,38 @@
+{
+  "values": {
+    "action_torch": "Lampe torche"
+  },
+  "values-en": {
+    "action_torch": "Flashlight"
+  },
+  "values-es": {
+    "action_torch": "Linterna"
+  },
+  "values-pt": {
+    "action_torch": "Lanterna"
+  },
+  "values-it": {
+    "action_torch": "Torcia"
+  },
+  "values-de": {
+    "action_torch": "Taschenlampe"
+  },
+  "values-ar": {
+    "action_torch": "المصباح"
+  },
+  "values-tr": {
+    "action_torch": "El feneri"
+  },
+  "values-hi": {
+    "action_torch": "टॉर्च"
+  },
+  "values-zh-rCN": {
+    "action_torch": "手电筒"
+  },
+  "values-ja": {
+    "action_torch": "ライト"
+  },
+  "values-ru": {
+    "action_torch": "Фонарик"
+  }
+}

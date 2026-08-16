@@ -1,0 +1,98 @@
+{
+  "values": {
+    "tools_logo_label": "Logo au centre",
+    "tools_logo_none": "Aucun",
+    "tools_logo_blokqr": "Logo BlokQR",
+    "tools_logo_custom": "Mon logo",
+    "tools_logo_pick": "Choisir une image",
+    "tools_logo_change": "Changer l\\'image"
+  },
+  "values-en": {
+    "tools_logo_label": "Center logo",
+    "tools_logo_none": "None",
+    "tools_logo_blokqr": "BlokQR logo",
+    "tools_logo_custom": "My logo",
+    "tools_logo_pick": "Choose an image",
+    "tools_logo_change": "Change image"
+  },
+  "values-es": {
+    "tools_logo_label": "Logo en el centro",
+    "tools_logo_none": "Ninguno",
+    "tools_logo_blokqr": "Logo BlokQR",
+    "tools_logo_custom": "Mi logo",
+    "tools_logo_pick": "Elegir una imagen",
+    "tools_logo_change": "Cambiar la imagen"
+  },
+  "values-pt": {
+    "tools_logo_label": "Logótipo ao centro",
+    "tools_logo_none": "Nenhum",
+    "tools_logo_blokqr": "Logótipo BlokQR",
+    "tools_logo_custom": "O meu logótipo",
+    "tools_logo_pick": "Escolher uma imagem",
+    "tools_logo_change": "Mudar a imagem"
+  },
+  "values-it": {
+    "tools_logo_label": "Logo al centro",
+    "tools_logo_none": "Nessuno",
+    "tools_logo_blokqr": "Logo BlokQR",
+    "tools_logo_custom": "Il mio logo",
+    "tools_logo_pick": "Scegli un\\'immagine",
+    "tools_logo_change": "Cambia immagine"
+  },
+  "values-de": {
+    "tools_logo_label": "Logo in der Mitte",
+    "tools_logo_none": "Keins",
+    "tools_logo_blokqr": "BlokQR-Logo",
+    "tools_logo_custom": "Mein Logo",
+    "tools_logo_pick": "Bild auswählen",
+    "tools_logo_change": "Bild ändern"
+  },
+  "values-ar": {
+    "tools_logo_label": "شعار في المنتصف",
+    "tools_logo_none": "بدون",
+    "tools_logo_blokqr": "شعار BlokQR",
+    "tools_logo_custom": "شعاري",
+    "tools_logo_pick": "اختر صورة",
+    "tools_logo_change": "تغيير الصورة"
+  },
+  "values-tr": {
+    "tools_logo_label": "Ortada logo",
+    "tools_logo_none": "Yok",
+    "tools_logo_blokqr": "BlokQR logosu",
+    "tools_logo_custom": "Logom",
+    "tools_logo_pick": "Bir görüntü seç",
+    "tools_logo_change": "Görüntüyü değiştir"
+  },
+  "values-hi": {
+    "tools_logo_label": "केंद्र में लोगो",
+    "tools_logo_none": "कोई नहीं",
+    "tools_logo_blokqr": "BlokQR लोगो",
+    "tools_logo_custom": "मेरा लोगो",
+    "tools_logo_pick": "एक छवि चुनें",
+    "tools_logo_change": "छवि बदलें"
+  },
+  "values-zh-rCN": {
+    "tools_logo_label": "居中徽标",
+    "tools_logo_none": "无",
+    "tools_logo_blokqr": "BlokQR 徽标",
+    "tools_logo_custom": "我的徽标",
+    "tools_logo_pick": "选择图片",
+    "tools_logo_change": "更换图片"
+  },
+  "values-ja": {
+    "tools_logo_label": "中央にロゴ",
+    "tools_logo_none": "なし",
+    "tools_logo_blokqr": "BlokQR ロゴ",
+    "tools_logo_custom": "自分のロゴ",
+    "tools_logo_pick": "画像を選択",
+    "tools_logo_change": "画像を変更"
+  },
+  "values-ru": {
+    "tools_logo_label": "Логотип по центру",
+    "tools_logo_none": "Нет",
+    "tools_logo_blokqr": "Логотип BlokQR",
+    "tools_logo_custom": "Мой логотип",
+    "tools_logo_pick": "Выбрать изображение",
+    "tools_logo_change": "Изменить изображение"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "values": {
+    "tools_ecc_label": "Correction d’erreur",
+    "tools_ecc_hint": "Plus élevée = code plus résistant aux dégradations, mais plus dense."
+  },
+  "values-en": {
+    "tools_ecc_label": "Error correction",
+    "tools_ecc_hint": "Higher = more resistant to damage, but denser."
+  },
+  "values-es": {
+    "tools_ecc_label": "Corrección de errores",
+    "tools_ecc_hint": "Mayor = más resistente a daños, pero más denso."
+  },
+  "values-pt": {
+    "tools_ecc_label": "Correção de erros",
+    "tools_ecc_hint": "Mais alta = mais resistente a danos, mas mais densa."
+  },
+  "values-it": {
+    "tools_ecc_label": "Correzione degli errori",
+    "tools_ecc_hint": "Più alta = più resistente ai danni, ma più densa."
+  },
+  "values-de": {
+    "tools_ecc_label": "Fehlerkorrektur",
+    "tools_ecc_hint": "Höher = widerstandsfähiger gegen Beschädigungen, aber dichter."
+  },
+  "values-ar": {
+    "tools_ecc_label": "تصحيح الأخطاء",
+    "tools_ecc_hint": "أعلى = أكثر مقاومة للتلف، لكن أكثر كثافة."
+  },
+  "values-tr": {
+    "tools_ecc_label": "Hata düzeltme",
+    "tools_ecc_hint": "Daha yüksek = hasara daha dayanıklı, ama daha yoğun."
+  },
+  "values-hi": {
+    "tools_ecc_label": "त्रुटि सुधार",
+    "tools_ecc_hint": "अधिक = क्षति के प्रति अधिक प्रतिरोधी, पर अधिक सघन।"
+  },
+  "values-zh-rCN": {
+    "tools_ecc_label": "纠错级别",
+    "tools_ecc_hint": "越高 = 越耐受损，但更密集。"
+  },
+  "values-ja": {
+    "tools_ecc_label": "誤り訂正",
+    "tools_ecc_hint": "高いほど破損に強くなりますが、密になります。"
+  },
+  "values-ru": {
+    "tools_ecc_label": "Коррекция ошибок",
+    "tools_ecc_hint": "Выше = устойчивее к повреждениям, но плотнее."
+  }
+}

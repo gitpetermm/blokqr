@@ -1,0 +1,50 @@
+{
+  "values": {
+    "about_feature_generator": "Générateur de QR codes et codes-barres (lien, contact, Wi-Fi, localisation, événement…) en de nombreux formats, avec partage et impression.",
+    "about_feature_provenance": "Reconnaissance des produits au scan : organisation GS1 émettrice et, en option, nom du produit."
+  },
+  "values-en": {
+    "about_feature_generator": "QR code and barcode generator (link, contact, Wi-Fi, location, event…) in many formats, with sharing and printing.",
+    "about_feature_provenance": "Product recognition on scan: issuing GS1 organisation and, optionally, the product name."
+  },
+  "values-es": {
+    "about_feature_generator": "Generador de códigos QR y de barras (enlace, contacto, Wi-Fi, ubicación, evento…) en muchos formatos, con compartir e imprimir.",
+    "about_feature_provenance": "Reconocimiento de productos al escanear: organización GS1 emisora y, opcionalmente, el nombre del producto."
+  },
+  "values-pt": {
+    "about_feature_generator": "Gerador de códigos QR e de barras (ligação, contacto, Wi-Fi, localização, evento…) em muitos formatos, com partilha e impressão.",
+    "about_feature_provenance": "Reconhecimento de produtos ao ler: organização GS1 emissora e, opcionalmente, o nome do produto."
+  },
+  "values-it": {
+    "about_feature_generator": "Generatore di codici QR e a barre (link, contatto, Wi-Fi, posizione, evento…) in molti formati, con condivisione e stampa.",
+    "about_feature_provenance": "Riconoscimento dei prodotti alla scansione: organizzazione GS1 emittente e, in opzione, il nome del prodotto."
+  },
+  "values-de": {
+    "about_feature_generator": "Generator für QR- und Barcodes (Link, Kontakt, WLAN, Standort, Termin…) in vielen Formaten, mit Teilen und Drucken.",
+    "about_feature_provenance": "Produkterkennung beim Scannen: ausstellende GS1-Organisation und optional der Produktname."
+  },
+  "values-ar": {
+    "about_feature_generator": "مولّد رموز QR وباركود (رابط، جهة اتصال، Wi-Fi، موقع، حدث…) بصيغ متعددة، مع المشاركة والطباعة.",
+    "about_feature_provenance": "التعرف على المنتجات عند المسح: منظمة GS1 المُصدِرة، واسم المنتج اختياريًا."
+  },
+  "values-tr": {
+    "about_feature_generator": "QR ve barkod oluşturucu (bağlantı, kişi, Wi-Fi, konum, etkinlik…) birçok biçimde, paylaşım ve yazdırma ile.",
+    "about_feature_provenance": "Taramada ürün tanıma: numarayı veren GS1 kuruluşu ve isteğe bağlı olarak ürün adı."
+  },
+  "values-hi": {
+    "about_feature_generator": "कई प्रारूपों में QR और बारकोड जनरेटर (लिंक, संपर्क, Wi-Fi, स्थान, इवेंट…), साझा और प्रिंट के साथ।",
+    "about_feature_provenance": "स्कैन पर उत्पाद पहचान: जारीकर्ता GS1 संगठन और वैकल्पिक रूप से उत्पाद का नाम।"
+  },
+  "values-zh-rCN": {
+    "about_feature_generator": "以多种格式生成二维码和条形码（链接、联系人、Wi-Fi、位置、活动…），支持分享和打印。",
+    "about_feature_provenance": "扫描时识别产品：分配号码的 GS1 组织，以及可选的产品名称。"
+  },
+  "values-ja": {
+    "about_feature_generator": "QR コード・バーコード生成（リンク、連絡先、Wi-Fi、位置情報、予定…）を多数の形式で、共有・印刷対応。",
+    "about_feature_provenance": "スキャン時の商品認識：発行元の GS1 組織と、任意で商品名。"
+  },
+  "values-ru": {
+    "about_feature_generator": "Генератор QR- и штрихкодов (ссылка, контакт, Wi-Fi, местоположение, событие…) во многих форматах, с отправкой и печатью.",
+    "about_feature_provenance": "Распознавание товаров при сканировании: организация-эмитент GS1 и, по желанию, название товара."
+  }
+}

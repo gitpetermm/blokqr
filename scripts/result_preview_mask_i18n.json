@@ -1,0 +1,14 @@
+{
+  "values":        { "result_preview_sensitive": "Aperçu masqué — page potentiellement frauduleuse", "result_preview_reveal": "Afficher quand même" },
+  "values-en":     { "result_preview_sensitive": "Preview hidden — potentially fraudulent page", "result_preview_reveal": "Show anyway" },
+  "values-es":     { "result_preview_sensitive": "Vista previa oculta: página potencialmente fraudulenta", "result_preview_reveal": "Mostrar de todos modos" },
+  "values-de":     { "result_preview_sensitive": "Vorschau ausgeblendet – möglicherweise betrügerische Seite", "result_preview_reveal": "Trotzdem anzeigen" },
+  "values-it":     { "result_preview_sensitive": "Anteprima nascosta — pagina potenzialmente fraudolenta", "result_preview_reveal": "Mostra comunque" },
+  "values-pt":     { "result_preview_sensitive": "Pré-visualização oculta — página potencialmente fraudulenta", "result_preview_reveal": "Mostrar mesmo assim" },
+  "values-ar":     { "result_preview_sensitive": "المعاينة مخفية — صفحة قد تكون احتيالية", "result_preview_reveal": "إظهار على أي حال" },
+  "values-hi":     { "result_preview_sensitive": "पूर्वावलोकन छिपा है — संभावित रूप से धोखाधड़ी वाला पृष्ठ", "result_preview_reveal": "फिर भी दिखाएँ" },
+  "values-ja":     { "result_preview_sensitive": "プレビューを非表示 — 詐欺の可能性があるページ", "result_preview_reveal": "それでも表示" },
+  "values-ru":     { "result_preview_sensitive": "Предпросмотр скрыт — возможно мошенническая страница", "result_preview_reveal": "Всё равно показать" },
+  "values-tr":     { "result_preview_sensitive": "Önizleme gizlendi — olası sahte sayfa", "result_preview_reveal": "Yine de göster" },
+  "values-zh-rCN": { "result_preview_sensitive": "预览已隐藏 — 可能是欺诈页面", "result_preview_reveal": "仍然显示" }
+}

@@ -1,0 +1,62 @@
+{
+  "values": {
+    "settings_product_recognition": "Codes produits",
+    "settings_product_recognition_toggle": "Reconnaître les codes produits",
+    "settings_product_recognition_hint": "Quand le scanner détecte un code-barres produit (EAN/UPC), il affiche directement sa provenance, sans analyse de sécurité."
+  },
+  "values-en": {
+    "settings_product_recognition": "Product codes",
+    "settings_product_recognition_toggle": "Recognise product codes",
+    "settings_product_recognition_hint": "When the scanner detects a product barcode (EAN/UPC), it shows its origin directly, without a security check."
+  },
+  "values-es": {
+    "settings_product_recognition": "Códigos de producto",
+    "settings_product_recognition_toggle": "Reconocer códigos de producto",
+    "settings_product_recognition_hint": "Cuando el escáner detecta un código de barras de producto (EAN/UPC), muestra su origen directamente, sin análisis de seguridad."
+  },
+  "values-pt": {
+    "settings_product_recognition": "Códigos de produto",
+    "settings_product_recognition_toggle": "Reconhecer códigos de produto",
+    "settings_product_recognition_hint": "Quando o scanner deteta um código de barras de produto (EAN/UPC), mostra a origem diretamente, sem análise de segurança."
+  },
+  "values-it": {
+    "settings_product_recognition": "Codici prodotto",
+    "settings_product_recognition_toggle": "Riconosci i codici prodotto",
+    "settings_product_recognition_hint": "Quando lo scanner rileva un codice a barre di prodotto (EAN/UPC), ne mostra subito la provenienza, senza analisi di sicurezza."
+  },
+  "values-de": {
+    "settings_product_recognition": "Produktcodes",
+    "settings_product_recognition_toggle": "Produktcodes erkennen",
+    "settings_product_recognition_hint": "Wenn der Scanner einen Produkt-Barcode (EAN/UPC) erkennt, zeigt er direkt dessen Herkunft an, ohne Sicherheitsprüfung."
+  },
+  "values-ar": {
+    "settings_product_recognition": "رموز المنتجات",
+    "settings_product_recognition_toggle": "التعرف على رموز المنتجات",
+    "settings_product_recognition_hint": "عندما يكتشف الماسح باركود منتج (EAN/UPC)، يعرض مصدره مباشرة دون تحليل أمني."
+  },
+  "values-tr": {
+    "settings_product_recognition": "Ürün kodları",
+    "settings_product_recognition_toggle": "Ürün kodlarını tanı",
+    "settings_product_recognition_hint": "Tarayıcı bir ürün barkodu (EAN/UPC) algıladığında, güvenlik analizi yapmadan menşeini doğrudan gösterir."
+  },
+  "values-hi": {
+    "settings_product_recognition": "उत्पाद कोड",
+    "settings_product_recognition_toggle": "उत्पाद कोड पहचानें",
+    "settings_product_recognition_hint": "जब स्कैनर कोई उत्पाद बारकोड (EAN/UPC) पहचानता है, तो वह सुरक्षा विश्लेषण के बिना सीधे उसका स्रोत दिखाता है।"
+  },
+  "values-zh-rCN": {
+    "settings_product_recognition": "产品代码",
+    "settings_product_recognition_toggle": "识别产品代码",
+    "settings_product_recognition_hint": "当扫描器检测到产品条形码（EAN/UPC）时，直接显示其来源，不进行安全分析。"
+  },
+  "values-ja": {
+    "settings_product_recognition": "商品コード",
+    "settings_product_recognition_toggle": "商品コードを認識",
+    "settings_product_recognition_hint": "スキャナーが商品バーコード（EAN/UPC）を検出すると、セキュリティ分析を行わずに産地を直接表示します。"
+  },
+  "values-ru": {
+    "settings_product_recognition": "Коды товаров",
+    "settings_product_recognition_toggle": "Распознавать коды товаров",
+    "settings_product_recognition_hint": "Когда сканер обнаруживает штрихкод товара (EAN/UPC), он сразу показывает его происхождение без анализа безопасности."
+  }
+}

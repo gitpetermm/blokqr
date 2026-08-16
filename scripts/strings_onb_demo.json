@@ -1,0 +1,50 @@
+{
+  "values": {
+    "onb_demo_title": "On voit ce que vous ne voyez pas",
+    "onb_demo_body": "Un lien court cache sa vraie destination. BlokQR la déplie et affiche le verdict avant que vous ouvriez quoi que ce soit."
+  },
+  "values-en": {
+    "onb_demo_title": "We see what you can’t",
+    "onb_demo_body": "A short link hides its real destination. BlokQR unfolds it and shows the verdict before you open anything."
+  },
+  "values-es": {
+    "onb_demo_title": "Vemos lo que tú no ves",
+    "onb_demo_body": "Un enlace corto oculta su destino real. BlokQR lo despliega y muestra el veredicto antes de que abras nada."
+  },
+  "values-pt": {
+    "onb_demo_title": "Vemos o que você não vê",
+    "onb_demo_body": "Uma ligação curta esconde o destino real. O BlokQR revela-o e mostra o veredito antes de você abrir seja o que for."
+  },
+  "values-it": {
+    "onb_demo_title": "Vediamo ciò che tu non vedi",
+    "onb_demo_body": "Un link breve nasconde la vera destinazione. BlokQR la svela e mostra il verdetto prima che tu apra qualcosa."
+  },
+  "values-de": {
+    "onb_demo_title": "Wir sehen, was du nicht siehst",
+    "onb_demo_body": "Ein Kurzlink verbirgt sein wahres Ziel. BlokQR deckt es auf und zeigt das Urteil, bevor du etwas öffnest."
+  },
+  "values-ar": {
+    "onb_demo_title": "نرى ما لا تراه",
+    "onb_demo_body": "يخفي الرابط المختصر وجهته الحقيقية. يكشفها BlokQR ويعرض الحكم قبل أن تفتح أي شيء."
+  },
+  "values-tr": {
+    "onb_demo_title": "Sizin göremediğinizi görürüz",
+    "onb_demo_body": "Kısa bir bağlantı gerçek hedefini gizler. BlokQR onu açar ve siz bir şey açmadan önce kararı gösterir."
+  },
+  "values-hi": {
+    "onb_demo_title": "जो आप नहीं देखते, वह हम देखते हैं",
+    "onb_demo_body": "छोटा लिंक अपनी असली मंज़िल छिपाता है। BlokQR उसे खोलकर दिखाता है और आपके कुछ भी खोलने से पहले फ़ैसला बताता है।"
+  },
+  "values-zh-rCN": {
+    "onb_demo_title": "我们看见你看不见的",
+    "onb_demo_body": "短链接会隐藏真正的目的地。BlokQR 会展开它，并在你打开任何内容之前给出裁定。"
+  },
+  "values-ja": {
+    "onb_demo_title": "あなたに見えないものを見ます",
+    "onb_demo_body": "短縮リンクは本当の遷移先を隠します。BlokQR がそれを展開し、開く前に判定を表示します。"
+  },
+  "values-ru": {
+    "onb_demo_title": "Мы видим то, что не видите вы",
+    "onb_demo_body": "Короткая ссылка скрывает настоящий адрес. BlokQR раскрывает его и показывает вердикт до того, как вы что-то откроете."
+  }
+}

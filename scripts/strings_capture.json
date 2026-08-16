@@ -1,0 +1,50 @@
+{
+  "values": {
+    "capture_hint": "Cadrez le code, puis appuyez pour capturer",
+    "capture_take": "Capturer"
+  },
+  "values-en": {
+    "capture_hint": "Frame the code, then tap to capture",
+    "capture_take": "Capture"
+  },
+  "values-es": {
+    "capture_hint": "Encuadra el código y toca para capturar",
+    "capture_take": "Capturar"
+  },
+  "values-pt": {
+    "capture_hint": "Enquadre o código e toque para capturar",
+    "capture_take": "Capturar"
+  },
+  "values-it": {
+    "capture_hint": "Inquadra il codice, poi tocca per acquisire",
+    "capture_take": "Acquisisci"
+  },
+  "values-de": {
+    "capture_hint": "Code anvisieren, dann zum Aufnehmen tippen",
+    "capture_take": "Aufnehmen"
+  },
+  "values-ar": {
+    "capture_hint": "وجّه الرمز ثم اضغط لالتقاطه",
+    "capture_take": "التقاط"
+  },
+  "values-tr": {
+    "capture_hint": "Kodu çerçeveleyin, ardından yakalamak için dokunun",
+    "capture_take": "Yakala"
+  },
+  "values-hi": {
+    "capture_hint": "कोड को फ़्रेम करें, फिर कैप्चर करने के लिए टैप करें",
+    "capture_take": "कैप्चर करें"
+  },
+  "values-zh-rCN": {
+    "capture_hint": "对准代码，然后点按拍摄",
+    "capture_take": "拍摄"
+  },
+  "values-ja": {
+    "capture_hint": "コードを枠に合わせてタップして撮影",
+    "capture_take": "撮影"
+  },
+  "values-ru": {
+    "capture_hint": "Наведите на код и коснитесь, чтобы сделать снимок",
+    "capture_take": "Снять"
+  }
+}

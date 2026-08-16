@@ -1,0 +1,74 @@
+{
+  "values": {
+    "shortcut_scan_short": "Scanner",
+    "shortcut_scan_long": "Scanner un code",
+    "shortcut_create_short": "Créer",
+    "shortcut_create_long": "Créer un code"
+  },
+  "values-en": {
+    "shortcut_scan_short": "Scan",
+    "shortcut_scan_long": "Scan a code",
+    "shortcut_create_short": "Create",
+    "shortcut_create_long": "Create a code"
+  },
+  "values-es": {
+    "shortcut_scan_short": "Escanear",
+    "shortcut_scan_long": "Escanear un código",
+    "shortcut_create_short": "Crear",
+    "shortcut_create_long": "Crear un código"
+  },
+  "values-pt": {
+    "shortcut_scan_short": "Digitalizar",
+    "shortcut_scan_long": "Digitalizar um código",
+    "shortcut_create_short": "Criar",
+    "shortcut_create_long": "Criar um código"
+  },
+  "values-it": {
+    "shortcut_scan_short": "Scansiona",
+    "shortcut_scan_long": "Scansiona un codice",
+    "shortcut_create_short": "Crea",
+    "shortcut_create_long": "Crea un codice"
+  },
+  "values-de": {
+    "shortcut_scan_short": "Scannen",
+    "shortcut_scan_long": "Code scannen",
+    "shortcut_create_short": "Erstellen",
+    "shortcut_create_long": "Code erstellen"
+  },
+  "values-ar": {
+    "shortcut_scan_short": "مسح",
+    "shortcut_scan_long": "مسح رمز",
+    "shortcut_create_short": "إنشاء",
+    "shortcut_create_long": "إنشاء رمز"
+  },
+  "values-tr": {
+    "shortcut_scan_short": "Tara",
+    "shortcut_scan_long": "Kod tara",
+    "shortcut_create_short": "Oluştur",
+    "shortcut_create_long": "Kod oluştur"
+  },
+  "values-hi": {
+    "shortcut_scan_short": "स्कैन",
+    "shortcut_scan_long": "कोड स्कैन करें",
+    "shortcut_create_short": "बनाएँ",
+    "shortcut_create_long": "कोड बनाएँ"
+  },
+  "values-zh-rCN": {
+    "shortcut_scan_short": "扫描",
+    "shortcut_scan_long": "扫描代码",
+    "shortcut_create_short": "创建",
+    "shortcut_create_long": "创建代码"
+  },
+  "values-ja": {
+    "shortcut_scan_short": "スキャン",
+    "shortcut_scan_long": "コードをスキャン",
+    "shortcut_create_short": "作成",
+    "shortcut_create_long": "コードを作成"
+  },
+  "values-ru": {
+    "shortcut_scan_short": "Скан",
+    "shortcut_scan_long": "Сканировать код",
+    "shortcut_create_short": "Создать",
+    "shortcut_create_long": "Создать код"
+  }
+}

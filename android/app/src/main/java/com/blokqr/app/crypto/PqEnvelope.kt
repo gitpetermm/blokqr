@@ -1,3 +1,5 @@
+@file:Suppress("unused", "DEPRECATION") // Enveloppe PQ intentionnelle ; API ML-KEM de BouncyCastle 1.84 dépréciée mais fonctionnelle.
+
 package com.blokqr.app.crypto
 
 import com.blokqr.app.model.GatewayKeyDto
@@ -16,16 +18,24 @@ import javax.crypto.spec.IvParameterSpec
 import java.util.Base64
 
 /**
- * Enveloppe de confidentialité hybride (X25519 + ML-KEM-768), côté client.
+ * Enveloppe de confidentialité hybride X25519 + ML-KEM-768, côté client.
  *
- * Répond à la confidentialité « harvest-now, decrypt-later » : le corps de la
- * requête (ex. préfixes de hash de réputation) est chiffré de bout en bout vers
- * la passerelle, en complément du relais OHTTP et indépendamment de TLS. Un
- * adversaire devrait casser X25519 ET ML-KEM-768 pour le déchiffrer.
+ * Protège contre la menace dite « collecter maintenant, déchiffrer plus tard » :
+ * le corps de la requête (par exemple les préfixes de hash de réputation) est
+ * chiffré de bout en bout vers la passerelle, en complément du relais OHTTP et
+ * indépendamment de TLS. Un adversaire devrait casser X25519 ET ML-KEM-768 pour
+ * le déchiffrer.
  *
  * Le secret partagé combine l'encapsulation ML-KEM et un échange X25519
- * éphémère, dérivés via HKDF-SHA256, puis utilisés en ChaCha20-Poly1305.
- * (Schéma symétrique à celui de la passerelle ; voir backend pq_envelope.py.)
+ * éphémère, dérivés via HKDF-SHA256, puis utilisés en ChaCha20-Poly1305. Le
+ * schéma est symétrique à celui de la passerelle ; voir backend pq_envelope.py.
+ *
+ * Statut : implémentation complète et prête à l'emploi, pas encore appelée par
+ * la couche réseau. Pour l'activer : récupérer les clés via GET /pq-pubkey
+ * (GatewayKeyDto) puis chiffrer le corps avec seal() avant l'envoi.
+ *
+ * Note : l'API ML-KEM légère de BouncyCastle 1.84 est marquée dépréciée mais
+ * reste fonctionnelle ; à migrer vers l'API non dépréciée au prochain bump.
  */
 object PqEnvelope {
 
@@ -44,7 +54,7 @@ object PqEnvelope {
         val ssPq = enc.secret
         val ctPq = enc.encapsulation
 
-        // 2. Échange X25519 éphémère -> secret classique.
+        // 2. Echange X25519 ephemere -> secret classique.
         val kpg = X25519KeyPairGenerator().apply { init(X25519KeyGenerationParameters(rng)) }
         val kp = kpg.generateKeyPair()
         val ephPriv = kp.private as X25519PrivateKeyParameters
@@ -53,10 +63,10 @@ object PqEnvelope {
         val ssCl = ByteArray(32)
         X25519Agreement().apply { init(ephPriv) }.calculateAgreement(gwX, ssCl, 0)
 
-        // 3. Clé = HKDF-SHA256(ssPq || ssCl), info dédiée.
+        // 3. Cle = HKDF-SHA256(ssPq || ssCl), info dediee.
         val key = Hkdf.derive(ssPq + ssCl, info = "blokqr/pq-envelope/v1".toByteArray())
 
-        // 4. AEAD ChaCha20-Poly1305 (nonce nul : clé unique par enveloppe).
+        // 4. AEAD ChaCha20-Poly1305 (nonce nul : cle unique par enveloppe).
         val cipher = Cipher.getInstance("ChaCha20-Poly1305")
         cipher.init(Cipher.ENCRYPT_MODE, SecretKeySpec(key, "ChaCha20"),
             IvParameterSpec(ByteArray(12)))
@@ -68,7 +78,7 @@ object PqEnvelope {
     }
 }
 
-/** HKDF-SHA256 minimal (extract+expand) pour la dérivation de clé d'enveloppe. */
+/** HKDF-SHA256 minimal (extract + expand) pour la derivation de cle d'enveloppe. */
 private object Hkdf {
     fun derive(ikm: ByteArray, info: ByteArray, length: Int = 32): ByteArray {
         val mac = javax.crypto.Mac.getInstance("HmacSHA256")

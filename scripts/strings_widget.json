@@ -1,0 +1,86 @@
+{
+  "values": {
+    "tile_scan_label": "Scan sûr",
+    "widget_scan_label": "Scanner",
+    "widget_verify_label": "Vérifier un lien",
+    "widget_picker_label": "BlokQR — Scan rapide",
+    "widget_description": "Scannez ou vérifiez un lien en un tap."
+  },
+  "values-en": {
+    "tile_scan_label": "Safe scan",
+    "widget_scan_label": "Scan",
+    "widget_verify_label": "Check a link",
+    "widget_picker_label": "BlokQR — Quick scan",
+    "widget_description": "Scan or check a link in one tap."
+  },
+  "values-es": {
+    "tile_scan_label": "Escaneo seguro",
+    "widget_scan_label": "Escanear",
+    "widget_verify_label": "Verificar enlace",
+    "widget_picker_label": "BlokQR — Escaneo rápido",
+    "widget_description": "Escanea o verifica un enlace con un toque."
+  },
+  "values-pt": {
+    "tile_scan_label": "Leitura segura",
+    "widget_scan_label": "Ler",
+    "widget_verify_label": "Verificar ligação",
+    "widget_picker_label": "BlokQR — Leitura rápida",
+    "widget_description": "Leia ou verifique uma ligação num toque."
+  },
+  "values-it": {
+    "tile_scan_label": "Scansione sicura",
+    "widget_scan_label": "Scansiona",
+    "widget_verify_label": "Verifica link",
+    "widget_picker_label": "BlokQR — Scansione rapida",
+    "widget_description": "Scansiona o verifica un link con un tocco."
+  },
+  "values-de": {
+    "tile_scan_label": "Sicherer Scan",
+    "widget_scan_label": "Scannen",
+    "widget_verify_label": "Link prüfen",
+    "widget_picker_label": "BlokQR — Schnellscan",
+    "widget_description": "Scanne oder prüfe einen Link mit einem Tipp."
+  },
+  "values-ar": {
+    "tile_scan_label": "مسح آمن",
+    "widget_scan_label": "مسح",
+    "widget_verify_label": "فحص رابط",
+    "widget_picker_label": "BlokQR — مسح سريع",
+    "widget_description": "امسح أو افحص رابطًا بلمسة واحدة."
+  },
+  "values-tr": {
+    "tile_scan_label": "Güvenli tarama",
+    "widget_scan_label": "Tara",
+    "widget_verify_label": "Bağlantıyı denetle",
+    "widget_picker_label": "BlokQR — Hızlı tarama",
+    "widget_description": "Tek dokunuşla tarayın veya bağlantı denetleyin."
+  },
+  "values-hi": {
+    "tile_scan_label": "सुरक्षित स्कैन",
+    "widget_scan_label": "स्कैन",
+    "widget_verify_label": "लिंक जाँचें",
+    "widget_picker_label": "BlokQR — त्वरित स्कैन",
+    "widget_description": "एक टैप में स्कैन करें या लिंक जाँचें।"
+  },
+  "values-zh-rCN": {
+    "tile_scan_label": "安全扫描",
+    "widget_scan_label": "扫描",
+    "widget_verify_label": "检查链接",
+    "widget_picker_label": "BlokQR — 快速扫描",
+    "widget_description": "一键扫描或检查链接。"
+  },
+  "values-ja": {
+    "tile_scan_label": "安全スキャン",
+    "widget_scan_label": "スキャン",
+    "widget_verify_label": "リンクを確認",
+    "widget_picker_label": "BlokQR — クイックスキャン",
+    "widget_description": "ワンタップでスキャンまたはリンク確認。"
+  },
+  "values-ru": {
+    "tile_scan_label": "Безопасное сканирование",
+    "widget_scan_label": "Скан",
+    "widget_verify_label": "Проверить ссылку",
+    "widget_picker_label": "BlokQR — Быстрый скан",
+    "widget_description": "Скан или проверка ссылки в одно касание."
+  }
+}

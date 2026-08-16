@@ -1,0 +1,62 @@
+{
+  "values": {
+    "tools_use_current_location": "Ma position actuelle",
+    "tools_location_unavailable": "Position indisponible",
+    "tools_location_denied": "Autorisation de localisation refusée"
+  },
+  "values-en": {
+    "tools_use_current_location": "My current location",
+    "tools_location_unavailable": "Location unavailable",
+    "tools_location_denied": "Location permission denied"
+  },
+  "values-es": {
+    "tools_use_current_location": "Mi ubicación actual",
+    "tools_location_unavailable": "Ubicación no disponible",
+    "tools_location_denied": "Permiso de ubicación denegado"
+  },
+  "values-pt": {
+    "tools_use_current_location": "A minha localização atual",
+    "tools_location_unavailable": "Localização indisponível",
+    "tools_location_denied": "Permissão de localização recusada"
+  },
+  "values-it": {
+    "tools_use_current_location": "La mia posizione attuale",
+    "tools_location_unavailable": "Posizione non disponibile",
+    "tools_location_denied": "Autorizzazione alla posizione negata"
+  },
+  "values-de": {
+    "tools_use_current_location": "Mein aktueller Standort",
+    "tools_location_unavailable": "Standort nicht verfügbar",
+    "tools_location_denied": "Standortberechtigung verweigert"
+  },
+  "values-ar": {
+    "tools_use_current_location": "موقعي الحالي",
+    "tools_location_unavailable": "الموقع غير متاح",
+    "tools_location_denied": "تم رفض إذن الموقع"
+  },
+  "values-tr": {
+    "tools_use_current_location": "Mevcut konumum",
+    "tools_location_unavailable": "Konum kullanılamıyor",
+    "tools_location_denied": "Konum izni reddedildi"
+  },
+  "values-hi": {
+    "tools_use_current_location": "मेरा वर्तमान स्थान",
+    "tools_location_unavailable": "स्थान उपलब्ध नहीं",
+    "tools_location_denied": "स्थान अनुमति अस्वीकृत"
+  },
+  "values-zh-rCN": {
+    "tools_use_current_location": "我的当前位置",
+    "tools_location_unavailable": "位置不可用",
+    "tools_location_denied": "位置权限被拒绝"
+  },
+  "values-ja": {
+    "tools_use_current_location": "現在地",
+    "tools_location_unavailable": "位置情報を取得できません",
+    "tools_location_denied": "位置情報の許可が拒否されました"
+  },
+  "values-ru": {
+    "tools_use_current_location": "Моё текущее местоположение",
+    "tools_location_unavailable": "Местоположение недоступно",
+    "tools_location_denied": "Доступ к геолокации отклонён"
+  }
+}

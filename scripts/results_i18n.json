@@ -1,0 +1,86 @@
+{
+  "values": {
+    "result_action_copy": "Copier l\\'URL",
+    "result_action_share": "Partager",
+    "result_copied": "URL copiée",
+    "result_share_verdict_prefix": "Verdict BlokQR :",
+    "result_share_footer": "Vérifié avec BlokQR — https://blokqr.com"
+  },
+  "values-en": {
+    "result_action_copy": "Copy URL",
+    "result_action_share": "Share",
+    "result_copied": "URL copied",
+    "result_share_verdict_prefix": "BlokQR verdict:",
+    "result_share_footer": "Checked with BlokQR — https://blokqr.com"
+  },
+  "values-es": {
+    "result_action_copy": "Copiar URL",
+    "result_action_share": "Compartir",
+    "result_copied": "URL copiada",
+    "result_share_verdict_prefix": "Veredicto de BlokQR:",
+    "result_share_footer": "Verificado con BlokQR — https://blokqr.com"
+  },
+  "values-de": {
+    "result_action_copy": "URL kopieren",
+    "result_action_share": "Teilen",
+    "result_copied": "URL kopiert",
+    "result_share_verdict_prefix": "BlokQR-Urteil:",
+    "result_share_footer": "Geprüft mit BlokQR — https://blokqr.com"
+  },
+  "values-it": {
+    "result_action_copy": "Copia URL",
+    "result_action_share": "Condividi",
+    "result_copied": "URL copiato",
+    "result_share_verdict_prefix": "Verdetto BlokQR:",
+    "result_share_footer": "Verificato con BlokQR — https://blokqr.com"
+  },
+  "values-pt": {
+    "result_action_copy": "Copiar URL",
+    "result_action_share": "Compartilhar",
+    "result_copied": "URL copiada",
+    "result_share_verdict_prefix": "Veredito do BlokQR:",
+    "result_share_footer": "Verificado com BlokQR — https://blokqr.com"
+  },
+  "values-ru": {
+    "result_action_copy": "Копировать URL",
+    "result_action_share": "Поделиться",
+    "result_copied": "URL скопирован",
+    "result_share_verdict_prefix": "Вердикт BlokQR:",
+    "result_share_footer": "Проверено с помощью BlokQR — https://blokqr.com"
+  },
+  "values-tr": {
+    "result_action_copy": "URL\\'yi kopyala",
+    "result_action_share": "Paylaş",
+    "result_copied": "URL kopyalandı",
+    "result_share_verdict_prefix": "BlokQR kararı:",
+    "result_share_footer": "BlokQR ile kontrol edildi — https://blokqr.com"
+  },
+  "values-ar": {
+    "result_action_copy": "نسخ الرابط",
+    "result_action_share": "مشاركة",
+    "result_copied": "تم نسخ الرابط",
+    "result_share_verdict_prefix": "حكم BlokQR:",
+    "result_share_footer": "تم الفحص باستخدام BlokQR — https://blokqr.com"
+  },
+  "values-hi": {
+    "result_action_copy": "URL कॉपी करें",
+    "result_action_share": "शेयर करें",
+    "result_copied": "URL कॉपी किया गया",
+    "result_share_verdict_prefix": "BlokQR का निर्णय:",
+    "result_share_footer": "BlokQR से जाँचा गया — https://blokqr.com"
+  },
+  "values-ja": {
+    "result_action_copy": "URL をコピー",
+    "result_action_share": "共有",
+    "result_copied": "URL をコピーしました",
+    "result_share_verdict_prefix": "BlokQR の判定：",
+    "result_share_footer": "BlokQR で確認 — https://blokqr.com"
+  },
+  "values-zh-rCN": {
+    "result_action_copy": "复制网址",
+    "result_action_share": "分享",
+    "result_copied": "已复制网址",
+    "result_share_verdict_prefix": "BlokQR 判定：",
+    "result_share_footer": "使用 BlokQR 检查 — https://blokqr.com"
+  }
+}

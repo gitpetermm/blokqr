@@ -1,0 +1,74 @@
+{
+  "values": {
+    "settings_product_name_toggle": "Nom du produit en ligne",
+    "settings_product_name_hint": "Envoie le code-barres (donnée non personnelle) à Open Food Facts pour afficher le nom du produit. Nécessite une connexion Internet.",
+    "provenance_name_loading": "Recherche du produit…",
+    "provenance_name_source": "Nom via Open Food Facts"
+  },
+  "values-en": {
+    "settings_product_name_toggle": "Online product name",
+    "settings_product_name_hint": "Sends the barcode (non-personal data) to Open Food Facts to show the product name. Requires an Internet connection.",
+    "provenance_name_loading": "Looking up product…",
+    "provenance_name_source": "Name via Open Food Facts"
+  },
+  "values-es": {
+    "settings_product_name_toggle": "Nombre del producto en línea",
+    "settings_product_name_hint": "Envía el código de barras (dato no personal) a Open Food Facts para mostrar el nombre del producto. Requiere conexión a Internet.",
+    "provenance_name_loading": "Buscando producto…",
+    "provenance_name_source": "Nombre vía Open Food Facts"
+  },
+  "values-pt": {
+    "settings_product_name_toggle": "Nome do produto online",
+    "settings_product_name_hint": "Envia o código de barras (dado não pessoal) ao Open Food Facts para mostrar o nome do produto. Requer ligação à Internet.",
+    "provenance_name_loading": "A procurar produto…",
+    "provenance_name_source": "Nome via Open Food Facts"
+  },
+  "values-it": {
+    "settings_product_name_toggle": "Nome prodotto online",
+    "settings_product_name_hint": "Invia il codice a barre (dato non personale) a Open Food Facts per mostrare il nome del prodotto. Richiede una connessione a Internet.",
+    "provenance_name_loading": "Ricerca prodotto…",
+    "provenance_name_source": "Nome da Open Food Facts"
+  },
+  "values-de": {
+    "settings_product_name_toggle": "Produktname online",
+    "settings_product_name_hint": "Sendet den Barcode (nicht personenbezogen) an Open Food Facts, um den Produktnamen anzuzeigen. Erfordert eine Internetverbindung.",
+    "provenance_name_loading": "Produkt wird gesucht…",
+    "provenance_name_source": "Name über Open Food Facts"
+  },
+  "values-ar": {
+    "settings_product_name_toggle": "اسم المنتج عبر الإنترنت",
+    "settings_product_name_hint": "يرسل الباركود (بيانات غير شخصية) إلى Open Food Facts لعرض اسم المنتج. يتطلب اتصالاً بالإنترنت.",
+    "provenance_name_loading": "جارٍ البحث عن المنتج…",
+    "provenance_name_source": "الاسم عبر Open Food Facts"
+  },
+  "values-tr": {
+    "settings_product_name_toggle": "Çevrimiçi ürün adı",
+    "settings_product_name_hint": "Ürün adını göstermek için barkodu (kişisel olmayan veri) Open Food Facts’e gönderir. İnternet bağlantısı gerektirir.",
+    "provenance_name_loading": "Ürün aranıyor…",
+    "provenance_name_source": "Ad: Open Food Facts"
+  },
+  "values-hi": {
+    "settings_product_name_toggle": "ऑनलाइन उत्पाद नाम",
+    "settings_product_name_hint": "उत्पाद का नाम दिखाने के लिए बारकोड (गैर-व्यक्तिगत डेटा) Open Food Facts को भेजता है। इंटरनेट कनेक्शन आवश्यक।",
+    "provenance_name_loading": "उत्पाद खोजा जा रहा है…",
+    "provenance_name_source": "नाम: Open Food Facts"
+  },
+  "values-zh-rCN": {
+    "settings_product_name_toggle": "在线产品名称",
+    "settings_product_name_hint": "将条形码（非个人数据）发送到 Open Food Facts 以显示产品名称。需要联网。",
+    "provenance_name_loading": "正在查找产品…",
+    "provenance_name_source": "名称来自 Open Food Facts"
+  },
+  "values-ja": {
+    "settings_product_name_toggle": "オンライン商品名",
+    "settings_product_name_hint": "商品名を表示するため、バーコード（非個人データ）を Open Food Facts に送信します。インターネット接続が必要です。",
+    "provenance_name_loading": "商品を検索中…",
+    "provenance_name_source": "名称: Open Food Facts"
+  },
+  "values-ru": {
+    "settings_product_name_toggle": "Название товара онлайн",
+    "settings_product_name_hint": "Отправляет штрихкод (неличные данные) в Open Food Facts для показа названия товара. Требуется подключение к Интернету.",
+    "provenance_name_loading": "Поиск товара…",
+    "provenance_name_source": "Название через Open Food Facts"
+  }
+}

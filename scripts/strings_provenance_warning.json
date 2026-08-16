@@ -1,0 +1,38 @@
+{
+  "values": {
+    "provenance_warning": "Ce préfixe indique l’organisation GS1 émettrice (pays d’enregistrement de l’entreprise), qui ne correspond pas nécessairement au pays de fabrication du produit."
+  },
+  "values-en": {
+    "provenance_warning": "This prefix indicates the issuing GS1 organisation (the company’s country of registration), which does not necessarily match the product’s country of manufacture."
+  },
+  "values-es": {
+    "provenance_warning": "Este prefijo indica la organización GS1 emisora (país de registro de la empresa), que no corresponde necesariamente al país de fabricación del producto."
+  },
+  "values-pt": {
+    "provenance_warning": "Este prefixo indica a organização GS1 emissora (país de registo da empresa), que não corresponde necessariamente ao país de fabrico do produto."
+  },
+  "values-it": {
+    "provenance_warning": "Questo prefisso indica l’organizzazione GS1 emittente (paese di registrazione dell’azienda), che non corrisponde necessariamente al paese di fabbricazione del prodotto."
+  },
+  "values-de": {
+    "provenance_warning": "Dieses Präfix gibt die ausstellende GS1-Organisation an (Land der Unternehmensregistrierung), das nicht zwangsläufig dem Herstellungsland des Produkts entspricht."
+  },
+  "values-ar": {
+    "provenance_warning": "يشير هذا الرقم البادئ إلى منظمة GS1 المُصدِرة (بلد تسجيل الشركة)، وهو لا يعني بالضرورة بلد تصنيع المنتج."
+  },
+  "values-tr": {
+    "provenance_warning": "Bu ön ek, numarayı veren GS1 kuruluşunu (şirketin kayıtlı olduğu ülke) belirtir; bu, ürünün üretildiği ülkeyle zorunlu olarak aynı değildir."
+  },
+  "values-hi": {
+    "provenance_warning": "यह उपसर्ग जारीकर्ता GS1 संगठन (कंपनी के पंजीकरण का देश) दर्शाता है, जो आवश्यक रूप से उत्पाद के निर्माण के देश से मेल नहीं खाता।"
+  },
+  "values-zh-rCN": {
+    "provenance_warning": "此前缀表示分配号码的 GS1 组织（公司注册所在国），不一定与产品的制造国相同。"
+  },
+  "values-ja": {
+    "provenance_warning": "この接頭辞は発行元の GS1 組織（企業の登録国）を示すもので、必ずしも製品の製造国と一致するとは限りません。"
+  },
+  "values-ru": {
+    "provenance_warning": "Этот префикс указывает организацию-эмитент GS1 (страну регистрации компании) и не обязательно совпадает со страной изготовления товара."
+  }
+}

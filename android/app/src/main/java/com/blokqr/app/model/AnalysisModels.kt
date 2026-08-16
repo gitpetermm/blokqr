@@ -14,10 +14,23 @@ data class AnalyzeRequest(
     val symbology: String? = null,
     @SerialName("client_nonce") val clientNonce: String,
     @SerialName("prior_destination_hash") val priorDestinationHash: String? = null,
-    @SerialName("coarse_geohash") val coarseGeohash: String? = null,
     @SerialName("want_screenshot") val wantScreenshot: Boolean = true,
     @SerialName("consent_deep_analysis") val consentDeepAnalysis: Boolean = false,
     @SerialName("source_hash") val sourceHash: String? = null,
+    @SerialName("entitlement") val entitlement: String? = null,
+)
+
+@Serializable
+data class BillingVerifyRequest(
+    @SerialName("purchase_token") val purchaseToken: String,
+)
+
+@Serializable
+data class BillingVerifyResponse(
+    val pro: Boolean = false,
+    val entitlement: String? = null,
+    val plan: String? = null,
+    val expiry: String? = null,
 )
 
 @Serializable
@@ -77,7 +90,7 @@ data class AnalysisReportDto(
 data class SignedVerdictDto(
     val verdict: String,
     val score: Int,
-    val report: AnalysisReportDto,
+    @SerialName("report_canonical") val reportCanonical: String = "",
     @SerialName("client_nonce") val clientNonce: String,
     @SerialName("issued_at") val issuedAt: String,
     @SerialName("expires_at") val expiresAt: String = "",

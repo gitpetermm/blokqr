@@ -1,0 +1,134 @@
+{
+  "values": {
+    "history_search_hint": "Rechercher dans l’historique",
+    "history_search_clear": "Effacer la recherche",
+    "history_filter_all": "Tous",
+    "history_filter_safe": "Sûrs",
+    "history_filter_suspect": "Suspects",
+    "history_filter_dangerous": "Dangereux",
+    "history_filter_product": "Produits",
+    "history_delete_one": "Supprimer",
+    "history_no_match": "Aucun résultat pour cette recherche."
+  },
+  "values-en": {
+    "history_search_hint": "Search history",
+    "history_search_clear": "Clear search",
+    "history_filter_all": "All",
+    "history_filter_safe": "Safe",
+    "history_filter_suspect": "Suspicious",
+    "history_filter_dangerous": "Dangerous",
+    "history_filter_product": "Products",
+    "history_delete_one": "Delete",
+    "history_no_match": "No results for this search."
+  },
+  "values-es": {
+    "history_search_hint": "Buscar en el historial",
+    "history_search_clear": "Borrar búsqueda",
+    "history_filter_all": "Todos",
+    "history_filter_safe": "Seguros",
+    "history_filter_suspect": "Sospechosos",
+    "history_filter_dangerous": "Peligrosos",
+    "history_filter_product": "Productos",
+    "history_delete_one": "Eliminar",
+    "history_no_match": "Sin resultados para esta búsqueda."
+  },
+  "values-pt": {
+    "history_search_hint": "Pesquisar no histórico",
+    "history_search_clear": "Limpar pesquisa",
+    "history_filter_all": "Todos",
+    "history_filter_safe": "Seguros",
+    "history_filter_suspect": "Suspeitos",
+    "history_filter_dangerous": "Perigosos",
+    "history_filter_product": "Produtos",
+    "history_delete_one": "Eliminar",
+    "history_no_match": "Sem resultados para esta pesquisa."
+  },
+  "values-it": {
+    "history_search_hint": "Cerca nella cronologia",
+    "history_search_clear": "Cancella ricerca",
+    "history_filter_all": "Tutti",
+    "history_filter_safe": "Sicuri",
+    "history_filter_suspect": "Sospetti",
+    "history_filter_dangerous": "Pericolosi",
+    "history_filter_product": "Prodotti",
+    "history_delete_one": "Elimina",
+    "history_no_match": "Nessun risultato per questa ricerca."
+  },
+  "values-de": {
+    "history_search_hint": "Verlauf durchsuchen",
+    "history_search_clear": "Suche löschen",
+    "history_filter_all": "Alle",
+    "history_filter_safe": "Sicher",
+    "history_filter_suspect": "Verdächtig",
+    "history_filter_dangerous": "Gefährlich",
+    "history_filter_product": "Produkte",
+    "history_delete_one": "Löschen",
+    "history_no_match": "Keine Ergebnisse für diese Suche."
+  },
+  "values-ar": {
+    "history_search_hint": "ابحث في السجل",
+    "history_search_clear": "مسح البحث",
+    "history_filter_all": "الكل",
+    "history_filter_safe": "آمنة",
+    "history_filter_suspect": "مشبوهة",
+    "history_filter_dangerous": "خطيرة",
+    "history_filter_product": "منتجات",
+    "history_delete_one": "حذف",
+    "history_no_match": "لا نتائج لهذا البحث."
+  },
+  "values-tr": {
+    "history_search_hint": "Geçmişte ara",
+    "history_search_clear": "Aramayı temizle",
+    "history_filter_all": "Tümü",
+    "history_filter_safe": "Güvenli",
+    "history_filter_suspect": "Şüpheli",
+    "history_filter_dangerous": "Tehlikeli",
+    "history_filter_product": "Ürünler",
+    "history_delete_one": "Sil",
+    "history_no_match": "Bu arama için sonuç yok."
+  },
+  "values-hi": {
+    "history_search_hint": "इतिहास में खोजें",
+    "history_search_clear": "खोज साफ़ करें",
+    "history_filter_all": "सभी",
+    "history_filter_safe": "सुरक्षित",
+    "history_filter_suspect": "संदिग्ध",
+    "history_filter_dangerous": "खतरनाक",
+    "history_filter_product": "उत्पाद",
+    "history_delete_one": "हटाएँ",
+    "history_no_match": "इस खोज के लिए कोई परिणाम नहीं।"
+  },
+  "values-zh-rCN": {
+    "history_search_hint": "搜索历史记录",
+    "history_search_clear": "清除搜索",
+    "history_filter_all": "全部",
+    "history_filter_safe": "安全",
+    "history_filter_suspect": "可疑",
+    "history_filter_dangerous": "危险",
+    "history_filter_product": "商品",
+    "history_delete_one": "删除",
+    "history_no_match": "没有匹配的结果。"
+  },
+  "values-ja": {
+    "history_search_hint": "履歴を検索",
+    "history_search_clear": "検索をクリア",
+    "history_filter_all": "すべて",
+    "history_filter_safe": "安全",
+    "history_filter_suspect": "疑わしい",
+    "history_filter_dangerous": "危険",
+    "history_filter_product": "商品",
+    "history_delete_one": "削除",
+    "history_no_match": "この検索に一致する結果はありません。"
+  },
+  "values-ru": {
+    "history_search_hint": "Поиск в истории",
+    "history_search_clear": "Очистить поиск",
+    "history_filter_all": "Все",
+    "history_filter_safe": "Безопасные",
+    "history_filter_suspect": "Подозрительные",
+    "history_filter_dangerous": "Опасные",
+    "history_filter_product": "Товары",
+    "history_delete_one": "Удалить",
+    "history_no_match": "Нет результатов по этому запросу."
+  }
+}

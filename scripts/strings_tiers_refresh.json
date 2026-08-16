@@ -1,0 +1,86 @@
+{
+  "values": {
+    "about_feature_tiers": "Même moteur de détection pour tous : réputation, redirections et signaux de sécurité. Gratuit : 7 vérifications par jour, dont 1 analyse approfondie offerte. Pro : analyse approfondie à chaque scan, sans limite.",
+    "paywall_subtitle": "Tous les scans utilisent le même moteur de détection. La version gratuite en vérifie jusqu’à 7 par jour, avec 1 analyse approfondie offerte chaque jour. Pro lève la limite et donne l’analyse approfondie à chaque scan.",
+    "paywall_benefit_deep": "Analyse approfondie à chaque scan : rendu réel de la page dans un bac à sable isolé (gratuit : 1 fois par jour)",
+    "paywall_same_engine": "La protection est la même pour tous : chaque scan utilise les mêmes analyseurs et le même niveau de détection. La version gratuite inclut 1 analyse approfondie offerte par jour ; Pro l’offre à chaque scan et lève la limite quotidienne.",
+    "paywall_free_note": "Le générateur de codes et la reconnaissance des produits restent gratuits. Chaque jour, 1 analyse de sécurité approfondie est offerte ; Pro la rend disponible à chaque scan, sans limite."
+  },
+  "values-en": {
+    "about_feature_tiers": "Same detection engine for everyone: reputation, redirects and security signals. Free: 7 checks a day, including 1 free in-depth analysis. Pro: in-depth analysis on every scan, no limit.",
+    "paywall_subtitle": "Every scan uses the same detection engine. The free version checks up to 7 a day, with 1 in-depth analysis offered daily. Pro lifts the limit and gives in-depth analysis on every scan.",
+    "paywall_benefit_deep": "In-depth analysis on every scan: real page render in an isolated sandbox (free: once a day)",
+    "paywall_same_engine": "Protection is the same for everyone: every scan uses the same analysers and detection level. The free version includes 1 in-depth analysis offered daily; Pro provides it on every scan and lifts the daily limit.",
+    "paywall_free_note": "The code generator and product recognition stay free. Each day, 1 in-depth security analysis is offered; Pro makes it available on every scan, with no limit."
+  },
+  "values-es": {
+    "about_feature_tiers": "El mismo motor de detección para todos: reputación, redirecciones y señales de seguridad. Gratis: 7 comprobaciones al día, con 1 análisis detallado gratuito. Pro: análisis detallado en cada escaneo, sin límite.",
+    "paywall_subtitle": "Todos los escaneos usan el mismo motor de detección. La versión gratuita comprueba hasta 7 al día, con 1 análisis detallado gratis cada día. Pro elimina el límite y ofrece análisis detallado en cada escaneo.",
+    "paywall_benefit_deep": "Análisis detallado en cada escaneo: renderizado real de la página en un entorno aislado (gratis: una vez al día)",
+    "paywall_same_engine": "La protección es la misma para todos: cada escaneo usa los mismos analizadores y el mismo nivel de detección. La versión gratuita incluye 1 análisis detallado gratis al día; Pro lo ofrece en cada escaneo y elimina el límite diario.",
+    "paywall_free_note": "El generador de códigos y el reconocimiento de productos siguen siendo gratuitos. Cada día se ofrece 1 análisis de seguridad detallado; Pro lo hace disponible en cada escaneo, sin límite."
+  },
+  "values-pt": {
+    "about_feature_tiers": "O mesmo motor de deteção para todos: reputação, redirecionamentos e sinais de segurança. Grátis: 7 verificações por dia, incluindo 1 análise detalhada oferecida. Pro: análise detalhada em cada leitura, sem limite.",
+    "paywall_subtitle": "Todas as leituras usam o mesmo motor de deteção. A versão grátis verifica até 7 por dia, com 1 análise detalhada oferecida todos os dias. Pro remove o limite e dá análise detalhada em cada leitura.",
+    "paywall_benefit_deep": "Análise detalhada em cada leitura: renderização real da página num ambiente isolado (grátis: uma vez por dia)",
+    "paywall_same_engine": "A proteção é a mesma para todos: cada leitura usa os mesmos analisadores e o mesmo nível de deteção. A versão grátis inclui 1 análise detalhada oferecida por dia; Pro oferece-a em cada leitura e remove o limite diário.",
+    "paywall_free_note": "O gerador de códigos e o reconhecimento de produtos continuam grátis. Todos os dias é oferecida 1 análise de segurança detalhada; Pro disponibiliza-a em cada leitura, sem limite."
+  },
+  "values-it": {
+    "about_feature_tiers": "Stesso motore di rilevamento per tutti: reputazione, reindirizzamenti e segnali di sicurezza. Gratis: 7 controlli al giorno, di cui 1 analisi approfondita offerta. Pro: analisi approfondita a ogni scansione, senza limiti.",
+    "paywall_subtitle": "Tutte le scansioni usano lo stesso motore di rilevamento. La versione gratuita ne verifica fino a 7 al giorno, con 1 analisi approfondita offerta ogni giorno. Pro elimina il limite e offre l’analisi approfondita a ogni scansione.",
+    "paywall_benefit_deep": "Analisi approfondita a ogni scansione: rendering reale della pagina in un ambiente isolato (gratis: una volta al giorno)",
+    "paywall_same_engine": "La protezione è la stessa per tutti: ogni scansione usa gli stessi analizzatori e lo stesso livello di rilevamento. La versione gratuita include 1 analisi approfondita offerta al giorno; Pro la offre a ogni scansione ed elimina il limite giornaliero.",
+    "paywall_free_note": "Il generatore di codici e il riconoscimento dei prodotti restano gratuiti. Ogni giorno viene offerta 1 analisi di sicurezza approfondita; Pro la rende disponibile a ogni scansione, senza limiti."
+  },
+  "values-de": {
+    "about_feature_tiers": "Dieselbe Erkennungs-Engine für alle: Reputation, Weiterleitungen und Sicherheitssignale. Kostenlos: 7 Prüfungen pro Tag, davon 1 kostenlose Tiefenanalyse. Pro: Tiefenanalyse bei jedem Scan, ohne Limit.",
+    "paywall_subtitle": "Alle Scans nutzen dieselbe Erkennungs-Engine. Die kostenlose Version prüft bis zu 7 pro Tag, mit 1 täglich kostenlosen Tiefenanalyse. Pro hebt das Limit auf und liefert die Tiefenanalyse bei jedem Scan.",
+    "paywall_benefit_deep": "Tiefenanalyse bei jedem Scan: echtes Rendern der Seite in einer isolierten Sandbox (kostenlos: einmal täglich)",
+    "paywall_same_engine": "Der Schutz ist für alle gleich: Jeder Scan nutzt dieselben Analysen und dasselbe Erkennungsniveau. Die kostenlose Version enthält 1 täglich kostenlose Tiefenanalyse; Pro bietet sie bei jedem Scan und hebt das Tageslimit auf.",
+    "paywall_free_note": "Der Code-Generator und die Produkterkennung bleiben kostenlos. Täglich wird 1 tiefe Sicherheitsanalyse angeboten; Pro stellt sie bei jedem Scan bereit, ohne Limit."
+  },
+  "values-ar": {
+    "about_feature_tiers": "المحرك نفسه للكشف للجميع: السمعة وإعادة التوجيه وإشارات الأمان. المجاني: 7 عمليات فحص يوميًا، منها تحليل معمّق واحد مجاني. Pro: تحليل معمّق في كل فحص، بلا حدود.",
+    "paywall_subtitle": "تستخدم جميع عمليات الفحص المحرك نفسه. تتحقق النسخة المجانية مما يصل إلى 7 يوميًا، مع تحليل معمّق واحد مجاني كل يوم. يرفع Pro الحد ويمنح التحليل المعمّق في كل فحص.",
+    "paywall_benefit_deep": "تحليل معمّق في كل فحص: عرض حقيقي للصفحة في بيئة معزولة (مجانًا: مرة واحدة يوميًا)",
+    "paywall_same_engine": "الحماية نفسها للجميع: يستخدم كل فحص المحلّلات نفسها والمستوى نفسه من الكشف. تتضمّن النسخة المجانية تحليلًا معمّقًا واحدًا مجانيًا يوميًا؛ ويوفّره Pro في كل فحص ويرفع الحد اليومي.",
+    "paywall_free_note": "يظل مولّد الرموز والتعرّف على المنتجات مجانيين. يوميًا يُقدَّم تحليل أمني معمّق واحد؛ ويجعله Pro متاحًا في كل فحص، بلا حدود."
+  },
+  "values-tr": {
+    "about_feature_tiers": "Herkes için aynı algılama motoru: itibar, yönlendirmeler ve güvenlik sinyalleri. Ücretsiz: günde 7 kontrol, 1 ücretsiz derin analiz dahil. Pro: her taramada derin analiz, sınırsız.",
+    "paywall_subtitle": "Tüm taramalar aynı algılama motorunu kullanır. Ücretsiz sürüm günde 7’ye kadar kontrol eder ve her gün 1 ücretsiz derin analiz sunar. Pro sınırı kaldırır ve her taramada derin analiz verir.",
+    "paywall_benefit_deep": "Her taramada derin analiz: sayfanın yalıtılmış ortamda gerçek görüntülenmesi (ücretsiz: günde bir kez)",
+    "paywall_same_engine": "Koruma herkes için aynıdır: her tarama aynı çözümleyicileri ve aynı algılama düzeyini kullanır. Ücretsiz sürüm günde 1 ücretsiz derin analiz içerir; Pro bunu her taramada sunar ve günlük sınırı kaldırır.",
+    "paywall_free_note": "Kod oluşturucu ve ürün tanıma ücretsiz kalır. Her gün 1 derin güvenlik analizi sunulur; Pro bunu her taramada sınırsız sağlar."
+  },
+  "values-hi": {
+    "about_feature_tiers": "सभी के लिए एक ही जाँच इंजन: प्रतिष्ठा, रीडायरेक्ट और सुरक्षा संकेत। मुफ़्त: प्रतिदिन 7 जाँच, जिसमें 1 गहन विश्लेषण मुफ़्त। Pro: हर स्कैन पर गहन विश्लेषण, बिना सीमा।",
+    "paywall_subtitle": "सभी स्कैन एक ही जाँच इंजन का उपयोग करते हैं। मुफ़्त संस्करण प्रतिदिन 7 तक जाँचता है, हर दिन 1 गहन विश्लेषण मुफ़्त के साथ। Pro सीमा हटाता है और हर स्कैन पर गहन विश्लेषण देता है।",
+    "paywall_benefit_deep": "हर स्कैन पर गहन विश्लेषण: पृथक सैंडबॉक्स में पृष्ठ का वास्तविक रेंडर (मुफ़्त: दिन में एक बार)",
+    "paywall_same_engine": "सुरक्षा सभी के लिए समान है: हर स्कैन एक ही विश्लेषक और एक ही जाँच स्तर का उपयोग करता है। मुफ़्त संस्करण में प्रतिदिन 1 गहन विश्लेषण मुफ़्त शामिल है; Pro इसे हर स्कैन पर देता है और दैनिक सीमा हटाता है।",
+    "paywall_free_note": "कोड जनरेटर और उत्पाद पहचान मुफ़्त रहते हैं। हर दिन 1 गहन सुरक्षा विश्लेषण मुफ़्त दिया जाता है; Pro इसे हर स्कैन पर बिना सीमा उपलब्ध कराता है।"
+  },
+  "values-zh-rCN": {
+    "about_feature_tiers": "对所有人采用相同的检测引擎：信誉、跳转和安全信号。免费版：每天 7 次检查，含 1 次免费深度分析。Pro：每次扫描均可深度分析，不限次数。",
+    "paywall_subtitle": "所有扫描使用相同的检测引擎。免费版每天最多检查 7 次，且每天赠送 1 次深度分析。Pro 取消限制，每次扫描都提供深度分析。",
+    "paywall_benefit_deep": "每次扫描深度分析：在隔离沙箱中真实渲染页面（免费版：每天一次）",
+    "paywall_same_engine": "所有人的防护相同：每次扫描都使用相同的分析器和检测级别。免费版每天含 1 次免费深度分析；Pro 在每次扫描时提供，并取消每日限制。",
+    "paywall_free_note": "代码生成器和商品识别保持免费。每天赠送 1 次深度安全分析；Pro 在每次扫描时提供，不限次数。"
+  },
+  "values-ja": {
+    "about_feature_tiers": "すべての人に同じ検出エンジン：レピュテーション、リダイレクト、セキュリティシグナル。無料：1 日 7 回の確認、うち 1 回は詳細分析を無料提供。Pro：スキャンごとに詳細分析、無制限。",
+    "paywall_subtitle": "すべてのスキャンは同じ検出エンジンを使用します。無料版は 1 日最大 7 回まで確認でき、毎日 1 回の詳細分析を無料提供します。Pro は上限をなくし、スキャンごとに詳細分析を提供します。",
+    "paywall_benefit_deep": "スキャンごとに詳細分析：隔離サンドボックスでページを実際にレンダリング（無料：1 日 1 回）",
+    "paywall_same_engine": "保護はすべての人に同じです。各スキャンは同じ分析機能と検出レベルを使用します。無料版は 1 日 1 回の詳細分析を無料で含みます。Pro はスキャンごとに提供し、1 日の上限をなくします。",
+    "paywall_free_note": "コード生成と商品認識は無料のままです。毎日 1 回の詳細なセキュリティ分析を無料提供します。Pro はスキャンごとに無制限で利用できます。"
+  },
+  "values-ru": {
+    "about_feature_tiers": "Один и тот же движок проверки для всех: репутация, перенаправления и сигналы безопасности. Бесплатно: 7 проверок в день, включая 1 бесплатный углублённый анализ. Pro: углублённый анализ при каждом сканировании, без ограничений.",
+    "paywall_subtitle": "Все сканирования используют один и тот же движок. Бесплатная версия проверяет до 7 в день и каждый день даёт 1 бесплатный углублённый анализ. Pro снимает лимит и даёт углублённый анализ при каждом сканировании.",
+    "paywall_benefit_deep": "Углублённый анализ при каждом сканировании: реальный рендеринг страницы в изолированной среде (бесплатно: раз в день)",
+    "paywall_same_engine": "Защита одинакова для всех: каждое сканирование использует одни и те же анализаторы и уровень обнаружения. Бесплатная версия включает 1 бесплатный углублённый анализ в день; Pro даёт его при каждом сканировании и снимает суточный лимит.",
+    "paywall_free_note": "Генератор кодов и распознавание товаров остаются бесплатными. Каждый день предлагается 1 углублённый анализ безопасности; Pro делает его доступным при каждом сканировании, без ограничений."
+  }
+}

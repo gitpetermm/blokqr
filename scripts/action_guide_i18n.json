@@ -1,0 +1,38 @@
+{
+  "values": {
+    "action_guide": "Guide"
+  },
+  "values-en": {
+    "action_guide": "Guide"
+  },
+  "values-es": {
+    "action_guide": "Guía"
+  },
+  "values-de": {
+    "action_guide": "Anleitung"
+  },
+  "values-it": {
+    "action_guide": "Guida"
+  },
+  "values-pt": {
+    "action_guide": "Guia"
+  },
+  "values-ru": {
+    "action_guide": "Руководство"
+  },
+  "values-tr": {
+    "action_guide": "Kılavuz"
+  },
+  "values-ar": {
+    "action_guide": "دليل"
+  },
+  "values-hi": {
+    "action_guide": "गाइड"
+  },
+  "values-ja": {
+    "action_guide": "ガイド"
+  },
+  "values-zh-rCN": {
+    "action_guide": "指南"
+  }
+}

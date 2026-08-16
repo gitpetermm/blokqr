@@ -1,0 +1,50 @@
+{
+  "values": {
+    "result_trust_verified": "Verdict authentifié · signature vérifiée",
+    "result_trust_unverified": "Signature du verdict non vérifiée"
+  },
+  "values-en": {
+    "result_trust_verified": "Authenticated verdict · verified signature",
+    "result_trust_unverified": "Verdict signature not verified"
+  },
+  "values-es": {
+    "result_trust_verified": "Veredicto autenticado · firma verificada",
+    "result_trust_unverified": "Firma del veredicto no verificada"
+  },
+  "values-de": {
+    "result_trust_verified": "Urteil authentifiziert · Signatur verifiziert",
+    "result_trust_unverified": "Urteilssignatur nicht verifiziert"
+  },
+  "values-it": {
+    "result_trust_verified": "Verdetto autenticato · firma verificata",
+    "result_trust_unverified": "Firma del verdetto non verificata"
+  },
+  "values-pt": {
+    "result_trust_verified": "Veredito autenticado · assinatura verificada",
+    "result_trust_unverified": "Assinatura do veredito não verificada"
+  },
+  "values-tr": {
+    "result_trust_verified": "Karar kimliği doğrulandı · imza doğrulandı",
+    "result_trust_unverified": "Karar imzası doğrulanmadı"
+  },
+  "values-ru": {
+    "result_trust_verified": "Вердикт заверен · подпись проверена",
+    "result_trust_unverified": "Подпись вердикта не проверена"
+  },
+  "values-ar": {
+    "result_trust_verified": "حكم موثّق · تم التحقق من التوقيع",
+    "result_trust_unverified": "لم يتم التحقق من توقيع الحكم"
+  },
+  "values-hi": {
+    "result_trust_verified": "निर्णय प्रमाणित · हस्ताक्षर सत्यापित",
+    "result_trust_unverified": "निर्णय का हस्ताक्षर सत्यापित नहीं"
+  },
+  "values-ja": {
+    "result_trust_verified": "認証済みの判定 · 検証済みの署名",
+    "result_trust_unverified": "判定の署名は未検証"
+  },
+  "values-zh-rCN": {
+    "result_trust_verified": "判定已认证 · 签名已验证",
+    "result_trust_unverified": "判定签名未验证"
+  }
+}

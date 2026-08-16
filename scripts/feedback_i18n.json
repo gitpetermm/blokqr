@@ -1,0 +1,134 @@
+{
+  "values": {
+    "feedback_title": "Votre avis",
+    "feedback_prompt": "BlokQR vous est utile ?",
+    "feedback_like": "J\\'aime",
+    "feedback_dislike": "À améliorer",
+    "feedback_rate_play": "Noter sur Google Play",
+    "feedback_contact": "Nous contacter",
+    "feedback_email_subject": "Retour sur BlokQR",
+    "feedback_email_body": "Décrivez votre retour ci-dessous :",
+    "feedback_no_app": "Aucune application disponible."
+  },
+  "values-en": {
+    "feedback_title": "Your feedback",
+    "feedback_prompt": "Is BlokQR helpful?",
+    "feedback_like": "I like it",
+    "feedback_dislike": "Could be better",
+    "feedback_rate_play": "Rate on Google Play",
+    "feedback_contact": "Contact us",
+    "feedback_email_subject": "BlokQR feedback",
+    "feedback_email_body": "Describe your feedback below:",
+    "feedback_no_app": "No app available."
+  },
+  "values-es": {
+    "feedback_title": "Tu opinión",
+    "feedback_prompt": "¿Te resulta útil BlokQR?",
+    "feedback_like": "Me gusta",
+    "feedback_dislike": "Puede mejorar",
+    "feedback_rate_play": "Valorar en Google Play",
+    "feedback_contact": "Contáctanos",
+    "feedback_email_subject": "Comentarios sobre BlokQR",
+    "feedback_email_body": "Describe tu comentario a continuación:",
+    "feedback_no_app": "No hay ninguna aplicación disponible."
+  },
+  "values-de": {
+    "feedback_title": "Ihr Feedback",
+    "feedback_prompt": "Ist BlokQR hilfreich?",
+    "feedback_like": "Gefällt mir",
+    "feedback_dislike": "Geht besser",
+    "feedback_rate_play": "Bei Google Play bewerten",
+    "feedback_contact": "Kontakt",
+    "feedback_email_subject": "BlokQR-Feedback",
+    "feedback_email_body": "Beschreiben Sie Ihr Feedback unten:",
+    "feedback_no_app": "Keine App verfügbar."
+  },
+  "values-it": {
+    "feedback_title": "Il tuo feedback",
+    "feedback_prompt": "BlokQR ti è utile?",
+    "feedback_like": "Mi piace",
+    "feedback_dislike": "Da migliorare",
+    "feedback_rate_play": "Valuta su Google Play",
+    "feedback_contact": "Contattaci",
+    "feedback_email_subject": "Feedback su BlokQR",
+    "feedback_email_body": "Descrivi il tuo feedback qui sotto:",
+    "feedback_no_app": "Nessuna app disponibile."
+  },
+  "values-pt": {
+    "feedback_title": "Sua opinião",
+    "feedback_prompt": "O BlokQR é útil para você?",
+    "feedback_like": "Gosto",
+    "feedback_dislike": "Pode melhorar",
+    "feedback_rate_play": "Avaliar no Google Play",
+    "feedback_contact": "Fale conosco",
+    "feedback_email_subject": "Feedback do BlokQR",
+    "feedback_email_body": "Descreva seu feedback abaixo:",
+    "feedback_no_app": "Nenhum app disponível."
+  },
+  "values-ru": {
+    "feedback_title": "Ваш отзыв",
+    "feedback_prompt": "BlokQR вам полезен?",
+    "feedback_like": "Нравится",
+    "feedback_dislike": "Можно лучше",
+    "feedback_rate_play": "Оценить в Google Play",
+    "feedback_contact": "Связаться с нами",
+    "feedback_email_subject": "Отзыв о BlokQR",
+    "feedback_email_body": "Опишите ваш отзыв ниже:",
+    "feedback_no_app": "Нет доступного приложения."
+  },
+  "values-tr": {
+    "feedback_title": "Geri bildiriminiz",
+    "feedback_prompt": "BlokQR yardımcı oluyor mu?",
+    "feedback_like": "Beğendim",
+    "feedback_dislike": "Geliştirilebilir",
+    "feedback_rate_play": "Google Play\\'de puanla",
+    "feedback_contact": "Bize ulaşın",
+    "feedback_email_subject": "BlokQR geri bildirimi",
+    "feedback_email_body": "Geri bildiriminizi aşağıya yazın:",
+    "feedback_no_app": "Uygun uygulama yok."
+  },
+  "values-ar": {
+    "feedback_title": "رأيك",
+    "feedback_prompt": "هل BlokQR مفيد لك؟",
+    "feedback_like": "أعجبني",
+    "feedback_dislike": "يمكن تحسينه",
+    "feedback_rate_play": "قيّم على Google Play",
+    "feedback_contact": "اتصل بنا",
+    "feedback_email_subject": "ملاحظات حول BlokQR",
+    "feedback_email_body": "صف ملاحظاتك أدناه:",
+    "feedback_no_app": "لا يوجد تطبيق متاح."
+  },
+  "values-hi": {
+    "feedback_title": "आपकी प्रतिक्रिया",
+    "feedback_prompt": "क्या BlokQR आपके लिए उपयोगी है?",
+    "feedback_like": "मुझे पसंद है",
+    "feedback_dislike": "सुधार की गुंजाइश",
+    "feedback_rate_play": "Google Play पर रेट करें",
+    "feedback_contact": "संपर्क करें",
+    "feedback_email_subject": "BlokQR पर प्रतिक्रिया",
+    "feedback_email_body": "नीचे अपनी प्रतिक्रिया लिखें:",
+    "feedback_no_app": "कोई ऐप उपलब्ध नहीं है।"
+  },
+  "values-ja": {
+    "feedback_title": "フィードバック",
+    "feedback_prompt": "BlokQR は役に立っていますか？",
+    "feedback_like": "良い",
+    "feedback_dislike": "改善希望",
+    "feedback_rate_play": "Google Play で評価",
+    "feedback_contact": "お問い合わせ",
+    "feedback_email_subject": "BlokQR へのフィードバック",
+    "feedback_email_body": "以下にフィードバックをご記入ください：",
+    "feedback_no_app": "利用できるアプリがありません。"
+  },
+  "values-zh-rCN": {
+    "feedback_title": "您的反馈",
+    "feedback_prompt": "BlokQR 对你有帮助吗？",
+    "feedback_like": "喜欢",
+    "feedback_dislike": "有待改进",
+    "feedback_rate_play": "在 Google Play 上评分",
+    "feedback_contact": "联系我们",
+    "feedback_email_subject": "BlokQR 反馈",
+    "feedback_email_body": "请在下方描述您的反馈：",
+    "feedback_no_app": "没有可用的应用。"
+  }
+}

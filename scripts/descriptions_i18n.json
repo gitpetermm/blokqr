@@ -1,0 +1,122 @@
+{
+  "values": {
+    "onb1_body": "QR codes, codes-barres, liens, réseaux Wi-Fi : BlokQR vérifie chaque destination avant que vous ne l\\'ouvriez.",
+    "onb5_title": "Protégé même sans réseau",
+    "onb5_body": "Une liste de menaces signée est embarquée dans l\\'app et mise à jour chaque jour. Hors connexion, BlokQR bloque les domaines malveillants connus et reste utilisable.",
+    "about_description": "BlokQR décode les QR codes et codes-barres directement sur l\\'appareil, puis analyse leur destination SANS jamais l\\'ouvrir. La cible est inspectée par un service distant qui suit les redirections et renvoie un verdict signé (sûr, prudence, dangereux ou malveillant), pour vous protéger de l\\'hameçonnage avant tout clic. Hors connexion, une liste de menaces signée embarquée prend le relais et bloque les domaines malveillants connus. L\\'analyse rapide est gratuite (jusqu\\'à 7 vérifications par jour) ; l\\'analyse approfondie (rendu en bac à sable et détection d\\'usurpation) est réservée aux abonnés Pro.",
+    "about_feature_offline": "Protection hors-ligne : liste de menaces signée embarquée, mise à jour quotidienne.",
+    "privacy_s5_body": "BlokQR ne crée pas de compte et ne collecte aucun identifiant personnel. Pour limiter les abus de l\\'offre gratuite, l\\'app utilise un identifiant d\\'installation aléatoire (non lié à votre identité, attesté via Google Play Integrity). L\\'accès Pro repose sur un jeton « porteur » signé, sans donnée personnelle. Aucune publicité, aucun traceur tiers. Votre historique de scan reste sur votre appareil et peut être effacé à tout moment.",
+    "privacy_s8_title": "Liste de menaces locale",
+    "privacy_s8_body": "BlokQR télécharge chaque jour une liste de domaines malveillants connus, signée cryptographiquement, stockée sur votre appareil. Ce téléchargement ne transmet aucune donnée vous concernant et permet une protection même hors connexion."
+  },
+  "values-en": {
+    "onb1_body": "QR codes, barcodes, links, Wi-Fi networks: BlokQR checks every destination before you open it.",
+    "onb5_title": "Protected even offline",
+    "onb5_body": "A signed threat list is bundled in the app and updated every day. Offline, BlokQR blocks known malicious domains and stays usable.",
+    "about_description": "BlokQR decodes QR codes and barcodes directly on your device, then analyzes their destination WITHOUT ever opening it. The target is inspected by a remote service that follows redirects and returns a signed verdict (safe, caution, dangerous or malicious), protecting you from phishing before any click. Offline, a bundled signed threat list takes over and blocks known malicious domains. Quick analysis is free (up to 7 checks per day); in-depth analysis (sandbox rendering and impersonation detection) is reserved for Pro subscribers.",
+    "about_feature_offline": "Offline protection: bundled signed threat list, updated daily.",
+    "privacy_s5_body": "BlokQR does not create an account and collects no personal identifier. To limit abuse of the free tier, the app uses a random installation identifier (not linked to your identity, attested via Google Play Integrity). Pro access relies on a signed bearer token with no personal data. No ads, no third-party trackers. Your scan history stays on your device and can be erased at any time.",
+    "privacy_s8_title": "Local threat list",
+    "privacy_s8_body": "BlokQR downloads daily a cryptographically signed list of known malicious domains, stored on your device. This download transmits no data about you and enables protection even offline."
+  },
+  "values-es": {
+    "onb1_body": "Códigos QR, códigos de barras, enlaces, redes Wi-Fi: BlokQR comprueba cada destino antes de que lo abras.",
+    "onb5_title": "Protegido incluso sin conexión",
+    "onb5_body": "Una lista de amenazas firmada viene incluida en la app y se actualiza cada día. Sin conexión, BlokQR bloquea los dominios maliciosos conocidos y sigue funcionando.",
+    "about_description": "BlokQR decodifica los códigos QR y de barras directamente en el dispositivo y luego analiza su destino SIN abrirlo nunca. El destino es inspeccionado por un servicio remoto que sigue las redirecciones y devuelve un veredicto firmado (seguro, precaución, peligroso o malicioso), para protegerte del phishing antes de cualquier clic. Sin conexión, una lista de amenazas firmada e incluida toma el relevo y bloquea los dominios maliciosos conocidos. El análisis rápido es gratuito (hasta 7 comprobaciones al día); el análisis en profundidad (renderizado en espacio aislado y detección de suplantación) está reservado a los suscriptores Pro.",
+    "about_feature_offline": "Protección sin conexión: lista de amenazas firmada e incluida, actualizada a diario.",
+    "privacy_s5_body": "BlokQR no crea ninguna cuenta ni recopila ningún identificador personal. Para limitar el abuso de la versión gratuita, la app usa un identificador de instalación aleatorio (no vinculado a tu identidad, certificado mediante Google Play Integrity). El acceso Pro se basa en un token portador firmado, sin datos personales. Sin anuncios, sin rastreadores de terceros. Tu historial de escaneo permanece en tu dispositivo y puede borrarse en cualquier momento.",
+    "privacy_s8_title": "Lista local de amenazas",
+    "privacy_s8_body": "BlokQR descarga cada día una lista de dominios maliciosos conocidos, firmada criptográficamente y almacenada en tu dispositivo. Esta descarga no transmite ningún dato sobre ti y permite la protección incluso sin conexión."
+  },
+  "values-de": {
+    "onb1_body": "QR-Codes, Barcodes, Links, WLAN-Netzwerke: BlokQR prüft jedes Ziel, bevor Sie es öffnen.",
+    "onb5_title": "Auch offline geschützt",
+    "onb5_body": "Eine signierte Bedrohungsliste ist in der App enthalten und wird täglich aktualisiert. Offline blockiert BlokQR bekannte bösartige Domains und bleibt nutzbar.",
+    "about_description": "BlokQR decodiert QR-Codes und Barcodes direkt auf dem Gerät und analysiert dann ihr Ziel, OHNE es jemals zu öffnen. Das Ziel wird von einem entfernten Dienst geprüft, der Weiterleitungen verfolgt und ein signiertes Urteil zurückgibt (sicher, Vorsicht, gefährlich oder bösartig), um Sie vor Phishing zu schützen, noch vor jedem Klick. Offline übernimmt eine integrierte signierte Bedrohungsliste und blockiert bekannte bösartige Domains. Die Schnellanalyse ist kostenlos (bis zu 7 Prüfungen pro Tag); die Tiefenanalyse (Sandbox-Rendering und Erkennung von Markenimitation) ist Pro-Abonnenten vorbehalten.",
+    "about_feature_offline": "Offline-Schutz: integrierte signierte Bedrohungsliste, täglich aktualisiert.",
+    "privacy_s5_body": "BlokQR erstellt kein Konto und erfasst keine persönliche Kennung. Um Missbrauch des kostenlosen Angebots zu begrenzen, verwendet die App eine zufällige Installationskennung (nicht mit Ihrer Identität verknüpft, bestätigt über Google Play Integrity). Der Pro-Zugang beruht auf einem signierten Bearer-Token ohne personenbezogene Daten. Keine Werbung, keine Drittanbieter-Tracker. Ihr Scan-Verlauf bleibt auf Ihrem Gerät und kann jederzeit gelöscht werden.",
+    "privacy_s8_title": "Lokale Bedrohungsliste",
+    "privacy_s8_body": "BlokQR lädt täglich eine kryptografisch signierte Liste bekannter bösartiger Domains herunter, die auf Ihrem Gerät gespeichert wird. Dieser Download überträgt keine Daten über Sie und ermöglicht Schutz auch offline."
+  },
+  "values-it": {
+    "onb1_body": "QR code, codici a barre, link, reti Wi-Fi: BlokQR verifica ogni destinazione prima che tu la apra.",
+    "onb5_title": "Protetto anche offline",
+    "onb5_body": "Un elenco di minacce firmato è incluso nell\\'app e aggiornato ogni giorno. Offline, BlokQR blocca i domini dannosi noti e resta utilizzabile.",
+    "about_description": "BlokQR decodifica i QR code e i codici a barre direttamente sul dispositivo, poi analizza la loro destinazione SENZA mai aprirla. La destinazione viene ispezionata da un servizio remoto che segue i reindirizzamenti e restituisce un verdetto firmato (sicuro, attenzione, pericoloso o dannoso), per proteggerti dal phishing prima di qualsiasi clic. Offline, un elenco di minacce firmato e incluso subentra e blocca i domini dannosi noti. L\\'analisi rapida è gratuita (fino a 7 verifiche al giorno); l\\'analisi approfondita (rendering in sandbox e rilevamento di imitazioni) è riservata agli abbonati Pro.",
+    "about_feature_offline": "Protezione offline: elenco di minacce firmato e incluso, aggiornato quotidianamente.",
+    "privacy_s5_body": "BlokQR non crea alcun account e non raccoglie alcun identificatore personale. Per limitare gli abusi della versione gratuita, l\\'app utilizza un identificatore di installazione casuale (non collegato alla tua identità, attestato tramite Google Play Integrity). L\\'accesso Pro si basa su un token bearer firmato, senza dati personali. Nessuna pubblicità, nessun tracker di terze parti. La tua cronologia delle scansioni resta sul dispositivo e può essere cancellata in qualsiasi momento.",
+    "privacy_s8_title": "Elenco locale delle minacce",
+    "privacy_s8_body": "BlokQR scarica ogni giorno un elenco di domini dannosi noti, firmato crittograficamente e archiviato sul tuo dispositivo. Questo download non trasmette alcun dato che ti riguarda e consente la protezione anche offline."
+  },
+  "values-pt": {
+    "onb1_body": "QR codes, códigos de barras, links, redes Wi-Fi: o BlokQR verifica cada destino antes de você abri-lo.",
+    "onb5_title": "Protegido mesmo sem conexão",
+    "onb5_body": "Uma lista de ameaças assinada vem incluída no app e é atualizada todos os dias. Sem conexão, o BlokQR bloqueia os domínios maliciosos conhecidos e continua utilizável.",
+    "about_description": "O BlokQR decodifica QR codes e códigos de barras diretamente no dispositivo e depois analisa o destino SEM nunca abri-lo. O alvo é inspecionado por um serviço remoto que segue os redirecionamentos e devolve um veredito assinado (seguro, atenção, perigoso ou malicioso), para proteger você de phishing antes de qualquer clique. Sem conexão, uma lista de ameaças assinada e incluída assume o controle e bloqueia os domínios maliciosos conhecidos. A análise rápida é gratuita (até 7 verificações por dia); a análise aprofundada (renderização em sandbox e detecção de falsificação) é reservada aos assinantes Pro.",
+    "about_feature_offline": "Proteção offline: lista de ameaças assinada e incluída, atualizada diariamente.",
+    "privacy_s5_body": "O BlokQR não cria conta nem coleta qualquer identificador pessoal. Para limitar abusos da versão gratuita, o app usa um identificador de instalação aleatório (não vinculado à sua identidade, atestado via Google Play Integrity). O acesso Pro baseia-se em um token portador assinado, sem dados pessoais. Sem anúncios, sem rastreadores de terceiros. Seu histórico de escaneamento permanece no dispositivo e pode ser apagado a qualquer momento.",
+    "privacy_s8_title": "Lista local de ameaças",
+    "privacy_s8_body": "O BlokQR baixa diariamente uma lista de domínios maliciosos conhecidos, assinada criptograficamente e armazenada no seu dispositivo. Esse download não transmite nenhum dado sobre você e permite proteção mesmo sem conexão."
+  },
+  "values-ru": {
+    "onb1_body": "QR-коды, штрихкоды, ссылки, сети Wi-Fi: BlokQR проверяет каждый адрес назначения, прежде чем вы его откроете.",
+    "onb5_title": "Защита даже без сети",
+    "onb5_body": "Подписанный список угроз встроен в приложение и обновляется ежедневно. Без сети BlokQR блокирует известные вредоносные домены и остаётся рабочим.",
+    "about_description": "BlokQR декодирует QR-коды и штрихкоды прямо на устройстве, а затем анализирует адрес назначения, НИКОГДА его не открывая. Цель проверяется удалённым сервисом, который отслеживает переадресации и возвращает подписанный вердикт (безопасно, осторожно, опасно или вредоносно), защищая вас от фишинга до любого нажатия. Без сети управление берёт встроенный подписанный список угроз, блокируя известные вредоносные домены. Быстрый анализ бесплатен (до 7 проверок в день); углублённый анализ (рендеринг в песочнице и обнаружение подделок) доступен только подписчикам Pro.",
+    "about_feature_offline": "Защита офлайн: встроенный подписанный список угроз, обновляется ежедневно.",
+    "privacy_s5_body": "BlokQR не создаёт учётную запись и не собирает никаких персональных идентификаторов. Чтобы ограничить злоупотребления бесплатным тарифом, приложение использует случайный идентификатор установки (не связанный с вашей личностью, подтверждённый через Google Play Integrity). Доступ Pro основан на подписанном токене-носителе без персональных данных. Никакой рекламы и сторонних трекеров. История сканирований хранится на вашем устройстве и может быть удалена в любой момент.",
+    "privacy_s8_title": "Локальный список угроз",
+    "privacy_s8_body": "BlokQR ежедневно загружает криптографически подписанный список известных вредоносных доменов, который хранится на вашем устройстве. Эта загрузка не передаёт никаких данных о вас и обеспечивает защиту даже без сети."
+  },
+  "values-tr": {
+    "onb1_body": "QR kodları, barkodlar, bağlantılar, Wi-Fi ağları: BlokQR her hedefi siz açmadan önce kontrol eder.",
+    "onb5_title": "Çevrimdışıyken bile korumalı",
+    "onb5_body": "İmzalı bir tehdit listesi uygulamaya gömülüdür ve her gün güncellenir. Çevrimdışıyken BlokQR bilinen kötü amaçlı alan adlarını engeller ve kullanılabilir kalır.",
+    "about_description": "BlokQR, QR kodlarını ve barkodları doğrudan cihazınızda çözer, ardından hedeflerini HİÇ açmadan analiz eder. Hedef, yönlendirmeleri takip eden ve imzalı bir karar (güvenli, dikkat, tehlikeli veya kötü amaçlı) döndüren uzak bir hizmet tarafından incelenir; böylece tıklamadan önce sizi kimlik avından korur. Çevrimdışıyken, gömülü imzalı bir tehdit listesi devreye girer ve bilinen kötü amaçlı alan adlarını engeller. Hızlı analiz ücretsizdir (günde 7 kontrole kadar); derin analiz (sandbox işleme ve taklit tespiti) Pro abonelerine özeldir.",
+    "about_feature_offline": "Çevrimdışı koruma: gömülü imzalı tehdit listesi, her gün güncellenir.",
+    "privacy_s5_body": "BlokQR hesap oluşturmaz ve hiçbir kişisel tanımlayıcı toplamaz. Ücretsiz sürümün kötüye kullanımını sınırlamak için uygulama rastgele bir kurulum tanımlayıcısı kullanır (kimliğinizle ilişkili değildir, Google Play Integrity ile doğrulanır). Pro erişimi, kişisel veri içermeyen imzalı bir taşıyıcı jetona dayanır. Reklam yok, üçüncü taraf izleyici yok. Tarama geçmişiniz cihazınızda kalır ve istediğiniz zaman silinebilir.",
+    "privacy_s8_title": "Yerel tehdit listesi",
+    "privacy_s8_body": "BlokQR, bilinen kötü amaçlı alan adlarının kriptografik olarak imzalanmış bir listesini her gün indirir ve cihazınızda saklar. Bu indirme sizinle ilgili hiçbir veri iletmez ve çevrimdışıyken bile koruma sağlar."
+  },
+  "values-ar": {
+    "onb1_body": "رموز QR، الرموز الشريطية، الروابط، شبكات Wi-Fi: يتحقق BlokQR من كل وجهة قبل أن تفتحها.",
+    "onb5_title": "محمي حتى بدون اتصال",
+    "onb5_body": "قائمة تهديدات موقَّعة مضمَّنة في التطبيق ويتم تحديثها يوميًا. بدون اتصال، يحظر BlokQR النطاقات الضارة المعروفة ويظل قابلاً للاستخدام.",
+    "about_description": "يفك BlokQR ترميز رموز QR والرموز الشريطية مباشرة على جهازك، ثم يحلل وجهتها دون فتحها مطلقًا. تُفحص الوجهة بواسطة خدمة بعيدة تتتبع عمليات إعادة التوجيه وتُعيد حكمًا موقَّعًا (آمن، تنبيه، خطير أو ضار)، لحمايتك من التصيّد قبل أي نقرة. بدون اتصال، تتولى قائمة تهديدات موقَّعة مضمَّنة المهمة وتحظر النطاقات الضارة المعروفة. التحليل السريع مجاني (حتى 7 عمليات تحقق يوميًا)؛ أما التحليل المتعمّق (العرض في بيئة معزولة وكشف الانتحال) فمخصَّص لمشتركي Pro.",
+    "about_feature_offline": "حماية بدون اتصال: قائمة تهديدات موقَّعة مضمَّنة، يتم تحديثها يوميًا.",
+    "privacy_s5_body": "لا ينشئ BlokQR أي حساب ولا يجمع أي معرّف شخصي. للحدّ من إساءة استخدام النسخة المجانية، يستخدم التطبيق معرّف تثبيت عشوائيًا (غير مرتبط بهويتك، ومُوثَّق عبر Google Play Integrity). يعتمد وصول Pro على رمز حامل موقَّع، دون أي بيانات شخصية. لا إعلانات ولا أدوات تتبّع تابعة لجهات خارجية. يبقى سجل عمليات المسح على جهازك ويمكن حذفه في أي وقت.",
+    "privacy_s8_title": "قائمة التهديدات المحلية",
+    "privacy_s8_body": "يقوم BlokQR يوميًا بتنزيل قائمة بالنطاقات الضارة المعروفة، موقَّعة تشفيريًا ومخزَّنة على جهازك. لا ينقل هذا التنزيل أي بيانات تخصّك ويتيح الحماية حتى بدون اتصال."
+  },
+  "values-hi": {
+    "onb1_body": "QR कोड, बारकोड, लिंक, Wi-Fi नेटवर्क: BlokQR हर गंतव्य की जाँच करता है, इससे पहले कि आप उसे खोलें।",
+    "onb5_title": "नेटवर्क के बिना भी सुरक्षित",
+    "onb5_body": "एक हस्ताक्षरित ख़तरा सूची ऐप में शामिल है और हर दिन अपडेट होती है। ऑफ़लाइन रहते हुए, BlokQR ज्ञात दुर्भावनापूर्ण डोमेन को ब्लॉक करता है और उपयोग योग्य बना रहता है।",
+    "about_description": "BlokQR आपके डिवाइस पर ही QR कोड और बारकोड को डिकोड करता है, फिर उनके गंतव्य को कभी खोले बिना उसका विश्लेषण करता है। गंतव्य की जाँच एक दूरस्थ सेवा द्वारा की जाती है जो रीडायरेक्ट का अनुसरण करती है और एक हस्ताक्षरित निर्णय (सुरक्षित, सावधानी, ख़तरनाक या दुर्भावनापूर्ण) लौटाती है, ताकि किसी भी क्लिक से पहले आपको फ़िशिंग से बचाया जा सके। ऑफ़लाइन रहते हुए, एक एम्बेडेड हस्ताक्षरित ख़तरा सूची काम संभाल लेती है और ज्ञात दुर्भावनापूर्ण डोमेन को ब्लॉक करती है। त्वरित विश्लेषण निःशुल्क है (प्रतिदिन 7 जाँच तक); गहन विश्लेषण (सैंडबॉक्स रेंडरिंग और प्रतिरूपण पहचान) केवल Pro सदस्यों के लिए है।",
+    "about_feature_offline": "ऑफ़लाइन सुरक्षा: एम्बेडेड हस्ताक्षरित ख़तरा सूची, प्रतिदिन अपडेट।",
+    "privacy_s5_body": "BlokQR कोई खाता नहीं बनाता और कोई व्यक्तिगत पहचानकर्ता एकत्र नहीं करता। निःशुल्क सेवा के दुरुपयोग को सीमित करने के लिए, ऐप एक यादृच्छिक इंस्टॉलेशन पहचानकर्ता का उपयोग करता है (आपकी पहचान से जुड़ा नहीं, Google Play Integrity द्वारा सत्यापित)। Pro एक्सेस बिना किसी व्यक्तिगत डेटा वाले हस्ताक्षरित बेयरर टोकन पर आधारित है। कोई विज्ञापन नहीं, कोई तृतीय-पक्ष ट्रैकर नहीं। आपका स्कैन इतिहास आपके डिवाइस पर रहता है और इसे कभी भी मिटाया जा सकता है।",
+    "privacy_s8_title": "स्थानीय खतरा सूची",
+    "privacy_s8_body": "BlokQR हर दिन ज्ञात दुर्भावनापूर्ण डोमेन की एक क्रिप्टोग्राफ़िक रूप से हस्ताक्षरित सूची डाउनलोड करता है, जो आपके डिवाइस पर संग्रहीत होती है। यह डाउनलोड आपके बारे में कोई डेटा प्रसारित नहीं करता और ऑफ़लाइन रहते हुए भी सुरक्षा सक्षम करता है।"
+  },
+  "values-ja": {
+    "onb1_body": "QR コード、バーコード、リンク、Wi-Fi ネットワーク：BlokQR は開く前にすべてのリンク先を確認します。",
+    "onb5_title": "オフラインでも保護",
+    "onb5_body": "署名済みの脅威リストがアプリに組み込まれ、毎日更新されます。オフラインでも、BlokQR は既知の悪意のあるドメインをブロックし、引き続き使用できます。",
+    "about_description": "BlokQR は QR コードやバーコードを端末上で直接デコードし、そのリンク先を一切開かずに分析します。リンク先はリダイレクトを追跡するリモートサービスによって検査され、署名付きの判定（安全・注意・危険・悪質）が返されるため、クリックする前にフィッシングから保護されます。オフラインでは、組み込みの署名付き脅威リストが代わりに機能し、既知の悪意のあるドメインをブロックします。クイック分析は無料です（1日あたり最大7回）。詳細分析（サンドボックスでの描画となりすまし検出）は Pro 会員専用です。",
+    "about_feature_offline": "オフライン保護：組み込みの署名付き脅威リスト、毎日更新。",
+    "privacy_s5_body": "BlokQR はアカウントを作成せず、個人を識別する情報を一切収集しません。無料プランの不正利用を防ぐため、アプリはランダムなインストール識別子（あなたの身元には結び付かず、Google Play Integrity で認証）を使用します。Pro アクセスは、個人データを含まない署名付きのベアラートークンに基づきます。広告なし、第三者トラッカーなし。スキャン履歴は端末内に保存され、いつでも消去できます。",
+    "privacy_s8_title": "ローカル脅威リスト",
+    "privacy_s8_body": "BlokQR は既知の悪意のあるドメインの暗号署名付きリストを毎日ダウンロードし、端末内に保存します。このダウンロードはあなたに関するデータを一切送信せず、オフラインでも保護を可能にします。"
+  },
+  "values-zh-rCN": {
+    "onb1_body": "二维码、条形码、链接、Wi-Fi 网络：BlokQR 在你打开之前先检查每个目标地址。",
+    "onb5_title": "离线也能保护",
+    "onb5_body": "应用内置了经过签名的威胁列表，并每天更新。离线时，BlokQR 仍可拦截已知的恶意域名并保持可用。",
+    "about_description": "BlokQR 直接在你的设备上解码二维码和条形码，然后在绝不打开的前提下分析其目标地址。目标会由远程服务进行检查，该服务跟踪跳转并返回经过签名的判定（安全、谨慎、危险或恶意），在你点击之前保护你免受钓鱼攻击。离线时，内置的已签名威胁列表会接管并拦截已知的恶意域名。快速分析免费（每天最多 7 次）；深度分析（沙箱渲染和仿冒检测）仅限 Pro 订阅者。",
+    "about_feature_offline": "离线保护：内置的已签名威胁列表，每日更新。",
+    "privacy_s5_body": "BlokQR 不创建账户，也不收集任何个人标识符。为限制免费版被滥用，应用会使用一个随机的安装标识符（不与你的身份关联，并通过 Google Play Integrity 进行认证）。Pro 访问基于经过签名且不含个人数据的持有者令牌。无广告，无第三方追踪器。你的扫描历史保留在你的设备上，可随时清除。",
+    "privacy_s8_title": "本地威胁列表",
+    "privacy_s8_body": "BlokQR 每天下载一份经过加密签名的已知恶意域名列表，并存储在你的设备上。此下载不会传输任何关于你的数据，并可在离线时提供保护。"
+  }
+}

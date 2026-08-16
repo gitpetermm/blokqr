@@ -1,0 +1,74 @@
+{
+  "values": {
+    "tab_scanner": "Scanner",
+    "tab_create": "Créer",
+    "tab_provenance": "Provenance",
+    "feature_coming_soon": "Bientôt disponible"
+  },
+  "values-en": {
+    "tab_scanner": "Scanner",
+    "tab_create": "Create",
+    "tab_provenance": "Origin",
+    "feature_coming_soon": "Coming soon"
+  },
+  "values-es": {
+    "tab_scanner": "Escáner",
+    "tab_create": "Crear",
+    "tab_provenance": "Origen",
+    "feature_coming_soon": "Próximamente"
+  },
+  "values-pt": {
+    "tab_scanner": "Scanner",
+    "tab_create": "Criar",
+    "tab_provenance": "Origem",
+    "feature_coming_soon": "Em breve"
+  },
+  "values-it": {
+    "tab_scanner": "Scanner",
+    "tab_create": "Crea",
+    "tab_provenance": "Provenienza",
+    "feature_coming_soon": "Prossimamente"
+  },
+  "values-de": {
+    "tab_scanner": "Scanner",
+    "tab_create": "Erstellen",
+    "tab_provenance": "Herkunft",
+    "feature_coming_soon": "Demnächst verfügbar"
+  },
+  "values-ar": {
+    "tab_scanner": "الماسح",
+    "tab_create": "إنشاء",
+    "tab_provenance": "المصدر",
+    "feature_coming_soon": "قريبًا"
+  },
+  "values-tr": {
+    "tab_scanner": "Tarayıcı",
+    "tab_create": "Oluştur",
+    "tab_provenance": "Menşe",
+    "feature_coming_soon": "Yakında"
+  },
+  "values-hi": {
+    "tab_scanner": "स्कैनर",
+    "tab_create": "बनाएँ",
+    "tab_provenance": "मूल",
+    "feature_coming_soon": "जल्द आ रहा है"
+  },
+  "values-zh-rCN": {
+    "tab_scanner": "扫描",
+    "tab_create": "创建",
+    "tab_provenance": "来源",
+    "feature_coming_soon": "即将推出"
+  },
+  "values-ja": {
+    "tab_scanner": "スキャン",
+    "tab_create": "作成",
+    "tab_provenance": "産地",
+    "feature_coming_soon": "近日公開"
+  },
+  "values-ru": {
+    "tab_scanner": "Сканер",
+    "tab_create": "Создать",
+    "tab_provenance": "Происхождение",
+    "feature_coming_soon": "Скоро"
+  }
+}

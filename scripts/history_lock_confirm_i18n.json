@@ -1,0 +1,38 @@
+{
+  "values": {
+    "settings_history_lock_confirm": "Authentifiez-vous pour désactiver le verrou"
+  },
+  "values-en": {
+    "settings_history_lock_confirm": "Authenticate to turn off the lock"
+  },
+  "values-es": {
+    "settings_history_lock_confirm": "Autentícate para desactivar el bloqueo"
+  },
+  "values-de": {
+    "settings_history_lock_confirm": "Authentifiziere dich, um die Sperre zu deaktivieren"
+  },
+  "values-it": {
+    "settings_history_lock_confirm": "Autenticati per disattivare il blocco"
+  },
+  "values-pt": {
+    "settings_history_lock_confirm": "Autentique-se para desativar o bloqueio"
+  },
+  "values-tr": {
+    "settings_history_lock_confirm": "Kilidi kapatmak için kimliğinizi doğrulayın"
+  },
+  "values-ru": {
+    "settings_history_lock_confirm": "Пройдите аутентификацию, чтобы отключить блокировку"
+  },
+  "values-ar": {
+    "settings_history_lock_confirm": "وثّق هويتك لإيقاف القفل"
+  },
+  "values-hi": {
+    "settings_history_lock_confirm": "लॉक बंद करने के लिए प्रमाणित करें"
+  },
+  "values-ja": {
+    "settings_history_lock_confirm": "ロックを無効にするには認証してください"
+  },
+  "values-zh-rCN": {
+    "settings_history_lock_confirm": "请验证身份以关闭锁定"
+  }
+}

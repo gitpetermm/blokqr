@@ -1,0 +1,74 @@
+{
+  "values": {
+    "tools_country_search": "Rechercher un pays",
+    "tools_country_none": "Aucun pays trouvé",
+    "tools_phone_invalid": "Numéro invalide pour ce pays",
+    "tools_phone_format": "Format : %s"
+  },
+  "values-en": {
+    "tools_country_search": "Search a country",
+    "tools_country_none": "No country found",
+    "tools_phone_invalid": "Invalid number for this country",
+    "tools_phone_format": "Format: %s"
+  },
+  "values-es": {
+    "tools_country_search": "Buscar un país",
+    "tools_country_none": "No se encontró ningún país",
+    "tools_phone_invalid": "Número no válido para este país",
+    "tools_phone_format": "Formato: %s"
+  },
+  "values-pt": {
+    "tools_country_search": "Procurar um país",
+    "tools_country_none": "Nenhum país encontrado",
+    "tools_phone_invalid": "Número inválido para este país",
+    "tools_phone_format": "Formato: %s"
+  },
+  "values-it": {
+    "tools_country_search": "Cerca un paese",
+    "tools_country_none": "Nessun paese trovato",
+    "tools_phone_invalid": "Numero non valido per questo paese",
+    "tools_phone_format": "Formato: %s"
+  },
+  "values-de": {
+    "tools_country_search": "Land suchen",
+    "tools_country_none": "Kein Land gefunden",
+    "tools_phone_invalid": "Ungültige Nummer für dieses Land",
+    "tools_phone_format": "Format: %s"
+  },
+  "values-ar": {
+    "tools_country_search": "ابحث عن بلد",
+    "tools_country_none": "لم يتم العثور على بلد",
+    "tools_phone_invalid": "رقم غير صالح لهذا البلد",
+    "tools_phone_format": "التنسيق: %s"
+  },
+  "values-tr": {
+    "tools_country_search": "Ülke ara",
+    "tools_country_none": "Ülke bulunamadı",
+    "tools_phone_invalid": "Bu ülke için geçersiz numara",
+    "tools_phone_format": "Biçim: %s"
+  },
+  "values-hi": {
+    "tools_country_search": "देश खोजें",
+    "tools_country_none": "कोई देश नहीं मिला",
+    "tools_phone_invalid": "इस देश के लिए अमान्य नंबर",
+    "tools_phone_format": "प्रारूप: %s"
+  },
+  "values-zh-rCN": {
+    "tools_country_search": "搜索国家/地区",
+    "tools_country_none": "未找到国家/地区",
+    "tools_phone_invalid": "此国家/地区的号码无效",
+    "tools_phone_format": "格式：%s"
+  },
+  "values-ja": {
+    "tools_country_search": "国を検索",
+    "tools_country_none": "国が見つかりません",
+    "tools_phone_invalid": "この国では無効な番号です",
+    "tools_phone_format": "形式: %s"
+  },
+  "values-ru": {
+    "tools_country_search": "Поиск страны",
+    "tools_country_none": "Страна не найдена",
+    "tools_phone_invalid": "Неверный номер для этой страны",
+    "tools_phone_format": "Формат: %s"
+  }
+}

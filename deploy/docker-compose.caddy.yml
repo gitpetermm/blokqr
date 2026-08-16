@@ -1,0 +1,23 @@
+# Surcouche optionnelle : reverse proxy Caddy avec TLS automatique (Let's Encrypt).
+# À utiliser sur un SERVEUR DÉDIÉ (sans proxy existant) :
+#   docker compose -f docker-compose.yml -f docker-compose.caddy.yml up -d
+services:
+  caddy:
+    image: caddy:2.10-alpine   # >= 2.10 : x25519mlkem768 (TLS hybride PQ) par defaut
+    container_name: blokqr-caddy
+    restart: unless-stopped
+    depends_on:
+      - blokqr
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - blokqr-net
+
+volumes:
+  caddy_data:
+  caddy_config:

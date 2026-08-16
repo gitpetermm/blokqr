@@ -1,0 +1,62 @@
+{
+  "values": {
+    "result_action_share_image": "Image",
+    "result_share_card_footer": "Vérifié par BlokQR — blokqr.com",
+    "result_share_image_chooser": "Partager la carte de verdict"
+  },
+  "values-en": {
+    "result_action_share_image": "Image",
+    "result_share_card_footer": "Verified by BlokQR — blokqr.com",
+    "result_share_image_chooser": "Share verdict card"
+  },
+  "values-es": {
+    "result_action_share_image": "Imagen",
+    "result_share_card_footer": "Verificado por BlokQR — blokqr.com",
+    "result_share_image_chooser": "Compartir tarjeta de veredicto"
+  },
+  "values-pt": {
+    "result_action_share_image": "Imagem",
+    "result_share_card_footer": "Verificado pelo BlokQR — blokqr.com",
+    "result_share_image_chooser": "Partilhar cartão de veredito"
+  },
+  "values-it": {
+    "result_action_share_image": "Immagine",
+    "result_share_card_footer": "Verificato da BlokQR — blokqr.com",
+    "result_share_image_chooser": "Condividi scheda del verdetto"
+  },
+  "values-de": {
+    "result_action_share_image": "Bild",
+    "result_share_card_footer": "Geprüft von BlokQR — blokqr.com",
+    "result_share_image_chooser": "Urteilskarte teilen"
+  },
+  "values-ar": {
+    "result_action_share_image": "صورة",
+    "result_share_card_footer": "تم التحقق بواسطة BlokQR — blokqr.com",
+    "result_share_image_chooser": "مشاركة بطاقة الحكم"
+  },
+  "values-tr": {
+    "result_action_share_image": "Görsel",
+    "result_share_card_footer": "BlokQR tarafından doğrulandı — blokqr.com",
+    "result_share_image_chooser": "Karar kartını paylaş"
+  },
+  "values-hi": {
+    "result_action_share_image": "छवि",
+    "result_share_card_footer": "BlokQR द्वारा सत्यापित — blokqr.com",
+    "result_share_image_chooser": "फ़ैसला कार्ड साझा करें"
+  },
+  "values-zh-rCN": {
+    "result_action_share_image": "图片",
+    "result_share_card_footer": "由 BlokQR 验证 — blokqr.com",
+    "result_share_image_chooser": "分享裁定卡片"
+  },
+  "values-ja": {
+    "result_action_share_image": "画像",
+    "result_share_card_footer": "BlokQR が検証 — blokqr.com",
+    "result_share_image_chooser": "判定カードを共有"
+  },
+  "values-ru": {
+    "result_action_share_image": "Картинка",
+    "result_share_card_footer": "Проверено BlokQR — blokqr.com",
+    "result_share_image_chooser": "Поделиться карточкой вердикта"
+  }
+}

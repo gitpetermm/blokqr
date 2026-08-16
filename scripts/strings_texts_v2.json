@@ -1,0 +1,110 @@
+{
+  "values": {
+    "privacy_s9_title": "Localisation",
+    "privacy_s9_body": "L’application n’utilise votre position que si vous appuyez sur « Ma position actuelle » dans le générateur, afin de remplir des coordonnées. Ces coordonnées restent sur votre appareil et ne sont jamais transmises. Aucune localisation en arrière-plan.",
+    "privacy_s10_title": "Nom de produit (Open Food Facts)",
+    "privacy_s10_body": "Lorsque l’option « Nom du produit en ligne » est activée (activée par défaut, désactivable dans Réglages), le code-barres scanné (le GTIN, un identifiant de produit — donnée NON personnelle) est envoyé à Open Food Facts pour afficher le nom du produit. Aucune donnée personnelle n’est transmise. Les données proviennent d’Open Food Facts, sous licence ODbL.",
+    "paywall_free_note": "Le générateur de codes et la reconnaissance des produits sont gratuits. Pro concerne l’analyse de sécurité approfondie et illimitée des liens.",
+    "onb_create_title": "Créez et reconnaissez",
+    "onb_create_body": "Générez vos propres QR codes et codes-barres (lien, contact, Wi-Fi, événement…), et laissez le scanner reconnaître les produits (organisation GS1, nom) — le tout depuis deux onglets simples."
+  },
+  "values-en": {
+    "privacy_s9_title": "Location",
+    "privacy_s9_body": "The app uses your location only when you tap « My current location » in the generator, to fill in coordinates. Those coordinates stay on your device and are never transmitted. No background location.",
+    "privacy_s10_title": "Product name (Open Food Facts)",
+    "privacy_s10_body": "When the « Online product name » option is enabled (on by default, can be turned off in Settings), the scanned barcode (the GTIN, a product identifier — NON-personal data) is sent to Open Food Facts to show the product name. No personal data is transmitted. Data comes from Open Food Facts, under the ODbL license.",
+    "paywall_free_note": "The code generator and product recognition are free. Pro is about deep, unlimited link security analysis.",
+    "onb_create_title": "Create and recognise",
+    "onb_create_body": "Generate your own QR codes and barcodes (link, contact, Wi-Fi, event…), and let the scanner recognise products (GS1 organisation, name) — all from two simple tabs."
+  },
+  "values-es": {
+    "privacy_s9_title": "Ubicación",
+    "privacy_s9_body": "La aplicación usa tu ubicación solo si pulsas « Mi ubicación actual » en el generador, para rellenar coordenadas. Esas coordenadas permanecen en tu dispositivo y nunca se transmiten. Sin ubicación en segundo plano.",
+    "privacy_s10_title": "Nombre del producto (Open Food Facts)",
+    "privacy_s10_body": "Cuando la opción « Nombre del producto en línea » está activada (activada por defecto, se puede desactivar en Ajustes), el código de barras escaneado (el GTIN, un identificador de producto — dato NO personal) se envía a Open Food Facts para mostrar el nombre. No se transmite ningún dato personal. Los datos provienen de Open Food Facts, bajo licencia ODbL.",
+    "paywall_free_note": "El generador de códigos y el reconocimiento de productos son gratuitos. Pro se refiere al análisis de seguridad profundo e ilimitado de enlaces.",
+    "onb_create_title": "Crea y reconoce",
+    "onb_create_body": "Genera tus propios códigos QR y de barras (enlace, contacto, Wi-Fi, evento…) y deja que el escáner reconozca productos (organización GS1, nombre), todo desde dos pestañas sencillas."
+  },
+  "values-pt": {
+    "privacy_s9_title": "Localização",
+    "privacy_s9_body": "A aplicação só usa a sua localização quando toca em « A minha localização atual » no gerador, para preencher coordenadas. Essas coordenadas ficam no seu dispositivo e nunca são transmitidas. Sem localização em segundo plano.",
+    "privacy_s10_title": "Nome do produto (Open Food Facts)",
+    "privacy_s10_body": "Quando a opção « Nome do produto online » está ativada (ativada por predefinição, pode ser desativada nas Definições), o código de barras lido (o GTIN, um identificador de produto — dado NÃO pessoal) é enviado ao Open Food Facts para mostrar o nome. Nenhum dado pessoal é transmitido. Os dados provêm do Open Food Facts, sob licença ODbL.",
+    "paywall_free_note": "O gerador de códigos e o reconhecimento de produtos são gratuitos. O Pro diz respeito à análise de segurança aprofundada e ilimitada de ligações.",
+    "onb_create_title": "Crie e reconheça",
+    "onb_create_body": "Gere os seus próprios códigos QR e de barras (ligação, contacto, Wi-Fi, evento…) e deixe o scanner reconhecer produtos (organização GS1, nome) — tudo a partir de dois separadores simples."
+  },
+  "values-it": {
+    "privacy_s9_title": "Posizione",
+    "privacy_s9_body": "L’app usa la tua posizione solo se tocchi « La mia posizione attuale » nel generatore, per compilare le coordinate. Tali coordinate restano sul dispositivo e non vengono mai trasmesse. Nessuna posizione in background.",
+    "privacy_s10_title": "Nome del prodotto (Open Food Facts)",
+    "privacy_s10_body": "Quando l’opzione « Nome prodotto online » è attiva (attiva per impostazione predefinita, disattivabile nelle Impostazioni), il codice a barre scansionato (il GTIN, un identificatore di prodotto — dato NON personale) viene inviato a Open Food Facts per mostrarne il nome. Nessun dato personale viene trasmesso. I dati provengono da Open Food Facts, con licenza ODbL.",
+    "paywall_free_note": "Il generatore di codici e il riconoscimento dei prodotti sono gratuiti. Pro riguarda l’analisi di sicurezza approfondita e illimitata dei link.",
+    "onb_create_title": "Crea e riconosci",
+    "onb_create_body": "Genera i tuoi codici QR e a barre (link, contatto, Wi-Fi, evento…) e lascia che lo scanner riconosca i prodotti (organizzazione GS1, nome), tutto da due semplici schede."
+  },
+  "values-de": {
+    "privacy_s9_title": "Standort",
+    "privacy_s9_body": "Die App nutzt Ihren Standort nur, wenn Sie im Generator auf « Mein aktueller Standort » tippen, um Koordinaten einzutragen. Diese Koordinaten bleiben auf Ihrem Gerät und werden nie übertragen. Keine Standortermittlung im Hintergrund.",
+    "privacy_s10_title": "Produktname (Open Food Facts)",
+    "privacy_s10_body": "Wenn die Option « Produktname online » aktiviert ist (standardmäßig an, in den Einstellungen abschaltbar), wird der gescannte Barcode (der GTIN, eine Produktkennung — NICHT personenbezogen) an Open Food Facts gesendet, um den Produktnamen anzuzeigen. Es werden keine personenbezogenen Daten übertragen. Die Daten stammen von Open Food Facts, unter der ODbL-Lizenz.",
+    "paywall_free_note": "Der Code-Generator und die Produkterkennung sind kostenlos. Pro betrifft die tiefe, unbegrenzte Sicherheitsanalyse von Links.",
+    "onb_create_title": "Erstellen und erkennen",
+    "onb_create_body": "Erstellen Sie eigene QR- und Barcodes (Link, Kontakt, WLAN, Termin…) und lassen Sie den Scanner Produkte erkennen (GS1-Organisation, Name) – alles aus zwei einfachen Tabs."
+  },
+  "values-ar": {
+    "privacy_s9_title": "الموقع",
+    "privacy_s9_body": "يستخدم التطبيق موقعك فقط عند الضغط على « موقعي الحالي » في المولّد لتعبئة الإحداثيات. تبقى هذه الإحداثيات على جهازك ولا تُرسل أبدًا. لا تحديد للموقع في الخلفية.",
+    "privacy_s10_title": "اسم المنتج (Open Food Facts)",
+    "privacy_s10_body": "عند تفعيل خيار « اسم المنتج عبر الإنترنت » (مُفعّل افتراضيًا، ويمكن تعطيله من الإعدادات)، يُرسَل الباركود الممسوح (رمز GTIN، معرّف منتج — بيانات غير شخصية) إلى Open Food Facts لعرض اسم المنتج. لا تُرسَل أي بيانات شخصية. البيانات مصدرها Open Food Facts بموجب رخصة ODbL.",
+    "paywall_free_note": "مولّد الرموز والتعرف على المنتجات مجانيان. تخص خطة Pro التحليل الأمني المتعمّق وغير المحدود للروابط.",
+    "onb_create_title": "أنشئ وتعرّف",
+    "onb_create_body": "أنشئ رموز QR وباركود خاصة بك (رابط، جهة اتصال، Wi-Fi، حدث…) ودع الماسح يتعرف على المنتجات (منظمة GS1، الاسم) — كل ذلك من تبويبين بسيطين."
+  },
+  "values-tr": {
+    "privacy_s9_title": "Konum",
+    "privacy_s9_body": "Uygulama konumunuzu yalnızca oluşturucuda « Mevcut konumum »’a dokunduğunuzda, koordinatları doldurmak için kullanır. Bu koordinatlar cihazınızda kalır ve asla iletilmez. Arka planda konum kullanılmaz.",
+    "privacy_s10_title": "Ürün adı (Open Food Facts)",
+    "privacy_s10_body": "« Çevrimiçi ürün adı » seçeneği açıkken (varsayılan olarak açık, Ayarlar’dan kapatılabilir), taranan barkod (GTIN, bir ürün tanımlayıcısı — kişisel OLMAYAN veri) ürün adını göstermek için Open Food Facts’e gönderilir. Hiçbir kişisel veri iletilmez. Veriler ODbL lisansıyla Open Food Facts’ten gelir.",
+    "paywall_free_note": "Kod oluşturucu ve ürün tanıma ücretsizdir. Pro, bağlantıların derin ve sınırsız güvenlik analizini kapsar.",
+    "onb_create_title": "Oluştur ve tanı",
+    "onb_create_body": "Kendi QR ve barkodlarınızı oluşturun (bağlantı, kişi, Wi-Fi, etkinlik…) ve tarayıcının ürünleri tanımasına izin verin (GS1 kuruluşu, ad) — tümü iki basit sekmeden."
+  },
+  "values-hi": {
+    "privacy_s9_title": "स्थान",
+    "privacy_s9_body": "ऐप आपके स्थान का उपयोग केवल तब करता है जब आप जनरेटर में « मेरा वर्तमान स्थान » दबाते हैं, ताकि निर्देशांक भरे जा सकें। ये निर्देशांक आपके डिवाइस पर रहते हैं और कभी प्रेषित नहीं होते। पृष्ठभूमि में कोई स्थान नहीं।",
+    "privacy_s10_title": "उत्पाद का नाम (Open Food Facts)",
+    "privacy_s10_body": "जब « ऑनलाइन उत्पाद नाम » विकल्प सक्षम होता है (डिफ़ॉल्ट रूप से चालू, सेटिंग्स में बंद किया जा सकता है), तो स्कैन किया गया बारकोड (GTIN, एक उत्पाद पहचानकर्ता — गैर-व्यक्तिगत डेटा) उत्पाद का नाम दिखाने के लिए Open Food Facts को भेजा जाता है। कोई व्यक्तिगत डेटा प्रेषित नहीं होता। डेटा ODbL लाइसेंस के तहत Open Food Facts से आता है।",
+    "paywall_free_note": "कोड जनरेटर और उत्पाद पहचान मुफ़्त हैं। Pro लिंक के गहन और असीमित सुरक्षा विश्लेषण से संबंधित है।",
+    "onb_create_title": "बनाएँ और पहचानें",
+    "onb_create_body": "अपने QR कोड और बारकोड बनाएँ (लिंक, संपर्क, Wi-Fi, इवेंट…), और स्कैनर को उत्पादों को पहचानने दें (GS1 संगठन, नाम) — यह सब दो सरल टैब से।"
+  },
+  "values-zh-rCN": {
+    "privacy_s9_title": "位置信息",
+    "privacy_s9_body": "仅当您在生成器中点按“我的当前位置”以填写坐标时，应用才会使用您的位置。这些坐标保留在您的设备上，绝不会被传输。不会在后台获取位置。",
+    "privacy_s10_title": "产品名称（Open Food Facts）",
+    "privacy_s10_body": "启用“在线产品名称”选项时（默认开启，可在“设置”中关闭），扫描到的条形码（GTIN，一种产品标识符——非个人数据）会发送到 Open Food Facts 以显示产品名称。不会传输任何个人数据。数据来自 Open Food Facts，采用 ODbL 许可。",
+    "paywall_free_note": "代码生成器和产品识别均为免费。Pro 针对链接的深度、无限次安全分析。",
+    "onb_create_title": "创建与识别",
+    "onb_create_body": "生成您自己的二维码和条形码（链接、联系人、Wi-Fi、活动…），并让扫描器识别产品（GS1 组织、名称）——全部通过两个简单的标签页完成。"
+  },
+  "values-ja": {
+    "privacy_s9_title": "位置情報",
+    "privacy_s9_body": "アプリは、生成ツールで「現在地」をタップして座標を入力する場合にのみ位置情報を使用します。座標は端末内に留まり、送信されることはありません。バックグラウンドでの位置取得はありません。",
+    "privacy_s10_title": "商品名（Open Food Facts）",
+    "privacy_s10_body": "「オンライン商品名」オプションが有効な場合（既定でオン、設定でオフ可）、スキャンしたバーコード（GTIN という商品識別子。非個人データ）を Open Food Facts に送信して商品名を表示します。個人データは送信されません。データは ODbL ライセンスの Open Food Facts に由来します。",
+    "paywall_free_note": "コード生成と商品認識は無料です。Pro はリンクの高度かつ無制限のセキュリティ分析に関するものです。",
+    "onb_create_title": "作成と認識",
+    "onb_create_body": "独自の QR コードやバーコード（リンク、連絡先、Wi-Fi、予定…）を作成し、スキャナーで商品（GS1 組織、名称）を認識。すべて 2 つのシンプルなタブから。"
+  },
+  "values-ru": {
+    "privacy_s9_title": "Местоположение",
+    "privacy_s9_body": "Приложение использует ваше местоположение только когда вы нажимаете « Моё текущее местоположение » в генераторе, чтобы заполнить координаты. Эти координаты остаются на устройстве и никогда не передаются. Никакого фонового отслеживания.",
+    "privacy_s10_title": "Название товара (Open Food Facts)",
+    "privacy_s10_body": "Когда включена опция « Название товара онлайн » (включена по умолчанию, можно отключить в Настройках), отсканированный штрихкод (GTIN — идентификатор товара, НЕличные данные) отправляется в Open Food Facts для показа названия. Личные данные не передаются. Данные предоставлены Open Food Facts по лицензии ODbL.",
+    "paywall_free_note": "Генератор кодов и распознавание товаров бесплатны. Pro относится к глубокому и безлимитному анализу безопасности ссылок.",
+    "onb_create_title": "Создавайте и распознавайте",
+    "onb_create_body": "Создавайте собственные QR- и штрихкоды (ссылка, контакт, Wi-Fi, событие…) и позвольте сканеру распознавать товары (организация GS1, название) — всё это в двух простых вкладках."
+  }
+}

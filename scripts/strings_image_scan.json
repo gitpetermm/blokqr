@@ -1,0 +1,62 @@
+{
+  "values": {
+    "image_scan_title": "QR depuis une image",
+    "image_scan_none": "Aucun code ni URL détecté dans l’image.",
+    "image_scan_error": "Impossible de lire cette image."
+  },
+  "values-en": {
+    "image_scan_title": "QR from an image",
+    "image_scan_none": "No code or URL found in the image.",
+    "image_scan_error": "Unable to read this image."
+  },
+  "values-es": {
+    "image_scan_title": "QR desde una imagen",
+    "image_scan_none": "No se encontró ningún código ni URL en la imagen.",
+    "image_scan_error": "No se pudo leer esta imagen."
+  },
+  "values-pt": {
+    "image_scan_title": "QR a partir de uma imagem",
+    "image_scan_none": "Nenhum código ou URL encontrado na imagem.",
+    "image_scan_error": "Não foi possível ler esta imagem."
+  },
+  "values-it": {
+    "image_scan_title": "QR da un’immagine",
+    "image_scan_none": "Nessun codice o URL trovato nell’immagine.",
+    "image_scan_error": "Impossibile leggere questa immagine."
+  },
+  "values-de": {
+    "image_scan_title": "QR aus einem Bild",
+    "image_scan_none": "Kein Code und keine URL im Bild gefunden.",
+    "image_scan_error": "Dieses Bild konnte nicht gelesen werden."
+  },
+  "values-ar": {
+    "image_scan_title": "QR من صورة",
+    "image_scan_none": "لم يُعثر على رمز أو عنوان URL في الصورة.",
+    "image_scan_error": "تعذّر قراءة هذه الصورة."
+  },
+  "values-tr": {
+    "image_scan_title": "Görüntüden QR",
+    "image_scan_none": "Görüntüde kod veya URL bulunamadı.",
+    "image_scan_error": "Bu görüntü okunamadı."
+  },
+  "values-hi": {
+    "image_scan_title": "छवि से QR",
+    "image_scan_none": "छवि में कोई कोड या URL नहीं मिला।",
+    "image_scan_error": "यह छवि पढ़ी नहीं जा सकी।"
+  },
+  "values-zh-rCN": {
+    "image_scan_title": "从图片扫描二维码",
+    "image_scan_none": "图片中未找到代码或网址。",
+    "image_scan_error": "无法读取此图片。"
+  },
+  "values-ja": {
+    "image_scan_title": "画像からQR",
+    "image_scan_none": "画像内にコードやURLが見つかりませんでした。",
+    "image_scan_error": "この画像を読み取れませんでした。"
+  },
+  "values-ru": {
+    "image_scan_title": "QR из изображения",
+    "image_scan_none": "В изображении не найден код или URL-адрес.",
+    "image_scan_error": "Не удалось прочитать это изображение."
+  }
+}

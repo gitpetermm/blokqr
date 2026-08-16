@@ -1,0 +1,38 @@
+{
+  "values": {
+    "about_user_guide": "Guide d’utilisation"
+  },
+  "values-en": {
+    "about_user_guide": "User guide"
+  },
+  "values-es": {
+    "about_user_guide": "Guía de uso"
+  },
+  "values-pt": {
+    "about_user_guide": "Guia de utilização"
+  },
+  "values-it": {
+    "about_user_guide": "Guida all’uso"
+  },
+  "values-de": {
+    "about_user_guide": "Benutzerhandbuch"
+  },
+  "values-ar": {
+    "about_user_guide": "دليل الاستخدام"
+  },
+  "values-tr": {
+    "about_user_guide": "Kullanım kılavuzu"
+  },
+  "values-hi": {
+    "about_user_guide": "उपयोगकर्ता गाइड"
+  },
+  "values-zh-rCN": {
+    "about_user_guide": "使用指南"
+  },
+  "values-ja": {
+    "about_user_guide": "使い方ガイド"
+  },
+  "values-ru": {
+    "about_user_guide": "Руководство пользователя"
+  }
+}

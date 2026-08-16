@@ -1,0 +1,134 @@
+{
+  "values": {
+    "sandbox_download_saved_title": "Fichier enregistré",
+    "sandbox_download_saved_message": "%1$s a été enregistré dans le dossier Téléchargements.",
+    "sandbox_open": "Ouvrir",
+    "sandbox_dialog_close": "Fermer",
+    "sandbox_download_risk_warning": "Ce lien a été jugé à risque. Le fichier peut être malveillant ; ne l’ouvrez que si vous savez ce que vous faites.",
+    "sandbox_open_apk_warning": "Ce fichier est une application (APK). L’installer depuis un lien scanné est particulièrement dangereux.",
+    "sandbox_open_no_app": "Aucune application ne peut ouvrir ce fichier.",
+    "sandbox_download_channel": "Téléchargements",
+    "sandbox_download_not_opened": "Par mesure de protection, BlokQR n’ouvre pas ce fichier. Vous le retrouverez dans le dossier Téléchargements."
+  },
+  "values-en": {
+    "sandbox_download_saved_title": "File saved",
+    "sandbox_download_saved_message": "%1$s was saved to your Downloads folder.",
+    "sandbox_open": "Open",
+    "sandbox_dialog_close": "Close",
+    "sandbox_download_risk_warning": "This link was rated risky. The file may be malicious; only open it if you know what you are doing.",
+    "sandbox_open_apk_warning": "This file is an app (APK). Installing it from a scanned link is especially dangerous.",
+    "sandbox_open_no_app": "No app can open this file.",
+    "sandbox_download_channel": "Downloads",
+    "sandbox_download_not_opened": "For your protection, BlokQR does not open this file. You can find it in your Downloads folder."
+  },
+  "values-ar": {
+    "sandbox_download_saved_title": "تم حفظ الملف",
+    "sandbox_download_saved_message": "تم حفظ %1$s في مجلد التنزيلات.",
+    "sandbox_open": "فتح",
+    "sandbox_dialog_close": "إغلاق",
+    "sandbox_download_risk_warning": "تم تقييم هذا الرابط على أنه خطير. قد يكون الملف ضارًا؛ لا تفتحه إلا إذا كنت تعرف ما تفعله.",
+    "sandbox_open_apk_warning": "هذا الملف تطبيق (APK). تثبيته من رابط ممسوح ضوئيًا خطير للغاية.",
+    "sandbox_open_no_app": "لا يوجد تطبيق يمكنه فتح هذا الملف.",
+    "sandbox_download_channel": "التنزيلات",
+    "sandbox_download_not_opened": "لحمايتك، لا يفتح BlokQR هذا الملف. يمكنك العثور عليه في مجلد التنزيلات."
+  },
+  "values-de": {
+    "sandbox_download_saved_title": "Datei gespeichert",
+    "sandbox_download_saved_message": "%1$s wurde im Download-Ordner gespeichert.",
+    "sandbox_open": "Öffnen",
+    "sandbox_dialog_close": "Schließen",
+    "sandbox_download_risk_warning": "Dieser Link wurde als riskant eingestuft. Die Datei kann schädlich sein; öffnen Sie sie nur, wenn Sie wissen, was Sie tun.",
+    "sandbox_open_apk_warning": "Diese Datei ist eine App (APK). Die Installation über einen gescannten Link ist besonders gefährlich.",
+    "sandbox_open_no_app": "Keine App kann diese Datei öffnen.",
+    "sandbox_download_channel": "Downloads",
+    "sandbox_download_not_opened": "Zu Ihrem Schutz öffnet BlokQR diese Datei nicht. Sie finden sie im Download-Ordner."
+  },
+  "values-es": {
+    "sandbox_download_saved_title": "Archivo guardado",
+    "sandbox_download_saved_message": "%1$s se guardó en la carpeta de Descargas.",
+    "sandbox_open": "Abrir",
+    "sandbox_dialog_close": "Cerrar",
+    "sandbox_download_risk_warning": "Este enlace se consideró de riesgo. El archivo puede ser malicioso; ábrelo solo si sabes lo que haces.",
+    "sandbox_open_apk_warning": "Este archivo es una app (APK). Instalarla desde un enlace escaneado es especialmente peligroso.",
+    "sandbox_open_no_app": "Ninguna app puede abrir este archivo.",
+    "sandbox_download_channel": "Descargas",
+    "sandbox_download_not_opened": "Por tu protección, BlokQR no abre este archivo. Lo encontrarás en la carpeta de Descargas."
+  },
+  "values-hi": {
+    "sandbox_download_saved_title": "फ़ाइल सहेजी गई",
+    "sandbox_download_saved_message": "%1$s को डाउनलोड फ़ोल्डर में सहेजा गया।",
+    "sandbox_open": "खोलें",
+    "sandbox_dialog_close": "बंद करें",
+    "sandbox_download_risk_warning": "इस लिंक को जोखिमपूर्ण माना गया। फ़ाइल हानिकारक हो सकती है; इसे तभी खोलें जब आप जानते हों कि आप क्या कर रहे हैं।",
+    "sandbox_open_apk_warning": "यह फ़ाइल एक ऐप (APK) है। इसे स्कैन किए गए लिंक से इंस्टॉल करना विशेष रूप से खतरनाक है।",
+    "sandbox_open_no_app": "कोई ऐप इस फ़ाइल को नहीं खोल सकता।",
+    "sandbox_download_channel": "डाउनलोड",
+    "sandbox_download_not_opened": "आपकी सुरक्षा के लिए, BlokQR इस फ़ाइल को नहीं खोलता। आप इसे डाउनलोड फ़ोल्डर में पा सकते हैं।"
+  },
+  "values-it": {
+    "sandbox_download_saved_title": "File salvato",
+    "sandbox_download_saved_message": "%1$s è stato salvato nella cartella Download.",
+    "sandbox_open": "Apri",
+    "sandbox_dialog_close": "Chiudi",
+    "sandbox_download_risk_warning": "Questo link è stato giudicato a rischio. Il file potrebbe essere dannoso; aprilo solo se sai cosa stai facendo.",
+    "sandbox_open_apk_warning": "Questo file è una app (APK). Installarla da un link scansionato è particolarmente pericoloso.",
+    "sandbox_open_no_app": "Nessuna app può aprire questo file.",
+    "sandbox_download_channel": "Download",
+    "sandbox_download_not_opened": "Per la tua protezione, BlokQR non apre questo file. Puoi trovarlo nella cartella Download."
+  },
+  "values-ja": {
+    "sandbox_download_saved_title": "ファイルを保存しました",
+    "sandbox_download_saved_message": "%1$s をダウンロードフォルダに保存しました。",
+    "sandbox_open": "開く",
+    "sandbox_dialog_close": "閉じる",
+    "sandbox_download_risk_warning": "このリンクは危険と判定されました。ファイルは悪意のあるものである可能性があります。内容を理解している場合のみ開いてください。",
+    "sandbox_open_apk_warning": "このファイルはアプリ（APK）です。スキャンしたリンクからのインストールは特に危険です。",
+    "sandbox_open_no_app": "このファイルを開けるアプリがありません。",
+    "sandbox_download_channel": "ダウンロード",
+    "sandbox_download_not_opened": "保護のため、BlokQR はこのファイルを開きません。ダウンロードフォルダで見つけられます。"
+  },
+  "values-pt": {
+    "sandbox_download_saved_title": "Arquivo salvo",
+    "sandbox_download_saved_message": "%1$s foi salvo na pasta Downloads.",
+    "sandbox_open": "Abrir",
+    "sandbox_dialog_close": "Fechar",
+    "sandbox_download_risk_warning": "Este link foi classificado como arriscado. O arquivo pode ser malicioso; abra-o apenas se souber o que está fazendo.",
+    "sandbox_open_apk_warning": "Este arquivo é um app (APK). Instalá-lo a partir de um link escaneado é especialmente perigoso.",
+    "sandbox_open_no_app": "Nenhum app pode abrir este arquivo.",
+    "sandbox_download_channel": "Downloads",
+    "sandbox_download_not_opened": "Para sua proteção, o BlokQR não abre este arquivo. Você o encontrará na pasta Downloads."
+  },
+  "values-ru": {
+    "sandbox_download_saved_title": "Файл сохранён",
+    "sandbox_download_saved_message": "%1$s сохранён в папку «Загрузки».",
+    "sandbox_open": "Открыть",
+    "sandbox_dialog_close": "Закрыть",
+    "sandbox_download_risk_warning": "Эта ссылка признана рискованной. Файл может быть вредоносным; открывайте его, только если понимаете, что делаете.",
+    "sandbox_open_apk_warning": "Этот файл — приложение (APK). Установка из отсканированной ссылки особенно опасна.",
+    "sandbox_open_no_app": "Нет приложения для открытия этого файла.",
+    "sandbox_download_channel": "Загрузки",
+    "sandbox_download_not_opened": "В целях защиты BlokQR не открывает этот файл. Вы найдёте его в папке «Загрузки»."
+  },
+  "values-tr": {
+    "sandbox_download_saved_title": "Dosya kaydedildi",
+    "sandbox_download_saved_message": "%1$s İndirilenler klasörüne kaydedildi.",
+    "sandbox_open": "Aç",
+    "sandbox_dialog_close": "Kapat",
+    "sandbox_download_risk_warning": "Bu bağlantı riskli olarak değerlendirildi. Dosya zararlı olabilir; yalnızca ne yaptığınızı biliyorsanız açın.",
+    "sandbox_open_apk_warning": "Bu dosya bir uygulamadır (APK). Taranan bir bağlantıdan yüklemek özellikle tehlikelidir.",
+    "sandbox_open_no_app": "Bu dosyayı açabilecek uygulama yok.",
+    "sandbox_download_channel": "İndirilenler",
+    "sandbox_download_not_opened": "Korumanız için BlokQR bu dosyayı açmaz. Dosyayı İndirilenler klasöründe bulabilirsiniz."
+  },
+  "values-zh-rCN": {
+    "sandbox_download_saved_title": "文件已保存",
+    "sandbox_download_saved_message": "%1$s 已保存到下载文件夹。",
+    "sandbox_open": "打开",
+    "sandbox_dialog_close": "关闭",
+    "sandbox_download_risk_warning": "此链接被判定为有风险。文件可能是恶意的；仅在您了解后果时才打开。",
+    "sandbox_open_apk_warning": "此文件是应用（APK）。从扫描的链接安装尤其危险。",
+    "sandbox_open_no_app": "没有应用可以打开此文件。",
+    "sandbox_download_channel": "下载",
+    "sandbox_download_not_opened": "为保护您的安全，BlokQR 不会打开此文件。您可以在下载文件夹中找到它。"
+  }
+}

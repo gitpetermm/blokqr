@@ -1,0 +1,29 @@
+# --- Cœur applicatif ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# --- Réseau / analyse ---
+httpx==0.28.1
+
+# --- Cryptographie (signature des verdicts) ---
+cryptography==44.0.0
+blake3==0.4.1
+pqcrypto==0.4.0
+redis==5.2.1
+google-api-python-client>=2.100
+slh-dsa==0.2.4
+
+# --- Optionnel : analyse dynamique (navigateur headless) ---
+# Installer puis exécuter : playwright install --with-deps chromium
+playwright==1.49.1
+
+# --- Optionnel : signature post-quantique ML-DSA-65 (FIPS 204) ---
+# Nécessite la bibliothèque native liboqs. Le service fonctionne sans.
+# liboqs-python==0.10.0
+
+# --- Tests ---
+pytest==8.3.4
+pytest-asyncio==0.25.0
+google-genai>=1.0

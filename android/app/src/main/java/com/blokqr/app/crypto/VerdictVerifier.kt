@@ -18,8 +18,9 @@ import java.util.Base64
  *   4. cohérence du payload canonique avec verdict/score/nonce/horodatages affichés ;
  *   5. fraîcheur : le verdict n'est pas expiré (anti-rejeu d'un ancien « safe ») ;
  *   6. nonce conforme à la requête ;
- *   7. liaison du rapport : le hash signé `report_sha256` est présent dans la
- *      chaîne canonique (la capture et les raisons sont ainsi authentifiées).
+ *   7. liaison du rapport : le SHA-256 recalculé sur les octets reçus
+ *      (report_canonical) égale `report_sha256`, lui-même signé via la chaîne
+ *      canonique — la capture, la destination et les raisons sont authentifiées.
  */
 object VerdictVerifier {
 
@@ -72,12 +73,27 @@ object VerdictVerifier {
             if (!pqOk) return Outcome(false, "Signature ML-DSA-65 invalide.")
         }
 
-        // 7. Liaison du rapport : report_sha256 doit être présent et signé.
+        // 7. Liaison du rapport : le SHA-256 des OCTETS reçus (report_canonical)
+        //    doit égaler report_sha256, lui-même présent dans le canonique SIGNÉ.
+        //    Ainsi la destination finale, la chaîne de redirections, les raisons
+        //    ET la capture d'écran sont réellement authentifiées (pas seulement le
+        //    verdict/score). On hache les octets exacts, sans re-sérialisation.
         if (dto.reportSha256.isBlank()) {
             return Outcome(false, "Liaison du rapport absente (report_sha256).")
         }
+        val computed = sha256Hex(dto.reportCanonical.toByteArray(Charsets.UTF_8))
+        if (computed != dto.reportSha256) {
+            return Outcome(false, "Rapport altéré : empreinte non conforme à la signature.")
+        }
 
         return Outcome(true)
+    }
+
+    private fun sha256Hex(bytes: ByteArray): String {
+        val digest = MessageDigest.getInstance("SHA-256").digest(bytes)
+        val sb = StringBuilder(digest.size * 2)
+        for (b in digest) sb.append("%02x".format(b.toInt() and 0xff))
+        return sb.toString()
     }
 
     private fun canonicalMatches(dto: SignedVerdictDto): Boolean {

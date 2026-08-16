@@ -1,0 +1,98 @@
+{
+  "values": {
+    "create_history_title": "Codes créés",
+    "create_history_empty": "Aucun code créé pour le moment.",
+    "create_history_enabled": "Enregistrer les créations",
+    "create_history_hint": "Conservé chiffré sur cet appareil uniquement. Peut contenir des mots de passe Wi-Fi.",
+    "create_history_clear_body": "Tous les codes créés enregistrés seront supprimés. Action irréversible.",
+    "create_history_delete": "Supprimer"
+  },
+  "values-en": {
+    "create_history_title": "Created codes",
+    "create_history_empty": "No created codes yet.",
+    "create_history_enabled": "Save created codes",
+    "create_history_hint": "Kept encrypted on this device only. May contain Wi-Fi passwords.",
+    "create_history_clear_body": "All saved created codes will be deleted. This cannot be undone.",
+    "create_history_delete": "Delete"
+  },
+  "values-es": {
+    "create_history_title": "Códigos creados",
+    "create_history_empty": "Aún no hay códigos creados.",
+    "create_history_enabled": "Guardar creaciones",
+    "create_history_hint": "Se conserva cifrado solo en este dispositivo. Puede contener contraseñas Wi-Fi.",
+    "create_history_clear_body": "Se eliminarán todos los códigos creados guardados. Acción irreversible.",
+    "create_history_delete": "Eliminar"
+  },
+  "values-pt": {
+    "create_history_title": "Códigos criados",
+    "create_history_empty": "Ainda não há códigos criados.",
+    "create_history_enabled": "Guardar criações",
+    "create_history_hint": "Mantido cifrado apenas neste dispositivo. Pode conter palavras-passe Wi-Fi.",
+    "create_history_clear_body": "Todos os códigos criados guardados serão eliminados. Ação irreversível.",
+    "create_history_delete": "Eliminar"
+  },
+  "values-it": {
+    "create_history_title": "Codici creati",
+    "create_history_empty": "Nessun codice creato per ora.",
+    "create_history_enabled": "Salva le creazioni",
+    "create_history_hint": "Conservato cifrato solo su questo dispositivo. Può contenere password Wi-Fi.",
+    "create_history_clear_body": "Tutti i codici creati salvati saranno eliminati. Azione irreversibile.",
+    "create_history_delete": "Elimina"
+  },
+  "values-de": {
+    "create_history_title": "Erstellte Codes",
+    "create_history_empty": "Noch keine erstellten Codes.",
+    "create_history_enabled": "Erstellungen speichern",
+    "create_history_hint": "Nur auf diesem Gerät verschlüsselt gespeichert. Kann WLAN-Passwörter enthalten.",
+    "create_history_clear_body": "Alle gespeicherten erstellten Codes werden gelöscht. Nicht rückgängig machbar.",
+    "create_history_delete": "Löschen"
+  },
+  "values-ar": {
+    "create_history_title": "الرموز المُنشأة",
+    "create_history_empty": "لا توجد رموز مُنشأة بعد.",
+    "create_history_enabled": "حفظ الرموز المُنشأة",
+    "create_history_hint": "يُحفظ مشفّرًا على هذا الجهاز فقط. قد يحتوي على كلمات مرور Wi-Fi.",
+    "create_history_clear_body": "سيتم حذف جميع الرموز المُنشأة المحفوظة. لا يمكن التراجع.",
+    "create_history_delete": "حذف"
+  },
+  "values-tr": {
+    "create_history_title": "Oluşturulan kodlar",
+    "create_history_empty": "Henüz oluşturulmuş kod yok.",
+    "create_history_enabled": "Oluşturulanları kaydet",
+    "create_history_hint": "Yalnızca bu cihazda şifreli olarak saklanır. Wi-Fi parolaları içerebilir.",
+    "create_history_clear_body": "Kaydedilen tüm oluşturulmuş kodlar silinecek. Geri alınamaz.",
+    "create_history_delete": "Sil"
+  },
+  "values-hi": {
+    "create_history_title": "बनाए गए कोड",
+    "create_history_empty": "अभी तक कोई कोड नहीं बनाया गया।",
+    "create_history_enabled": "बनाए गए कोड सहेजें",
+    "create_history_hint": "केवल इस डिवाइस पर एन्क्रिप्टेड रखा जाता है। इसमें Wi-Fi पासवर्ड हो सकते हैं।",
+    "create_history_clear_body": "सभी सहेजे गए बनाए गए कोड हटा दिए जाएँगे। यह क्रिया अपरिवर्तनीय है।",
+    "create_history_delete": "हटाएँ"
+  },
+  "values-zh-rCN": {
+    "create_history_title": "已创建的代码",
+    "create_history_empty": "暂无已创建的代码。",
+    "create_history_enabled": "保存已创建的代码",
+    "create_history_hint": "仅在本设备上加密保存。可能包含 Wi-Fi 密码。",
+    "create_history_clear_body": "所有已保存的创建代码都将被删除。此操作不可撤销。",
+    "create_history_delete": "删除"
+  },
+  "values-ja": {
+    "create_history_title": "作成したコード",
+    "create_history_empty": "作成したコードはまだありません。",
+    "create_history_enabled": "作成したコードを保存",
+    "create_history_hint": "この端末にのみ暗号化して保存されます。Wi-Fi パスワードを含む場合があります。",
+    "create_history_clear_body": "保存済みの作成コードがすべて削除されます。元に戻せません。",
+    "create_history_delete": "削除"
+  },
+  "values-ru": {
+    "create_history_title": "Созданные коды",
+    "create_history_empty": "Пока нет созданных кодов.",
+    "create_history_enabled": "Сохранять созданные коды",
+    "create_history_hint": "Хранится в зашифрованном виде только на этом устройстве. Может содержать пароли Wi-Fi.",
+    "create_history_clear_body": "Все сохранённые созданные коды будут удалены. Действие необратимо.",
+    "create_history_delete": "Удалить"
+  }
+}

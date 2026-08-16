@@ -1,0 +1,50 @@
+{
+  "values": {
+    "tools_format_label": "Format",
+    "tools_format_incompatible": "Contenu incompatible avec ce format"
+  },
+  "values-en": {
+    "tools_format_label": "Format",
+    "tools_format_incompatible": "Content not compatible with this format"
+  },
+  "values-es": {
+    "tools_format_label": "Formato",
+    "tools_format_incompatible": "Contenido no compatible con este formato"
+  },
+  "values-pt": {
+    "tools_format_label": "Formato",
+    "tools_format_incompatible": "Conteúdo incompatível com este formato"
+  },
+  "values-it": {
+    "tools_format_label": "Formato",
+    "tools_format_incompatible": "Contenuto non compatibile con questo formato"
+  },
+  "values-de": {
+    "tools_format_label": "Format",
+    "tools_format_incompatible": "Inhalt mit diesem Format nicht kompatibel"
+  },
+  "values-ar": {
+    "tools_format_label": "التنسيق",
+    "tools_format_incompatible": "المحتوى غير متوافق مع هذا التنسيق"
+  },
+  "values-tr": {
+    "tools_format_label": "Biçim",
+    "tools_format_incompatible": "İçerik bu biçimle uyumlu değil"
+  },
+  "values-hi": {
+    "tools_format_label": "प्रारूप",
+    "tools_format_incompatible": "सामग्री इस प्रारूप के साथ असंगत है"
+  },
+  "values-zh-rCN": {
+    "tools_format_label": "格式",
+    "tools_format_incompatible": "内容与此格式不兼容"
+  },
+  "values-ja": {
+    "tools_format_label": "形式",
+    "tools_format_incompatible": "この形式に対応していない内容です"
+  },
+  "values-ru": {
+    "tools_format_label": "Формат",
+    "tools_format_incompatible": "Содержимое несовместимо с этим форматом"
+  }
+}

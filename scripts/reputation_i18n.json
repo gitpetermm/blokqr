@@ -1,0 +1,38 @@
+{
+  "values": {
+    "signal_malicious_reputation": "Réputation malveillante (%1$s)"
+  },
+  "values-en": {
+    "signal_malicious_reputation": "Malicious reputation (%1$s)"
+  },
+  "values-es": {
+    "signal_malicious_reputation": "Reputación maliciosa (%1$s)"
+  },
+  "values-de": {
+    "signal_malicious_reputation": "Bösartige Reputation (%1$s)"
+  },
+  "values-it": {
+    "signal_malicious_reputation": "Reputazione dannosa (%1$s)"
+  },
+  "values-pt": {
+    "signal_malicious_reputation": "Reputação maliciosa (%1$s)"
+  },
+  "values-ru": {
+    "signal_malicious_reputation": "Вредоносная репутация (%1$s)"
+  },
+  "values-tr": {
+    "signal_malicious_reputation": "Kötü amaçlı itibar (%1$s)"
+  },
+  "values-ar": {
+    "signal_malicious_reputation": "سمعة ضارة (%1$s)"
+  },
+  "values-hi": {
+    "signal_malicious_reputation": "दुर्भावनापूर्ण प्रतिष्ठा (%1$s)"
+  },
+  "values-ja": {
+    "signal_malicious_reputation": "悪意のある評価（%1$s）"
+  },
+  "values-zh-rCN": {
+    "signal_malicious_reputation": "恶意信誉（%1$s）"
+  }
+}

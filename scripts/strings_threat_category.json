@@ -1,0 +1,110 @@
+{
+  "values": {
+    "threat_cat_credential_phishing": "Hameçonnage de connexion",
+    "threat_cat_brand_impersonation": "Usurpation de marque",
+    "threat_cat_fake_payment": "Faux paiement",
+    "threat_cat_deceptive_redirect": "Redirection trompeuse",
+    "threat_cat_dangerous_target": "Cible dangereuse",
+    "threat_cat_suspicious_domain": "Domaine douteux",
+    "threat_cat_risky_wifi": "Wi-Fi à risque"
+  },
+  "values-en": {
+    "threat_cat_credential_phishing": "Login phishing",
+    "threat_cat_brand_impersonation": "Brand impersonation",
+    "threat_cat_fake_payment": "Fake payment",
+    "threat_cat_deceptive_redirect": "Deceptive redirect",
+    "threat_cat_dangerous_target": "Dangerous target",
+    "threat_cat_suspicious_domain": "Suspicious domain",
+    "threat_cat_risky_wifi": "Risky Wi-Fi"
+  },
+  "values-es": {
+    "threat_cat_credential_phishing": "Phishing de acceso",
+    "threat_cat_brand_impersonation": "Suplantación de marca",
+    "threat_cat_fake_payment": "Pago falso",
+    "threat_cat_deceptive_redirect": "Redirección engañosa",
+    "threat_cat_dangerous_target": "Destino peligroso",
+    "threat_cat_suspicious_domain": "Dominio sospechoso",
+    "threat_cat_risky_wifi": "Wi-Fi de riesgo"
+  },
+  "values-pt": {
+    "threat_cat_credential_phishing": "Phishing de acesso",
+    "threat_cat_brand_impersonation": "Falsificação de marca",
+    "threat_cat_fake_payment": "Pagamento falso",
+    "threat_cat_deceptive_redirect": "Redirecionamento enganoso",
+    "threat_cat_dangerous_target": "Destino perigoso",
+    "threat_cat_suspicious_domain": "Domínio suspeito",
+    "threat_cat_risky_wifi": "Wi-Fi de risco"
+  },
+  "values-it": {
+    "threat_cat_credential_phishing": "Phishing di accesso",
+    "threat_cat_brand_impersonation": "Furto d’identità di marca",
+    "threat_cat_fake_payment": "Pagamento falso",
+    "threat_cat_deceptive_redirect": "Reindirizzamento ingannevole",
+    "threat_cat_dangerous_target": "Destinazione pericolosa",
+    "threat_cat_suspicious_domain": "Dominio sospetto",
+    "threat_cat_risky_wifi": "Wi-Fi a rischio"
+  },
+  "values-de": {
+    "threat_cat_credential_phishing": "Login-Phishing",
+    "threat_cat_brand_impersonation": "Markenimitation",
+    "threat_cat_fake_payment": "Gefälschte Zahlung",
+    "threat_cat_deceptive_redirect": "Irreführende Weiterleitung",
+    "threat_cat_dangerous_target": "Gefährliches Ziel",
+    "threat_cat_suspicious_domain": "Verdächtige Domain",
+    "threat_cat_risky_wifi": "Riskantes WLAN"
+  },
+  "values-ar": {
+    "threat_cat_credential_phishing": "تصيّد تسجيل الدخول",
+    "threat_cat_brand_impersonation": "انتحال علامة تجارية",
+    "threat_cat_fake_payment": "دفع مزيّف",
+    "threat_cat_deceptive_redirect": "إعادة توجيه خادعة",
+    "threat_cat_dangerous_target": "وجهة خطيرة",
+    "threat_cat_suspicious_domain": "نطاق مشبوه",
+    "threat_cat_risky_wifi": "واي فاي محفوف بالمخاطر"
+  },
+  "values-tr": {
+    "threat_cat_credential_phishing": "Oturum kimlik avı",
+    "threat_cat_brand_impersonation": "Marka taklidi",
+    "threat_cat_fake_payment": "Sahte ödeme",
+    "threat_cat_deceptive_redirect": "Aldatıcı yönlendirme",
+    "threat_cat_dangerous_target": "Tehlikeli hedef",
+    "threat_cat_suspicious_domain": "Şüpheli alan adı",
+    "threat_cat_risky_wifi": "Riskli Wi-Fi"
+  },
+  "values-hi": {
+    "threat_cat_credential_phishing": "लॉगिन फ़िशिंग",
+    "threat_cat_brand_impersonation": "ब्रांड की नकल",
+    "threat_cat_fake_payment": "नकली भुगतान",
+    "threat_cat_deceptive_redirect": "भ्रामक रीडायरेक्ट",
+    "threat_cat_dangerous_target": "खतरनाक गंतव्य",
+    "threat_cat_suspicious_domain": "संदिग्ध डोमेन",
+    "threat_cat_risky_wifi": "जोखिम भरा Wi-Fi"
+  },
+  "values-zh-rCN": {
+    "threat_cat_credential_phishing": "登录钓鱼",
+    "threat_cat_brand_impersonation": "品牌仿冒",
+    "threat_cat_fake_payment": "虚假付款",
+    "threat_cat_deceptive_redirect": "欺骗性跳转",
+    "threat_cat_dangerous_target": "危险目标",
+    "threat_cat_suspicious_domain": "可疑域名",
+    "threat_cat_risky_wifi": "高风险 Wi-Fi"
+  },
+  "values-ja": {
+    "threat_cat_credential_phishing": "ログイン フィッシング",
+    "threat_cat_brand_impersonation": "ブランド偽装",
+    "threat_cat_fake_payment": "偽の支払い",
+    "threat_cat_deceptive_redirect": "欺瞞的なリダイレクト",
+    "threat_cat_dangerous_target": "危険な遷移先",
+    "threat_cat_suspicious_domain": "疑わしいドメイン",
+    "threat_cat_risky_wifi": "危険な Wi-Fi"
+  },
+  "values-ru": {
+    "threat_cat_credential_phishing": "Фишинг входа",
+    "threat_cat_brand_impersonation": "Подмена бренда",
+    "threat_cat_fake_payment": "Поддельная оплата",
+    "threat_cat_deceptive_redirect": "Обманная переадресация",
+    "threat_cat_dangerous_target": "Опасная цель",
+    "threat_cat_suspicious_domain": "Подозрительный домен",
+    "threat_cat_risky_wifi": "Небезопасный Wi-Fi"
+  }
+}

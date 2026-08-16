@@ -1,0 +1,38 @@
+{
+  "values": {
+    "about_guide_hint": "Nouveau sur BlokQR ? Consultez le guide pour bien démarrer."
+  },
+  "values-en": {
+    "about_guide_hint": "New to BlokQR? Check the guide to get started."
+  },
+  "values-es": {
+    "about_guide_hint": "¿Nuevo en BlokQR? Consulta la guía para empezar."
+  },
+  "values-pt": {
+    "about_guide_hint": "Novo no BlokQR? Consulte o guia para começar."
+  },
+  "values-it": {
+    "about_guide_hint": "Nuovo su BlokQR? Consulta la guida per iniziare."
+  },
+  "values-de": {
+    "about_guide_hint": "Neu bei BlokQR? Sieh dir das Handbuch für den Einstieg an."
+  },
+  "values-ar": {
+    "about_guide_hint": "جديد على BlokQR؟ اطّلع على الدليل للبدء."
+  },
+  "values-tr": {
+    "about_guide_hint": "BlokQR’da yeni misiniz? Başlamak için kılavuza bakın."
+  },
+  "values-hi": {
+    "about_guide_hint": "BlokQR पर नए हैं? शुरू करने के लिए गाइड देखें।"
+  },
+  "values-zh-rCN": {
+    "about_guide_hint": "初次使用 BlokQR？请查看指南以便快速上手。"
+  },
+  "values-ja": {
+    "about_guide_hint": "BlokQR は初めてですか？ガイドを見て始めましょう。"
+  },
+  "values-ru": {
+    "about_guide_hint": "Впервые в BlokQR? Загляните в руководство, чтобы начать."
+  }
+}

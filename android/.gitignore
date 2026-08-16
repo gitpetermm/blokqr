@@ -8,3 +8,7 @@ build/
 backend/keys/*.json
 backend/.env
 __pycache__/
+
+keystore.properties
+*.jks
+*.keystore

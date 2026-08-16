@@ -1,0 +1,8 @@
+keys/
+secrets/
+.env
+__pycache__/
+*.pyc
+data/
+*.save
+*.bak

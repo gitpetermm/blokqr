@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Chemins exposés par le FileProvider DÉDIÉ à la capture photo
+  (autorité "<applicationId>.camera.fileprovider").
+  On n'expose que le sous-dossier cache/images/ où sont écrites les captures
+  temporaires — rien d'autre n'est partageable.
+-->
+<paths>
+    <cache-path
+        name="camera_images"
+        path="images/" />
+</paths>

@@ -1,4 +1,42 @@
+keystore.properties
+*.keystore
+*.jks
+release.keystore
+local.properties
+.gradle/
+build/
+backend/keys/*.json
+backend/.env
+__pycache__/
+# --- Secrets (JAMAIS commites) ---
+API_KEYS.txt
+backend/secrets/
+backend/keys/
+*.env
+.env
+
+# --- IDE / outils ---
 .vs/
-.history/
-node_modules/
-*.log
+.idea/
+*.iml
+
+# --- Sauvegardes et residus ---
+_backup*/
+_icon_backup*/
+backups/
+*.bak
+*.bak_*
+*.bak-*
+*.legacy
+*.save
+*.orig
+
+# --- Build Android ---
+android/app/release/
+android/app/build/
+*.apk
+*.aab
+
+# --- Scripts temporaires racine ---
+add_trial_cta_strings.py
+android/add_pro_teaser_strings.py

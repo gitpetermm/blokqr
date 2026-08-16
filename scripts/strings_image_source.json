@@ -1,0 +1,62 @@
+{
+  "values": {
+    "image_source_title": "Depuis une image",
+    "image_source_gallery": "Depuis la galerie",
+    "image_source_camera": "Prendre une photo"
+  },
+  "values-en": {
+    "image_source_title": "From an image",
+    "image_source_gallery": "From gallery",
+    "image_source_camera": "Take a photo"
+  },
+  "values-es": {
+    "image_source_title": "Desde una imagen",
+    "image_source_gallery": "Desde la galería",
+    "image_source_camera": "Tomar una foto"
+  },
+  "values-pt": {
+    "image_source_title": "A partir de uma imagem",
+    "image_source_gallery": "Da galeria",
+    "image_source_camera": "Tirar uma foto"
+  },
+  "values-it": {
+    "image_source_title": "Da un’immagine",
+    "image_source_gallery": "Dalla galleria",
+    "image_source_camera": "Scatta una foto"
+  },
+  "values-de": {
+    "image_source_title": "Aus einem Bild",
+    "image_source_gallery": "Aus der Galerie",
+    "image_source_camera": "Foto aufnehmen"
+  },
+  "values-ar": {
+    "image_source_title": "من صورة",
+    "image_source_gallery": "من المعرض",
+    "image_source_camera": "التقاط صورة"
+  },
+  "values-tr": {
+    "image_source_title": "Bir görüntüden",
+    "image_source_gallery": "Galeriden",
+    "image_source_camera": "Fotoğraf çek"
+  },
+  "values-hi": {
+    "image_source_title": "छवि से",
+    "image_source_gallery": "गैलरी से",
+    "image_source_camera": "फ़ोटो लें"
+  },
+  "values-zh-rCN": {
+    "image_source_title": "从图片",
+    "image_source_gallery": "从相册",
+    "image_source_camera": "拍照"
+  },
+  "values-ja": {
+    "image_source_title": "画像から",
+    "image_source_gallery": "ギャラリーから",
+    "image_source_camera": "写真を撮る"
+  },
+  "values-ru": {
+    "image_source_title": "Из изображения",
+    "image_source_gallery": "Из галереи",
+    "image_source_camera": "Сделать фото"
+  }
+}

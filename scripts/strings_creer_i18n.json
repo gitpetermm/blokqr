@@ -1,0 +1,110 @@
+{
+  "values": {
+    "tools_colors_label": "Couleurs du code",
+    "tools_colors_modules": "Modules",
+    "tools_colors_background": "Fond",
+    "tools_colors_contrast_ok": "Contraste %1$s:1 - lisible",
+    "tools_colors_contrast_low": "Contraste %1$s:1 - trop faible",
+    "tools_colors_warning": "Choisissez des modules sombres sur un fond clair pour que le code reste lisible par les scanners.",
+    "tools_logo_add": "Ajouter le logo BlokQR"
+  },
+  "values-en": {
+    "tools_colors_label": "Code colours",
+    "tools_colors_modules": "Modules",
+    "tools_colors_background": "Background",
+    "tools_colors_contrast_ok": "Contrast %1$s:1 - readable",
+    "tools_colors_contrast_low": "Contrast %1$s:1 - too low",
+    "tools_colors_warning": "Use dark modules on a light background so the code stays scannable.",
+    "tools_logo_add": "Add the BlokQR logo"
+  },
+  "values-es": {
+    "tools_colors_label": "Colores del código",
+    "tools_colors_modules": "Módulos",
+    "tools_colors_background": "Fondo",
+    "tools_colors_contrast_ok": "Contraste %1$s:1 - legible",
+    "tools_colors_contrast_low": "Contraste %1$s:1 - demasiado bajo",
+    "tools_colors_warning": "Usa módulos oscuros sobre un fondo claro para que el código siga siendo escaneable.",
+    "tools_logo_add": "Añadir el logotipo de BlokQR"
+  },
+  "values-de": {
+    "tools_colors_label": "Farben des Codes",
+    "tools_colors_modules": "Module",
+    "tools_colors_background": "Hintergrund",
+    "tools_colors_contrast_ok": "Kontrast %1$s:1 - lesbar",
+    "tools_colors_contrast_low": "Kontrast %1$s:1 - zu gering",
+    "tools_colors_warning": "Verwende dunkle Module auf hellem Hintergrund, damit der Code lesbar bleibt.",
+    "tools_logo_add": "BlokQR-Logo hinzufügen"
+  },
+  "values-it": {
+    "tools_colors_label": "Colori del codice",
+    "tools_colors_modules": "Moduli",
+    "tools_colors_background": "Sfondo",
+    "tools_colors_contrast_ok": "Contrasto %1$s:1 - leggibile",
+    "tools_colors_contrast_low": "Contrasto %1$s:1 - troppo basso",
+    "tools_colors_warning": "Usa moduli scuri su uno sfondo chiaro affinché il codice resti scansionabile.",
+    "tools_logo_add": "Aggiungi il logo BlokQR"
+  },
+  "values-pt": {
+    "tools_colors_label": "Cores do código",
+    "tools_colors_modules": "Módulos",
+    "tools_colors_background": "Fundo",
+    "tools_colors_contrast_ok": "Contraste %1$s:1 - legível",
+    "tools_colors_contrast_low": "Contraste %1$s:1 - muito baixo",
+    "tools_colors_warning": "Use módulos escuros sobre um fundo claro para que o código continue legível pelos leitores.",
+    "tools_logo_add": "Adicionar o logótipo BlokQR"
+  },
+  "values-ru": {
+    "tools_colors_label": "Цвета кода",
+    "tools_colors_modules": "Модули",
+    "tools_colors_background": "Фон",
+    "tools_colors_contrast_ok": "Контраст %1$s:1 - читаемо",
+    "tools_colors_contrast_low": "Контраст %1$s:1 - слишком низкий",
+    "tools_colors_warning": "Используйте тёмные модули на светлом фоне, чтобы код оставался сканируемым.",
+    "tools_logo_add": "Добавить логотип BlokQR"
+  },
+  "values-tr": {
+    "tools_colors_label": "Kod renkleri",
+    "tools_colors_modules": "Modüller",
+    "tools_colors_background": "Arka plan",
+    "tools_colors_contrast_ok": "Kontrast %1$s:1 - okunabilir",
+    "tools_colors_contrast_low": "Kontrast %1$s:1 - çok düşük",
+    "tools_colors_warning": "Kodun taranabilir kalması için açık zemin üzerinde koyu modüller kullanın.",
+    "tools_logo_add": "BlokQR logosunu ekle"
+  },
+  "values-ar": {
+    "tools_colors_label": "ألوان الرمز",
+    "tools_colors_modules": "الوحدات",
+    "tools_colors_background": "الخلفية",
+    "tools_colors_contrast_ok": "التباين %1$s:1 - مقروء",
+    "tools_colors_contrast_low": "التباين %1$s:1 - منخفض جدًا",
+    "tools_colors_warning": "استخدم وحدات داكنة على خلفية فاتحة كي يبقى الرمز قابلاً للمسح.",
+    "tools_logo_add": "إضافة شعار BlokQR"
+  },
+  "values-hi": {
+    "tools_colors_label": "कोड के रंग",
+    "tools_colors_modules": "मॉड्यूल",
+    "tools_colors_background": "पृष्ठभूमि",
+    "tools_colors_contrast_ok": "कंट्रास्ट %1$s:1 - पठनीय",
+    "tools_colors_contrast_low": "कंट्रास्ट %1$s:1 - बहुत कम",
+    "tools_colors_warning": "कोड स्कैन योग्य बना रहे, इसके लिए हल्की पृष्ठभूमि पर गहरे मॉड्यूल चुनें।",
+    "tools_logo_add": "BlokQR लोगो जोड़ें"
+  },
+  "values-ja": {
+    "tools_colors_label": "コードの色",
+    "tools_colors_modules": "モジュール",
+    "tools_colors_background": "背景",
+    "tools_colors_contrast_ok": "コントラスト %1$s:1 - 読み取り可能",
+    "tools_colors_contrast_low": "コントラスト %1$s:1 - 低すぎます",
+    "tools_colors_warning": "コードが読み取れるよう、明るい背景に濃いモジュールを使用してください。",
+    "tools_logo_add": "BlokQR ロゴを追加"
+  },
+  "values-zh-rCN": {
+    "tools_colors_label": "二维码颜色",
+    "tools_colors_modules": "模块",
+    "tools_colors_background": "背景",
+    "tools_colors_contrast_ok": "对比度 %1$s:1 - 可读",
+    "tools_colors_contrast_low": "对比度 %1$s:1 - 过低",
+    "tools_colors_warning": "请在浅色背景上使用深色模块，以确保二维码可被扫描。",
+    "tools_logo_add": "添加 BlokQR 徽标"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "values": {
+    "result_deep_preview_offered": "Aperçu approfondi offert - 1/1 aujourd’hui",
+    "result_deep_preview_keep_title": "Gardez cette vue détaillée",
+    "result_deep_preview_keep_body": "Voici la vue approfondie offerte aujourd’hui : aperçu de la page, signaux détaillés et analyse renforcée. Passez à Pro pour en profiter à chaque scan."
+  },
+  "values-en": {
+    "result_deep_preview_offered": "Free in-depth preview - 1/1 today",
+    "result_deep_preview_keep_title": "Keep this detailed view",
+    "result_deep_preview_keep_body": "This is today’s free in-depth view: page preview, detailed signals and enhanced analysis. Go Pro to get it on every scan."
+  },
+  "values-es": {
+    "result_deep_preview_offered": "Vista detallada gratis - 1/1 hoy",
+    "result_deep_preview_keep_title": "Conserva esta vista detallada",
+    "result_deep_preview_keep_body": "Esta es la vista detallada gratuita de hoy: vista de la página, señales detalladas y análisis reforzado. Hazte Pro para tenerla en cada escaneo."
+  },
+  "values-pt": {
+    "result_deep_preview_offered": "Pré-visualização detalhada grátis - 1/1 hoje",
+    "result_deep_preview_keep_title": "Mantenha esta vista detalhada",
+    "result_deep_preview_keep_body": "Esta é a vista detalhada grátis de hoje: pré-visualização da página, sinais detalhados e análise reforçada. Torne-se Pro para a ter em cada leitura."
+  },
+  "values-it": {
+    "result_deep_preview_offered": "Anteprima approfondita offerta - 1/1 oggi",
+    "result_deep_preview_keep_title": "Mantieni questa vista dettagliata",
+    "result_deep_preview_keep_body": "Questa è la vista approfondita gratuita di oggi: anteprima della pagina, segnali dettagliati e analisi avanzata. Passa a Pro per averla a ogni scansione."
+  },
+  "values-de": {
+    "result_deep_preview_offered": "Kostenlose Detailansicht - 1/1 heute",
+    "result_deep_preview_keep_title": "Behalte diese Detailansicht",
+    "result_deep_preview_keep_body": "Das ist die heutige kostenlose Detailansicht: Seitenvorschau, detaillierte Signale und erweiterte Analyse. Hol dir Pro für jeden Scan."
+  },
+  "values-ar": {
+    "result_deep_preview_offered": "معاينة متعمّقة مجانية - 1/1 اليوم",
+    "result_deep_preview_keep_title": "احتفظ بهذا العرض المفصّل",
+    "result_deep_preview_keep_body": "هذا هو العرض المتعمّق المجاني اليوم: معاينة الصفحة وإشارات مفصّلة وتحليل معزّز. اشترك في Pro للحصول عليه في كل فحص."
+  },
+  "values-tr": {
+    "result_deep_preview_offered": "Ücretsiz ayrıntılı önizleme - bugün 1/1",
+    "result_deep_preview_keep_title": "Bu ayrıntılı görünümü koruyun",
+    "result_deep_preview_keep_body": "Bugünün ücretsiz ayrıntılı görünümü: sayfa önizlemesi, ayrıntılı sinyaller ve gelişmiş analiz. Her taramada elde etmek için Pro’ya geçin."
+  },
+  "values-hi": {
+    "result_deep_preview_offered": "मुफ़्त विस्तृत झलक - आज 1/1",
+    "result_deep_preview_keep_title": "यह विस्तृत दृश्य बनाए रखें",
+    "result_deep_preview_keep_body": "यह आज का मुफ़्त विस्तृत दृश्य है: पृष्ठ झलक, विस्तृत संकेत और उन्नत विश्लेषण। हर स्कैन पर पाने के लिए Pro लें।"
+  },
+  "values-zh-rCN": {
+    "result_deep_preview_offered": "免费深度预览 - 今日 1/1",
+    "result_deep_preview_keep_title": "保留此详细视图",
+    "result_deep_preview_keep_body": "这是今天的免费深度视图：页面预览、详细信号和增强分析。升级 Pro，每次扫描都能享有。"
+  },
+  "values-ja": {
+    "result_deep_preview_offered": "詳細プレビュー無料 - 本日 1/1",
+    "result_deep_preview_keep_title": "この詳細表示を使い続ける",
+    "result_deep_preview_keep_body": "本日無料の詳細ビューです。ページのプレビュー、詳細なシグナル、強化された分析。毎回のスキャンで使うには Pro へ。"
+  },
+  "values-ru": {
+    "result_deep_preview_offered": "Подробный обзор бесплатно - 1/1 сегодня",
+    "result_deep_preview_keep_title": "Сохраните этот подробный вид",
+    "result_deep_preview_keep_body": "Это сегодняшний бесплатный подробный вид: предпросмотр страницы, детальные сигналы и усиленный анализ. Оформите Pro, чтобы получать его при каждом сканировании."
+  }
+}

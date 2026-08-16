@@ -1,0 +1,38 @@
+{
+  "values": {
+    "history_type_product": "Produit"
+  },
+  "values-en": {
+    "history_type_product": "Product"
+  },
+  "values-es": {
+    "history_type_product": "Producto"
+  },
+  "values-pt": {
+    "history_type_product": "Produto"
+  },
+  "values-it": {
+    "history_type_product": "Prodotto"
+  },
+  "values-de": {
+    "history_type_product": "Produkt"
+  },
+  "values-ar": {
+    "history_type_product": "منتج"
+  },
+  "values-tr": {
+    "history_type_product": "Ürün"
+  },
+  "values-hi": {
+    "history_type_product": "उत्पाद"
+  },
+  "values-zh-rCN": {
+    "history_type_product": "产品"
+  },
+  "values-ja": {
+    "history_type_product": "商品"
+  },
+  "values-ru": {
+    "history_type_product": "Товар"
+  }
+}

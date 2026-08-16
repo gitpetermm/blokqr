@@ -1,0 +1,122 @@
+{
+  "values": {
+    "sandbox_download_title": "Télécharger ce fichier ?",
+    "sandbox_download_message": "%1$s — ce fichier provient d’un lien analysé. Ne le téléchargez que si vous avez confiance en sa source.",
+    "sandbox_download_confirm": "Télécharger",
+    "sandbox_download_cancel": "Annuler",
+    "sandbox_download_started": "Téléchargement : %1$s",
+    "sandbox_download_blocked": "Téléchargement bloqué (lien dangereux).",
+    "sandbox_download_denied": "Permission refusée : le fichier n’a pas pu être enregistré.",
+    "sandbox_download_error": "Échec du téléchargement."
+  },
+  "values-en": {
+    "sandbox_download_title": "Download this file?",
+    "sandbox_download_message": "%1$s — this file comes from an analyzed link. Only download it if you trust its source.",
+    "sandbox_download_confirm": "Download",
+    "sandbox_download_cancel": "Cancel",
+    "sandbox_download_started": "Downloading: %1$s",
+    "sandbox_download_blocked": "Download blocked (dangerous link).",
+    "sandbox_download_denied": "Permission denied: the file could not be saved.",
+    "sandbox_download_error": "Download failed."
+  },
+  "values-ar": {
+    "sandbox_download_title": "تنزيل هذا الملف؟",
+    "sandbox_download_message": "%1$s — هذا الملف من رابط تم تحليله. لا تقم بتنزيله إلا إذا كنت تثق بمصدره.",
+    "sandbox_download_confirm": "تنزيل",
+    "sandbox_download_cancel": "إلغاء",
+    "sandbox_download_started": "جارٍ التنزيل: %1$s",
+    "sandbox_download_blocked": "تم حظر التنزيل (رابط خطير).",
+    "sandbox_download_denied": "تم رفض الإذن: تعذّر حفظ الملف.",
+    "sandbox_download_error": "فشل التنزيل."
+  },
+  "values-de": {
+    "sandbox_download_title": "Diese Datei herunterladen?",
+    "sandbox_download_message": "%1$s – diese Datei stammt von einem analysierten Link. Laden Sie sie nur herunter, wenn Sie der Quelle vertrauen.",
+    "sandbox_download_confirm": "Herunterladen",
+    "sandbox_download_cancel": "Abbrechen",
+    "sandbox_download_started": "Wird heruntergeladen: %1$s",
+    "sandbox_download_blocked": "Download blockiert (gefährlicher Link).",
+    "sandbox_download_denied": "Berechtigung verweigert: Die Datei konnte nicht gespeichert werden.",
+    "sandbox_download_error": "Download fehlgeschlagen."
+  },
+  "values-es": {
+    "sandbox_download_title": "¿Descargar este archivo?",
+    "sandbox_download_message": "%1$s: este archivo proviene de un enlace analizado. Descárgalo solo si confías en su origen.",
+    "sandbox_download_confirm": "Descargar",
+    "sandbox_download_cancel": "Cancelar",
+    "sandbox_download_started": "Descargando: %1$s",
+    "sandbox_download_blocked": "Descarga bloqueada (enlace peligroso).",
+    "sandbox_download_denied": "Permiso denegado: no se pudo guardar el archivo.",
+    "sandbox_download_error": "Error al descargar."
+  },
+  "values-hi": {
+    "sandbox_download_title": "यह फ़ाइल डाउनलोड करें?",
+    "sandbox_download_message": "%1$s — यह फ़ाइल एक विश्लेषण किए गए लिंक से आई है। इसे केवल तभी डाउनलोड करें जब आपको इसके स्रोत पर भरोसा हो।",
+    "sandbox_download_confirm": "डाउनलोड करें",
+    "sandbox_download_cancel": "रद्द करें",
+    "sandbox_download_started": "डाउनलोड हो रहा है: %1$s",
+    "sandbox_download_blocked": "डाउनलोड अवरुद्ध (खतरनाक लिंक)।",
+    "sandbox_download_denied": "अनुमति अस्वीकृत: फ़ाइल सहेजी नहीं जा सकी।",
+    "sandbox_download_error": "डाउनलोड विफल।"
+  },
+  "values-it": {
+    "sandbox_download_title": "Scaricare questo file?",
+    "sandbox_download_message": "%1$s — questo file proviene da un link analizzato. Scaricalo solo se ti fidi della sua origine.",
+    "sandbox_download_confirm": "Scarica",
+    "sandbox_download_cancel": "Annulla",
+    "sandbox_download_started": "Download in corso: %1$s",
+    "sandbox_download_blocked": "Download bloccato (link pericoloso).",
+    "sandbox_download_denied": "Autorizzazione negata: impossibile salvare il file.",
+    "sandbox_download_error": "Download non riuscito."
+  },
+  "values-ja": {
+    "sandbox_download_title": "このファイルをダウンロードしますか？",
+    "sandbox_download_message": "%1$s — このファイルは解析済みのリンクから取得されています。提供元を信頼できる場合のみダウンロードしてください。",
+    "sandbox_download_confirm": "ダウンロード",
+    "sandbox_download_cancel": "キャンセル",
+    "sandbox_download_started": "ダウンロード中: %1$s",
+    "sandbox_download_blocked": "ダウンロードはブロックされました（危険なリンク）。",
+    "sandbox_download_denied": "権限が拒否されました: ファイルを保存できませんでした。",
+    "sandbox_download_error": "ダウンロードに失敗しました。"
+  },
+  "values-pt": {
+    "sandbox_download_title": "Baixar este arquivo?",
+    "sandbox_download_message": "%1$s — este arquivo vem de um link analisado. Baixe-o apenas se confiar na sua origem.",
+    "sandbox_download_confirm": "Baixar",
+    "sandbox_download_cancel": "Cancelar",
+    "sandbox_download_started": "Baixando: %1$s",
+    "sandbox_download_blocked": "Download bloqueado (link perigoso).",
+    "sandbox_download_denied": "Permissão negada: não foi possível salvar o arquivo.",
+    "sandbox_download_error": "Falha no download."
+  },
+  "values-ru": {
+    "sandbox_download_title": "Скачать этот файл?",
+    "sandbox_download_message": "%1$s — этот файл получен по проанализированной ссылке. Скачивайте его, только если доверяете источнику.",
+    "sandbox_download_confirm": "Скачать",
+    "sandbox_download_cancel": "Отмена",
+    "sandbox_download_started": "Скачивание: %1$s",
+    "sandbox_download_blocked": "Скачивание заблокировано (опасная ссылка).",
+    "sandbox_download_denied": "Разрешение отклонено: не удалось сохранить файл.",
+    "sandbox_download_error": "Ошибка скачивания."
+  },
+  "values-tr": {
+    "sandbox_download_title": "Bu dosya indirilsin mi?",
+    "sandbox_download_message": "%1$s — bu dosya analiz edilen bir bağlantıdan geliyor. Yalnızca kaynağına güveniyorsanız indirin.",
+    "sandbox_download_confirm": "İndir",
+    "sandbox_download_cancel": "İptal",
+    "sandbox_download_started": "İndiriliyor: %1$s",
+    "sandbox_download_blocked": "İndirme engellendi (tehlikeli bağlantı).",
+    "sandbox_download_denied": "İzin reddedildi: dosya kaydedilemedi.",
+    "sandbox_download_error": "İndirme başarısız."
+  },
+  "values-zh-rCN": {
+    "sandbox_download_title": "下载此文件？",
+    "sandbox_download_message": "%1$s — 此文件来自已分析的链接。仅在您信任其来源时才下载。",
+    "sandbox_download_confirm": "下载",
+    "sandbox_download_cancel": "取消",
+    "sandbox_download_started": "正在下载：%1$s",
+    "sandbox_download_blocked": "下载已阻止（危险链接）。",
+    "sandbox_download_denied": "权限被拒绝：无法保存文件。",
+    "sandbox_download_error": "下载失败。"
+  }
+}

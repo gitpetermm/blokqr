@@ -1,0 +1,86 @@
+{
+  "values": {
+    "provenance_info_note": "Code produit reconnu — à titre informatif, ce n’est pas une analyse de sécurité.",
+    "provenance_copy": "Copier",
+    "provenance_share": "Partager",
+    "provenance_copied": "Copié",
+    "provenance_issuer": "Organisation émettrice"
+  },
+  "values-en": {
+    "provenance_info_note": "Product code recognised — for information only, this is not a security check.",
+    "provenance_copy": "Copy",
+    "provenance_share": "Share",
+    "provenance_copied": "Copied",
+    "provenance_issuer": "Issuing organisation"
+  },
+  "values-es": {
+    "provenance_info_note": "Código de producto reconocido: solo informativo, no es un análisis de seguridad.",
+    "provenance_copy": "Copiar",
+    "provenance_share": "Compartir",
+    "provenance_copied": "Copiado",
+    "provenance_issuer": "Organización emisora"
+  },
+  "values-pt": {
+    "provenance_info_note": "Código de produto reconhecido — apenas informativo, não é uma análise de segurança.",
+    "provenance_copy": "Copiar",
+    "provenance_share": "Partilhar",
+    "provenance_copied": "Copiado",
+    "provenance_issuer": "Organização emissora"
+  },
+  "values-it": {
+    "provenance_info_note": "Codice prodotto riconosciuto — solo a titolo informativo, non è un’analisi di sicurezza.",
+    "provenance_copy": "Copia",
+    "provenance_share": "Condividi",
+    "provenance_copied": "Copiato",
+    "provenance_issuer": "Organizzazione emittente"
+  },
+  "values-de": {
+    "provenance_info_note": "Produktcode erkannt — nur zur Information, keine Sicherheitsprüfung.",
+    "provenance_copy": "Kopieren",
+    "provenance_share": "Teilen",
+    "provenance_copied": "Kopiert",
+    "provenance_issuer": "Ausstellende Organisation"
+  },
+  "values-ar": {
+    "provenance_info_note": "تم التعرف على رمز المنتج — لغرض المعلومات فقط، وليس تحليلًا أمنيًا.",
+    "provenance_copy": "نسخ",
+    "provenance_share": "مشاركة",
+    "provenance_copied": "تم النسخ",
+    "provenance_issuer": "المنظمة المُصدِرة"
+  },
+  "values-tr": {
+    "provenance_info_note": "Ürün kodu tanındı — yalnızca bilgi amaçlıdır, güvenlik analizi değildir.",
+    "provenance_copy": "Kopyala",
+    "provenance_share": "Paylaş",
+    "provenance_copied": "Kopyalandı",
+    "provenance_issuer": "Numarayı veren kuruluş"
+  },
+  "values-hi": {
+    "provenance_info_note": "उत्पाद कोड पहचाना गया — केवल जानकारी हेतु, यह सुरक्षा विश्लेषण नहीं है।",
+    "provenance_copy": "कॉपी करें",
+    "provenance_share": "साझा करें",
+    "provenance_copied": "कॉपी हो गया",
+    "provenance_issuer": "जारीकर्ता संगठन"
+  },
+  "values-zh-rCN": {
+    "provenance_info_note": "已识别产品代码——仅供参考，并非安全分析。",
+    "provenance_copy": "复制",
+    "provenance_share": "分享",
+    "provenance_copied": "已复制",
+    "provenance_issuer": "分配机构"
+  },
+  "values-ja": {
+    "provenance_info_note": "商品コードを認識しました — 参考情報であり、セキュリティ分析ではありません。",
+    "provenance_copy": "コピー",
+    "provenance_share": "共有",
+    "provenance_copied": "コピーしました",
+    "provenance_issuer": "発行組織"
+  },
+  "values-ru": {
+    "provenance_info_note": "Код товара распознан — только для сведения, это не анализ безопасности.",
+    "provenance_copy": "Копировать",
+    "provenance_share": "Поделиться",
+    "provenance_copied": "Скопировано",
+    "provenance_issuer": "Организация-эмитент"
+  }
+}

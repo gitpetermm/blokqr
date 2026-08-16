@@ -1,6 +1,15 @@
 <resources>
-    <style name="Theme.BlokQr" parent="android:Theme.Material.NoActionBar">
-        <item name="android:statusBarColor">#0B2545</item>
-        <item name="android:navigationBarColor">#0B2545</item>
+    <!-- Thème applicatif. Plus de statusBarColor / navigationBarColor en dur :
+         ces attributs s'appuient sur des API obsolètes sous Android 15 (edge-to-edge).
+         Les barres système sont désormais gérées par enableEdgeToEdge() dans
+         MainActivity et par le contrôleur d'insets dans BlokQrTheme (contraste des
+         icônes selon le thème). -->
+    <style name="Theme.BlokQr" parent="android:Theme.Material.NoActionBar" />
+
+    <!-- Thème de démarrage (Splash Screen API via core-splashscreen). -->
+    <style name="Theme.BlokQr.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FF0A111F</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.BlokQr</item>
     </style>
 </resources>

@@ -1,0 +1,16 @@
+# Reverse proxy TLS de BlokQR.
+# Caddy >= 2.10 (Go 1.24) active par défaut l'échange de clés hybride
+# post-quantique x25519mlkem768 : le canal TLS résiste déjà au « harvest-now,
+# decrypt-later », SANS dépendre d'OpenSSL système (Caddy utilise crypto/tls de Go).
+#
+# Remplacer le domaine. Caddy obtient et renouvelle le certificat automatiquement.
+api.blokqr.com {
+    encode gzip
+    header {
+        Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        -Server
+    }
+    # Le service écoute en interne ; Caddy y accède via le réseau Docker.
+    reverse_proxy blokqr:8000
+}

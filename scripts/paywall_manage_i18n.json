@@ -1,0 +1,14 @@
+{
+  "values":        { "paywall_manage_subscription": "Gérer mon abonnement" },
+  "values-en":     { "paywall_manage_subscription": "Manage my subscription" },
+  "values-es":     { "paywall_manage_subscription": "Gestionar mi suscripción" },
+  "values-de":     { "paywall_manage_subscription": "Abo verwalten" },
+  "values-it":     { "paywall_manage_subscription": "Gestisci abbonamento" },
+  "values-pt":     { "paywall_manage_subscription": "Gerir a subscrição" },
+  "values-ar":     { "paywall_manage_subscription": "إدارة اشتراكي" },
+  "values-hi":     { "paywall_manage_subscription": "मेरी सदस्यता प्रबंधित करें" },
+  "values-ja":     { "paywall_manage_subscription": "サブスクリプションを管理" },
+  "values-ru":     { "paywall_manage_subscription": "Управление подпиской" },
+  "values-tr":     { "paywall_manage_subscription": "Aboneliğimi yönet" },
+  "values-zh-rCN": { "paywall_manage_subscription": "管理我的订阅" }
+}

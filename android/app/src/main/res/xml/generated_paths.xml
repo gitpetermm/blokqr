@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Chemins exposés par le FileProvider DÉDIÉ aux codes générés
+  (autorité "<applicationId>.generated.fileprovider").
+  On n'expose que cache/shared/ où sont écrits les PNG à partager.
+-->
+<paths>
+    <cache-path
+        name="shared_codes"
+        path="shared/" />
+</paths>

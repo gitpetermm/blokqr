@@ -1,0 +1,14 @@
+{
+  "values": { "scan_multi_hint": "Plusieurs codes détectés — touchez celui à analyser" },
+  "values-en": { "scan_multi_hint": "Several codes detected — tap the one to analyze" },
+  "values-ar": { "scan_multi_hint": "تم اكتشاف عدة رموز — المس الرمز المراد تحليله" },
+  "values-de": { "scan_multi_hint": "Mehrere Codes erkannt — tippe den zu prüfenden an" },
+  "values-es": { "scan_multi_hint": "Varios códigos detectados — toca el que quieres analizar" },
+  "values-hi": { "scan_multi_hint": "कई कोड मिले — जिसे विश्लेषण करना है उसे टैप करें" },
+  "values-it": { "scan_multi_hint": "Più codici rilevati — tocca quello da analizzare" },
+  "values-ja": { "scan_multi_hint": "複数のコードを検出 — 分析する対象をタップ" },
+  "values-pt": { "scan_multi_hint": "Vários códigos detectados — toque no que deseja analisar" },
+  "values-ru": { "scan_multi_hint": "Обнаружено несколько кодов — коснитесь нужного для анализа" },
+  "values-tr": { "scan_multi_hint": "Birden fazla kod bulundu — analiz edileni dokunun" },
+  "values-zh-rCN": { "scan_multi_hint": "检测到多个码 — 轻触要分析的那个" }
+}

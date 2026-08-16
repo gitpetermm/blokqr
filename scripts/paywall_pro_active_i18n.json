@@ -1,0 +1,14 @@
+{
+  "values":        { "paywall_pro_active": "Ton abonnement BlokQR Pro est actif." },
+  "values-en":     { "paywall_pro_active": "Your BlokQR Pro subscription is active." },
+  "values-es":     { "paywall_pro_active": "Tu suscripción BlokQR Pro está activa." },
+  "values-de":     { "paywall_pro_active": "Dein BlokQR Pro-Abo ist aktiv." },
+  "values-it":     { "paywall_pro_active": "Il tuo abbonamento BlokQR Pro è attivo." },
+  "values-pt":     { "paywall_pro_active": "A tua subscrição BlokQR Pro está ativa." },
+  "values-ar":     { "paywall_pro_active": "اشتراك BlokQR Pro نشط." },
+  "values-hi":     { "paywall_pro_active": "आपकी BlokQR Pro सदस्यता सक्रिय है।" },
+  "values-ja":     { "paywall_pro_active": "BlokQR Pro のサブスクリプションは有効です。" },
+  "values-ru":     { "paywall_pro_active": "Ваша подписка BlokQR Pro активна." },
+  "values-tr":     { "paywall_pro_active": "BlokQR Pro aboneliğin etkin." },
+  "values-zh-rCN": { "paywall_pro_active": "你的 BlokQR Pro 订阅已激活。" }
+}

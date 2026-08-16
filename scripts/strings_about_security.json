@@ -1,0 +1,134 @@
+{
+  "values": {
+    "about_security_title": "Sécurité et confiance",
+    "about_security_intro": "La destination d’un lien est vérifiée avant toute ouverture, et le résultat est protégé contre la falsification.",
+    "about_security_more": "Sécurité en détail",
+    "about_security_less": "Réduire",
+    "about_security_point1": "Le lien n’est jamais ouvert sur votre téléphone : sa destination est analysée à distance.",
+    "about_security_point2": "Chaque résultat est signé par nos serveurs et vérifié sur votre appareil : impossible de le falsifier en chemin.",
+    "about_security_point3": "Les liens dangereux sont bloqués ; les liens douteux ne s’ouvrent que dans un navigateur isolé.",
+    "about_security_point4": "Une protection de base reste active même sans connexion.",
+    "about_security_point5": "Historiques chiffrés sur l’appareil, jamais transmis. Aucun compte, aucune publicité, aucun traceur."
+  },
+  "values-en": {
+    "about_security_title": "Security and trust",
+    "about_security_intro": "A link’s destination is checked before anything opens, and the result is protected against tampering.",
+    "about_security_more": "Security in detail",
+    "about_security_less": "Show less",
+    "about_security_point1": "The link is never opened on your phone: its destination is analysed remotely.",
+    "about_security_point2": "Every result is signed by our servers and verified on your device: it cannot be forged along the way.",
+    "about_security_point3": "Dangerous links are blocked; doubtful links only open in an isolated browser.",
+    "about_security_point4": "Basic protection stays active even without a connection.",
+    "about_security_point5": "Histories are encrypted on the device and never transmitted. No account, no ads, no trackers."
+  },
+  "values-es": {
+    "about_security_title": "Seguridad y confianza",
+    "about_security_intro": "El destino de un enlace se verifica antes de abrir nada, y el resultado está protegido contra falsificaciones.",
+    "about_security_more": "Seguridad en detalle",
+    "about_security_less": "Mostrar menos",
+    "about_security_point1": "El enlace nunca se abre en tu teléfono: su destino se analiza a distancia.",
+    "about_security_point2": "Cada resultado está firmado por nuestros servidores y se verifica en tu dispositivo: no puede falsificarse por el camino.",
+    "about_security_point3": "Los enlaces peligrosos se bloquean; los dudosos solo se abren en un navegador aislado.",
+    "about_security_point4": "Una protección básica sigue activa incluso sin conexión.",
+    "about_security_point5": "Los historiales se cifran en el dispositivo y nunca se transmiten. Sin cuenta, sin anuncios, sin rastreadores."
+  },
+  "values-pt": {
+    "about_security_title": "Segurança e confiança",
+    "about_security_intro": "O destino de uma ligação é verificado antes de abrir, e o resultado está protegido contra falsificação.",
+    "about_security_more": "Segurança em detalhe",
+    "about_security_less": "Mostrar menos",
+    "about_security_point1": "A ligação nunca é aberta no seu telefone: o destino é analisado à distância.",
+    "about_security_point2": "Cada resultado é assinado pelos nossos servidores e verificado no seu aparelho: não pode ser falsificado no caminho.",
+    "about_security_point3": "As ligações perigosas são bloqueadas; as duvidosas só abrem num navegador isolado.",
+    "about_security_point4": "Uma proteção básica continua ativa mesmo sem ligação.",
+    "about_security_point5": "Os históricos são cifrados no aparelho e nunca transmitidos. Sem conta, sem anúncios, sem rastreadores."
+  },
+  "values-it": {
+    "about_security_title": "Sicurezza e fiducia",
+    "about_security_intro": "La destinazione di un link viene verificata prima di aprire qualsiasi cosa, e il risultato è protetto dalle manomissioni.",
+    "about_security_more": "Sicurezza in dettaglio",
+    "about_security_less": "Mostra meno",
+    "about_security_point1": "Il link non viene mai aperto sul tuo telefono: la destinazione è analizzata a distanza.",
+    "about_security_point2": "Ogni risultato è firmato dai nostri server e verificato sul tuo dispositivo: non può essere falsificato lungo il percorso.",
+    "about_security_point3": "I link pericolosi vengono bloccati; quelli dubbi si aprono solo in un browser isolato.",
+    "about_security_point4": "Una protezione di base resta attiva anche senza connessione.",
+    "about_security_point5": "Le cronologie sono cifrate sul dispositivo e mai trasmesse. Nessun account, nessuna pubblicità, nessun tracker."
+  },
+  "values-de": {
+    "about_security_title": "Sicherheit und Vertrauen",
+    "about_security_intro": "Das Ziel eines Links wird vor dem Öffnen geprüft, und das Ergebnis ist gegen Fälschung geschützt.",
+    "about_security_more": "Sicherheit im Detail",
+    "about_security_less": "Weniger anzeigen",
+    "about_security_point1": "Der Link wird nie auf deinem Telefon geöffnet: sein Ziel wird aus der Ferne analysiert.",
+    "about_security_point2": "Jedes Ergebnis wird von unseren Servern signiert und auf deinem Gerät geprüft: unterwegs nicht fälschbar.",
+    "about_security_point3": "Gefährliche Links werden blockiert; zweifelhafte öffnen sich nur in einem isolierten Browser.",
+    "about_security_point4": "Ein Grundschutz bleibt auch ohne Verbindung aktiv.",
+    "about_security_point5": "Verläufe werden auf dem Gerät verschlüsselt und nie übertragen. Kein Konto, keine Werbung, keine Tracker."
+  },
+  "values-ar": {
+    "about_security_title": "الأمان والثقة",
+    "about_security_intro": "يتم التحقق من وجهة الرابط قبل فتح أي شيء، والنتيجة محمية من التزوير.",
+    "about_security_more": "الأمان بالتفصيل",
+    "about_security_less": "إظهار أقل",
+    "about_security_point1": "لا يُفتح الرابط أبدًا على هاتفك: تُحلَّل وجهته عن بُعد.",
+    "about_security_point2": "كل نتيجة موقَّعة من خوادمنا ويُتحقق منها على جهازك: لا يمكن تزويرها في الطريق.",
+    "about_security_point3": "تُحظر الروابط الخطيرة؛ ولا تُفتح الروابط المشكوك فيها إلا في متصفح معزول.",
+    "about_security_point4": "تبقى حماية أساسية فعّالة حتى بدون اتصال.",
+    "about_security_point5": "السجلات مشفّرة على الجهاز ولا تُرسل أبدًا. بلا حساب، بلا إعلانات، بلا متتبّعات."
+  },
+  "values-tr": {
+    "about_security_title": "Güvenlik ve güven",
+    "about_security_intro": "Bir bağlantının hedefi açılmadan önce denetlenir ve sonuç, sahteciliğe karşı korunur.",
+    "about_security_more": "Ayrıntılı güvenlik",
+    "about_security_less": "Daha az göster",
+    "about_security_point1": "Bağlantı asla telefonunuzda açılmaz: hedefi uzaktan analiz edilir.",
+    "about_security_point2": "Her sonuç sunucularımızca imzalanır ve cihazınızda doğrulanır: yolda sahtesi yapılamaz.",
+    "about_security_point3": "Tehlikeli bağlantılar engellenir; şüpheli olanlar yalnızca yalıtılmış bir tarayıcıda açılır.",
+    "about_security_point4": "Temel koruma, bağlantı olmadan da etkin kalır.",
+    "about_security_point5": "Geçmişler cihazda şifrelenir ve asla iletilmez. Hesap yok, reklam yok, izleyici yok."
+  },
+  "values-hi": {
+    "about_security_title": "सुरक्षा और भरोसा",
+    "about_security_intro": "किसी लिंक का गंतव्य खोलने से पहले जाँचा जाता है, और परिणाम जालसाज़ी से सुरक्षित रहता है।",
+    "about_security_more": "सुरक्षा विस्तार से",
+    "about_security_less": "कम दिखाएँ",
+    "about_security_point1": "लिंक कभी आपके फ़ोन पर नहीं खुलता: उसका गंतव्य दूर से जाँचा जाता है।",
+    "about_security_point2": "हर परिणाम हमारे सर्वर द्वारा हस्ताक्षरित और आपके डिवाइस पर सत्यापित होता है: रास्ते में जालसाज़ी असंभव।",
+    "about_security_point3": "खतरनाक लिंक अवरुद्ध होते हैं; संदिग्ध लिंक केवल पृथक ब्राउज़र में खुलते हैं।",
+    "about_security_point4": "बिना इंटरनेट के भी बुनियादी सुरक्षा सक्रिय रहती है।",
+    "about_security_point5": "इतिहास डिवाइस पर एन्क्रिप्टेड रहते हैं, कभी नहीं भेजे जाते। न खाता, न विज्ञापन, न ट्रैकर।"
+  },
+  "values-zh-rCN": {
+    "about_security_title": "安全与信任",
+    "about_security_intro": "链接的目的地会在打开前经过核验，结果受到防篡改保护。",
+    "about_security_more": "安全详情",
+    "about_security_less": "收起",
+    "about_security_point1": "链接绝不会在您的手机上打开：其目的地在远端进行分析。",
+    "about_security_point2": "每个结果都由我们的服务器签名并在您的设备上验证：途中无法伪造。",
+    "about_security_point3": "危险链接会被拦截；可疑链接只能在隔离浏览器中打开。",
+    "about_security_point4": "即使没有网络，基础防护也保持有效。",
+    "about_security_point5": "历史记录在设备上加密，绝不传输。无账户、无广告、无跟踪器。"
+  },
+  "values-ja": {
+    "about_security_title": "安全と信頼",
+    "about_security_intro": "リンク先は開く前に検証され、その結果は改ざんから保護されます。",
+    "about_security_more": "セキュリティの詳細",
+    "about_security_less": "閉じる",
+    "about_security_point1": "リンクは端末上で開かれることはなく、リンク先は遠隔で解析されます。",
+    "about_security_point2": "すべての結果はサーバーが署名し、端末上で検証されます。途中で偽造することはできません。",
+    "about_security_point3": "危険なリンクはブロックされ、疑わしいリンクは隔離ブラウザーでのみ開きます。",
+    "about_security_point4": "接続がなくても基本的な保護は有効なままです。",
+    "about_security_point5": "履歴は端末上で暗号化され、送信されることはありません。アカウント・広告・トラッカーなし。"
+  },
+  "values-ru": {
+    "about_security_title": "Безопасность и доверие",
+    "about_security_intro": "Куда ведёт ссылка, проверяется до открытия, а результат защищён от подделки.",
+    "about_security_more": "Подробнее о безопасности",
+    "about_security_less": "Свернуть",
+    "about_security_point1": "Ссылка никогда не открывается на вашем телефоне: её назначение анализируется удалённо.",
+    "about_security_point2": "Каждый результат подписан нашими серверами и проверяется на вашем устройстве: подделать его по пути невозможно.",
+    "about_security_point3": "Опасные ссылки блокируются; сомнительные открываются только в изолированном браузере.",
+    "about_security_point4": "Базовая защита работает даже без подключения.",
+    "about_security_point5": "Истории шифруются на устройстве и никогда не передаются. Без аккаунта, рекламы и трекеров."
+  }
+}

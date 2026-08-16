@@ -1,0 +1,51 @@
+# BlokQR — service d'analyse (API).
+# Exposé UNIQUEMENT sur 127.0.0.1 : un reverse proxy (Caddy/nginx) assure le TLS
+# et l'exposition publique. Voir docker-compose.caddy.yml pour un serveur dédié.
+services:
+  blokqr:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    image: blokqr:3.0.0
+    container_name: blokqr
+    restart: unless-stopped
+    env_file:
+      - ../backend/.env
+    # N'écoute que sur la boucle locale de l'hôte (jamais directement sur Internet).
+    ports:
+      - "127.0.0.1:8000:8000"
+    # Racine de confiance SLH-DSA pré-générée, montée en LECTURE SEULE.
+    volumes:
+      - ../backend/keys:/app/keys
+    networks:
+      - blokqr-net
+    # --- Durcissement du conteneur (Security by Design) ---
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /dev/shm:size=512m       # Chromium a besoin de /dev/shm
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    # Le service sort vers Internet (résolution d'URL) mais NE DOIT PAS atteindre
+    # le réseau interne : compléter par des règles egress (voir guide §9).
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2g
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health').status==200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  blokqr-net:
+    driver: bridge

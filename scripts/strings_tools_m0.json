@@ -1,0 +1,50 @@
+{
+  "values": {
+    "tools_preview_desc": "Aperçu du code généré",
+    "tools_preview_empty": "Renseignez le contenu pour générer le code."
+  },
+  "values-en": {
+    "tools_preview_desc": "Preview of the generated code",
+    "tools_preview_empty": "Enter the content to generate the code."
+  },
+  "values-es": {
+    "tools_preview_desc": "Vista previa del código generado",
+    "tools_preview_empty": "Introduce el contenido para generar el código."
+  },
+  "values-pt": {
+    "tools_preview_desc": "Pré-visualização do código gerado",
+    "tools_preview_empty": "Introduza o conteúdo para gerar o código."
+  },
+  "values-it": {
+    "tools_preview_desc": "Anteprima del codice generato",
+    "tools_preview_empty": "Inserisci il contenuto per generare il codice."
+  },
+  "values-de": {
+    "tools_preview_desc": "Vorschau des generierten Codes",
+    "tools_preview_empty": "Gib den Inhalt ein, um den Code zu erzeugen."
+  },
+  "values-ar": {
+    "tools_preview_desc": "معاينة الرمز المُنشأ",
+    "tools_preview_empty": "أدخل المحتوى لإنشاء الرمز."
+  },
+  "values-tr": {
+    "tools_preview_desc": "Oluşturulan kodun önizlemesi",
+    "tools_preview_empty": "Kodu oluşturmak için içeriği girin."
+  },
+  "values-hi": {
+    "tools_preview_desc": "जनरेट किए गए कोड का पूर्वावलोकन",
+    "tools_preview_empty": "कोड जनरेट करने के लिए सामग्री दर्ज करें।"
+  },
+  "values-zh-rCN": {
+    "tools_preview_desc": "生成代码的预览",
+    "tools_preview_empty": "输入内容以生成代码。"
+  },
+  "values-ja": {
+    "tools_preview_desc": "生成されたコードのプレビュー",
+    "tools_preview_empty": "コードを生成するには内容を入力してください。"
+  },
+  "values-ru": {
+    "tools_preview_desc": "Предпросмотр созданного кода",
+    "tools_preview_empty": "Введите содержимое, чтобы создать код."
+  }
+}

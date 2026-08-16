@@ -1,0 +1,38 @@
+{
+  "values": {
+    "about_user_guide_open": "Ouvrir le guide"
+  },
+  "values-en": {
+    "about_user_guide_open": "Open the guide"
+  },
+  "values-es": {
+    "about_user_guide_open": "Abrir la guía"
+  },
+  "values-de": {
+    "about_user_guide_open": "Handbuch öffnen"
+  },
+  "values-it": {
+    "about_user_guide_open": "Apri la guida"
+  },
+  "values-pt": {
+    "about_user_guide_open": "Abrir o guia"
+  },
+  "values-ru": {
+    "about_user_guide_open": "Открыть руководство"
+  },
+  "values-tr": {
+    "about_user_guide_open": "Kılavuzu aç"
+  },
+  "values-ar": {
+    "about_user_guide_open": "افتح الدليل"
+  },
+  "values-hi": {
+    "about_user_guide_open": "गाइड खोलें"
+  },
+  "values-ja": {
+    "about_user_guide_open": "ガイドを開く"
+  },
+  "values-zh-rCN": {
+    "about_user_guide_open": "打开指南"
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Raccourcis statiques (appui long sur l'icône de l'app) : Scanner / Créer.
+  Chaque intent est EXPLICITE (targetPackage/targetClass) et porte une action
+  personnalisée que MainActivity lit pour ouvrir le bon onglet.
+  Placement : app/src/main/res/xml/shortcuts.xml
+-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="scan"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_scan_short"
+        android:shortcutLongLabel="@string/shortcut_scan_long">
+        <intent
+            android:action="com.blokqr.app.action.SHORTCUT_SCAN"
+            android:targetPackage="com.blokqr.app"
+            android:targetClass="com.blokqr.app.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="create"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_create_short"
+        android:shortcutLongLabel="@string/shortcut_create_long">
+        <intent
+            android:action="com.blokqr.app.action.SHORTCUT_CREATE"
+            android:targetPackage="com.blokqr.app"
+            android:targetClass="com.blokqr.app.MainActivity" />
+    </shortcut>
+</shortcuts>

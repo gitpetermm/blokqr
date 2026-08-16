@@ -1,0 +1,50 @@
+{
+  "values": {
+    "report_email_subject": "Signalement d\\'un lien malveillant — BlokQR",
+    "report_email_intro": "Je signale ce lien comme malveillant (détecté par BlokQR) :"
+  },
+  "values-en": {
+    "report_email_subject": "Reporting a malicious link — BlokQR",
+    "report_email_intro": "I\\'m reporting this link as malicious (detected by BlokQR):"
+  },
+  "values-es": {
+    "report_email_subject": "Reporte de un enlace malicioso — BlokQR",
+    "report_email_intro": "Reporto este enlace como malicioso (detectado por BlokQR):"
+  },
+  "values-de": {
+    "report_email_subject": "Meldung eines schädlichen Links — BlokQR",
+    "report_email_intro": "Ich melde diesen Link als schädlich (von BlokQR erkannt):"
+  },
+  "values-it": {
+    "report_email_subject": "Segnalazione di un link dannoso — BlokQR",
+    "report_email_intro": "Segnalo questo link come dannoso (rilevato da BlokQR):"
+  },
+  "values-pt": {
+    "report_email_subject": "Denúncia de um link malicioso — BlokQR",
+    "report_email_intro": "Estou denunciando este link como malicioso (detectado pelo BlokQR):"
+  },
+  "values-ru": {
+    "report_email_subject": "Сообщение о вредоносной ссылке — BlokQR",
+    "report_email_intro": "Сообщаю, что эта ссылка вредоносная (обнаружено BlokQR):"
+  },
+  "values-tr": {
+    "report_email_subject": "Kötü amaçlı bağlantı bildirimi — BlokQR",
+    "report_email_intro": "Bu bağlantıyı kötü amaçlı olarak bildiriyorum (BlokQR tarafından tespit edildi):"
+  },
+  "values-ar": {
+    "report_email_subject": "الإبلاغ عن رابط ضار — BlokQR",
+    "report_email_intro": "أبلغ عن هذا الرابط بصفته ضارًا (تم اكتشافه بواسطة BlokQR):"
+  },
+  "values-hi": {
+    "report_email_subject": "एक दुर्भावनापूर्ण लिंक की रिपोर्ट — BlokQR",
+    "report_email_intro": "मैं इस लिंक को दुर्भावनापूर्ण के रूप में रिपोर्ट कर रहा/रही हूँ (BlokQR द्वारा पता लगाया गया):"
+  },
+  "values-ja": {
+    "report_email_subject": "悪意のあるリンクの報告 — BlokQR",
+    "report_email_intro": "このリンクを悪質なものとして報告します（BlokQR が検出）："
+  },
+  "values-zh-rCN": {
+    "report_email_subject": "举报恶意链接 — BlokQR",
+    "report_email_intro": "我举报此链接为恶意链接（由 BlokQR 检测）："
+  }
+}

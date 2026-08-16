@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dossier public « Téléchargements » : nécessaire pour ouvrir un blob
+         enregistré sur Android 9 et moins (content:// via FileProvider). -->
+    <external-path name="public_downloads" path="Download/" />
+    <!-- Cache interne : cartes de verdict partagées (image PNG). Écrites dans
+         cacheDir/shared/, exposées en content:// pour ACTION_SEND image/png.
+         Reste privé à l'app ; nettoyable par le système. -->
+    <cache-path name="shared_images" path="shared/" />
+</paths>

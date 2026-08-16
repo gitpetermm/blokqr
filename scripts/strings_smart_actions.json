@@ -1,0 +1,110 @@
+{
+  "values": {
+    "smart_open_maps": "Ouvrir dans Maps",
+    "smart_call": "Appeler",
+    "smart_sms": "Envoyer un SMS",
+    "smart_email": "Écrire un e-mail",
+    "smart_add_contact": "Ajouter le contact",
+    "smart_add_event": "Ajouter à l’agenda",
+    "smart_join_meeting": "Rejoindre la réunion"
+  },
+  "values-en": {
+    "smart_open_maps": "Open in Maps",
+    "smart_call": "Call",
+    "smart_sms": "Send SMS",
+    "smart_email": "Send email",
+    "smart_add_contact": "Add contact",
+    "smart_add_event": "Add to calendar",
+    "smart_join_meeting": "Join meeting"
+  },
+  "values-es": {
+    "smart_open_maps": "Abrir en Maps",
+    "smart_call": "Llamar",
+    "smart_sms": "Enviar SMS",
+    "smart_email": "Escribir correo",
+    "smart_add_contact": "Añadir contacto",
+    "smart_add_event": "Añadir al calendario",
+    "smart_join_meeting": "Unirse a la reunión"
+  },
+  "values-pt": {
+    "smart_open_maps": "Abrir no Maps",
+    "smart_call": "Ligar",
+    "smart_sms": "Enviar SMS",
+    "smart_email": "Escrever e-mail",
+    "smart_add_contact": "Adicionar contacto",
+    "smart_add_event": "Adicionar à agenda",
+    "smart_join_meeting": "Entrar na reunião"
+  },
+  "values-it": {
+    "smart_open_maps": "Apri in Maps",
+    "smart_call": "Chiama",
+    "smart_sms": "Invia SMS",
+    "smart_email": "Scrivi e-mail",
+    "smart_add_contact": "Aggiungi contatto",
+    "smart_add_event": "Aggiungi al calendario",
+    "smart_join_meeting": "Partecipa alla riunione"
+  },
+  "values-de": {
+    "smart_open_maps": "In Maps öffnen",
+    "smart_call": "Anrufen",
+    "smart_sms": "SMS senden",
+    "smart_email": "E-Mail schreiben",
+    "smart_add_contact": "Kontakt hinzufügen",
+    "smart_add_event": "Zum Kalender hinzufügen",
+    "smart_join_meeting": "An Besprechung teilnehmen"
+  },
+  "values-ar": {
+    "smart_open_maps": "فتح في الخرائط",
+    "smart_call": "اتصال",
+    "smart_sms": "إرسال رسالة",
+    "smart_email": "إرسال بريد",
+    "smart_add_contact": "إضافة جهة اتصال",
+    "smart_add_event": "إضافة إلى التقويم",
+    "smart_join_meeting": "الانضمام إلى الاجتماع"
+  },
+  "values-tr": {
+    "smart_open_maps": "Haritalar’ta aç",
+    "smart_call": "Ara",
+    "smart_sms": "SMS gönder",
+    "smart_email": "E-posta gönder",
+    "smart_add_contact": "Kişi ekle",
+    "smart_add_event": "Takvime ekle",
+    "smart_join_meeting": "Toplantıya katıl"
+  },
+  "values-hi": {
+    "smart_open_maps": "मैप्स में खोलें",
+    "smart_call": "कॉल करें",
+    "smart_sms": "एसएमएस भेजें",
+    "smart_email": "ईमेल भेजें",
+    "smart_add_contact": "संपर्क जोड़ें",
+    "smart_add_event": "कैलेंडर में जोड़ें",
+    "smart_join_meeting": "मीटिंग में शामिल हों"
+  },
+  "values-zh-rCN": {
+    "smart_open_maps": "在地图中打开",
+    "smart_call": "拨打电话",
+    "smart_sms": "发送短信",
+    "smart_email": "写邮件",
+    "smart_add_contact": "添加联系人",
+    "smart_add_event": "添加到日历",
+    "smart_join_meeting": "加入会议"
+  },
+  "values-ja": {
+    "smart_open_maps": "マップで開く",
+    "smart_call": "電話をかける",
+    "smart_sms": "SMS を送信",
+    "smart_email": "メールを書く",
+    "smart_add_contact": "連絡先を追加",
+    "smart_add_event": "カレンダーに追加",
+    "smart_join_meeting": "会議に参加"
+  },
+  "values-ru": {
+    "smart_open_maps": "Открыть в Картах",
+    "smart_call": "Позвонить",
+    "smart_sms": "Отправить SMS",
+    "smart_email": "Написать письмо",
+    "smart_add_contact": "Добавить контакт",
+    "smart_add_event": "Добавить в календарь",
+    "smart_join_meeting": "Присоединиться к встрече"
+  }
+}
