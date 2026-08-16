@@ -9,6 +9,8 @@ services:
     image: blokqr:3.0.0
     container_name: blokqr
     restart: unless-stopped
+    # RTDN_PUSH_SECRET et play_service_account_path sont définis dans
+    # ../backend/.env. env_file n'accepte QUE des chemins de fichiers.
     env_file:
       - ../backend/.env
     # N'écoute que sur la boucle locale de l'hôte (jamais directement sur Internet).
@@ -16,9 +18,20 @@ services:
       - "127.0.0.1:8000:8000"
     # Racine de confiance SLH-DSA pré-générée, montée en LECTURE SEULE.
     volumes:
+      - /opt/blokqr/resolv.conf:/etc/resolv.conf:ro
       - ../backend/keys:/app/keys
+      - ../backend/data:/app/data:ro
+      # Compte de service Google Play (verify_subscription /verify + RTDN),
+      # lecture seule. Le chemin DANS le conteneur = valeur de
+      # settings.play_service_account_path (voir .env).
+      - ../backend/secrets:/app/secrets:ro
     networks:
       - blokqr-net
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    extra_hosts:
+      - "redis:172.18.0.2"
     # --- Durcissement du conteneur (Security by Design) ---
     read_only: true
     tmpfs:
@@ -45,7 +58,27 @@ services:
       interval: 30s
       timeout: 5s
       retries: 3
-
+    runtime: runsc
+  redis:
+    image: redis:7-alpine
+    container_name: blokqr-redis
+    # Persistance activee (AOF + snapshots RDB) : les installs, le statut Pro et
+    # les quotas survivent a un redemarrage du conteneur. Le volume /data est
+    # persistant (volume Docker). appendfsync everysec = bon compromis
+    # durabilite/performance (perte max ~1s en cas de crash brutal).
+    # Politique memoire volatile-lru : n'evince QUE les cles a TTL (nonces,
+    # quotas, cache), jamais les cles critiques sans TTL (devkey:, pro:).
+    command: ["redis-server",
+              "--appendonly", "yes",
+              "--appendfsync", "everysec",
+              "--save", "900 1 300 10 60 10000",
+              "--maxmemory", "512mb", "--maxmemory-policy", "volatile-lru"]
+    networks:
+      - blokqr-net
+    restart: unless-stopped
+#    dns:
+#      - 1.1.1.1
+#      - 8.8.8.8
 networks:
   blokqr-net:
     driver: bridge
