@@ -32,6 +32,7 @@ services:
       - 8.8.8.8
     extra_hosts:
       - "redis:172.18.0.2"
+      - "postgres:172.18.0.4"    # PostgreSQL (DNS custom ne resout pas les noms Docker, cf. redis)
     # --- Durcissement du conteneur (Security by Design) ---
     read_only: true
     tmpfs:
