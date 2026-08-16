@@ -1,84 +1,100 @@
-# BlokQR — service d'analyse (API).
-# Exposé UNIQUEMENT sur 127.0.0.1 : un reverse proxy (Caddy/nginx) assure le TLS
-# et l'exposition publique. Voir docker-compose.caddy.yml pour un serveur dédié.
 services:
-  blokqr:
-    build:
-      context: ../backend
-      dockerfile: Dockerfile
-    image: blokqr:3.0.0
-    container_name: blokqr
+  db:
+    image: postgres:16-alpine
     restart: unless-stopped
-    # RTDN_PUSH_SECRET et play_service_account_path sont définis dans
-    # ../backend/.env. env_file n'accepte QUE des chemins de fichiers.
-    env_file:
-      - ../backend/.env
-    # N'écoute que sur la boucle locale de l'hôte (jamais directement sur Internet).
-    ports:
-      - "127.0.0.1:8000:8000"
-    # Racine de confiance SLH-DSA pré-générée, montée en LECTURE SEULE.
+    environment:
+      POSTGRES_USER: blokpass
+      # Mot de passe fort, lu depuis le fichier .env (jamais de valeur en dur).
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?definir POSTGRES_PASSWORD dans backend/.env}
+      POSTGRES_DB: blokpass
     volumes:
-      - /opt/blokqr/resolv.conf:/etc/resolv.conf:ro
-      - ../backend/keys:/app/keys
-      - ../backend/data:/app/data:ro
-      # Compte de service Google Play (verify_subscription /verify + RTDN),
-      # lecture seule. Le chemin DANS le conteneur = valeur de
-      # settings.play_service_account_path (voir .env).
-      - ../backend/secrets:/app/secrets:ro
-    networks:
-      - blokqr-net
-    dns:
-      - 1.1.1.1
-      - 8.8.8.8
-    extra_hosts:
-      - "redis:172.18.0.2"
-    # --- Durcissement du conteneur (Security by Design) ---
-    read_only: true
-    tmpfs:
-      - /tmp
-      - /dev/shm:size=512m       # Chromium a besoin de /dev/shm
-    cap_drop:
-      - ALL
-    security_opt:
-      - no-new-privileges:true
-    # Le service sort vers Internet (résolution d'URL) mais NE DOIT PAS atteindre
-    # le réseau interne : compléter par des règles egress (voir guide §9).
-    deploy:
-      resources:
-        limits:
-          cpus: "2.0"
-          memory: 2g
-    logging:
-      driver: json-file
-      options:
-        max-size: "10m"
-        max-file: "5"
+      - blokpass_db:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health').status==200 else 1)"]
-      interval: 30s
+      test: ["CMD-SHELL", "pg_isready -U blokpass"]
+      interval: 5s
       timeout: 5s
-      retries: 3
-    runtime: runsc
-  redis:
-    image: redis:7-alpine
-    container_name: blokqr-redis
-    # Persistance activee (AOF + snapshots RDB) : les installs, le statut Pro et
-    # les quotas survivent a un redemarrage du conteneur. Le volume /data est
-    # persistant (volume Docker). appendfsync everysec = bon compromis
-    # durabilite/performance (perte max ~1s en cas de crash brutal).
-    # Politique memoire volatile-lru : n'evince QUE les cles a TTL (nonces,
-    # quotas, cache), jamais les cles critiques sans TTL (devkey:, pro:).
-    command: ["redis-server",
-              "--appendonly", "yes",
-              "--appendfsync", "everysec",
-              "--save", "900 1 300 10 60 10000",
-              "--maxmemory", "512mb", "--maxmemory-policy", "volatile-lru"]
-    networks:
-      - blokqr-net
+      retries: 5
+
+  # Stockage objet interne (pieces jointes chiffrees). Non expose a l'exterieur.
+  minio:
+    image: minio/minio:latest
     restart: unless-stopped
-#    dns:
-#      - 1.1.1.1
-#      - 8.8.8.8
-networks:
-  blokqr-net:
-    driver: bridge
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY:?definir S3_ACCESS_KEY dans backend/.env}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY:?definir S3_SECRET_KEY dans backend/.env}
+    volumes:
+      - blokpass_minio:/data
+    # Aucun port publie : MinIO n'est accessible que par les autres conteneurs.
+
+  # Creation du bucket au demarrage (idempotent), puis sortie.
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_started
+    environment:
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:?definir S3_ACCESS_KEY dans backend/.env}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:?definir S3_SECRET_KEY dans backend/.env}
+      # Authentification OPAQUE (aPAKE) : base64 du ServerSetup.
+      # Optionnelle : si absente, les routes OPAQUE sont indisponibles et le
+      # serveur demarre normalement (mode herite).
+      OPAQUE_SERVER_SETUP: ${OPAQUE_SERVER_SETUP:-}
+      S3_BUCKET: ${S3_BUCKET:-blokpass-attachments}
+    entrypoint: >
+      /bin/sh -c "
+      until mc alias set local http://minio:9000 $$S3_ACCESS_KEY $$S3_SECRET_KEY; do echo 'attente de MinIO...'; sleep 2; done;
+      mc mb --ignore-existing local/$$S3_BUCKET;
+      echo 'bucket pret';
+      exit 0;
+      "
+
+  sync:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      minio:
+        condition: service_started
+    environment:
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_USER: blokpass
+      DB_PASSWORD: ${POSTGRES_PASSWORD:?definir POSTGRES_PASSWORD dans backend/.env}
+      DB_NAME: blokpass
+      BIND_ADDR: 0.0.0.0:8080
+      RUST_LOG: info
+      # Limitation de debit anti-brute-force sur /v1/auth/* (par IP).
+      AUTH_RATE_MAX: ${AUTH_RATE_MAX:-20}
+      AUTH_RATE_WINDOW_SECS: ${AUTH_RATE_WINDOW_SECS:-60}
+      # Administrateurs de la console (handles separes par des virgules), lus depuis .env
+      ADMIN_HANDLES: ${ADMIN_HANDLES:-}
+      # Cle de chiffrement au repos de l'empreinte d'authentification (32 octets base64).
+      AUTH_ENC_KEY: ${AUTH_ENC_KEY:?definir AUTH_ENC_KEY dans backend/.env}
+      # Stockage objet des pieces jointes (MinIO interne).
+      S3_ENDPOINT: http://minio:9000
+      S3_BUCKET: ${S3_BUCKET:-blokpass-attachments}
+      S3_REGION: ${S3_REGION:-us-east-1}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:?definir S3_ACCESS_KEY dans backend/.env}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:?definir S3_SECRET_KEY dans backend/.env}
+    ports:
+      - "127.0.0.1:8090:8080"
+
+  # Tests de bout en bout (sync + bootstrap) : docker compose --profile test run --rm synctest
+  synctest:
+    profiles: ["test"]
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile.test
+    depends_on:
+      sync:
+        condition: service_started
+    environment:
+      SYNC_URL: http://sync:8080
+
+volumes:
+  blokpass_db:
+  blokpass_minio:
