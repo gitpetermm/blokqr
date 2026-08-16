@@ -47,3 +47,10 @@ backend/remove_*.py
 # fichiers parasites (noms aberrants)
 backend/-e
 backend/-v
+
+# --- Scripts de patch / reliquats backend ---
+backend/patch_*.py
+backend/write_*.py
+backend/remove_*.py
+backend/-e
+backend/-v
