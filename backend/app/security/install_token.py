@@ -25,7 +25,7 @@ import redis.asyncio as redis
 import logging
 _redis = redis.from_url("redis://redis:6379/0", decode_responses=True)
 
- logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
 async def _dual_write_pg(coro_factory, label):
     try:
