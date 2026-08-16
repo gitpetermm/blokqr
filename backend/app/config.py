@@ -196,3 +196,6 @@ class Settings(BaseSettings):
 def get_settings() -> Settings:
     """Retourne une instance unique et mise en cache des paramètres."""
     return Settings()
+
+# --- PostgreSQL (source de verite durable, Phase 1+) ---
+    database_url: str = Field(default="")   # postgresql+asyncpg://... via .env
