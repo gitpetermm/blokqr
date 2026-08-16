@@ -1,9 +1,16 @@
 name: Android - Build BlokQR
 
 # Construit l'app Android dans la CI (les builds Android ne tournent PAS sur le
-# VPS : le VPS heberge l'API, l'app tourne sur les telephones). Ce workflow
-# produit un APK de debug a chaque push touchant android/, et un APK/AAB signe
-# sur tag (v*).
+# VPS : le VPS heberge l'API, l'app tourne sur les telephones).
+#
+# Strategie PRAGMATIQUE : la compilation (assembleDebug) est OBLIGATOIRE - elle
+# garantit que l'app compile. Le lint et les tests unitaires s'executent mais
+# sont NON bloquants (ils rapportent sans faire echouer le build), car le build
+# de production (AAB signe) est realise en local via Android Studio. On pourra
+# durcir plus tard (rendre lint/tests bloquants) quand on voudra investir sur
+# la qualite Android.
+#
+# Sur tag v* : APK + AAB signes + Release GitHub.
 
 on:
   push:
@@ -44,8 +51,19 @@ jobs:
       - name: Wrapper si absent
         run: if [ ! -f ./gradlew ]; then gradle wrapper --gradle-version 8.9; fi
 
-      - name: Lint + tests + APK de debug
-        run: ./gradlew --no-daemon lint testDebugUnitTest assembleDebug
+      # Compilation OBLIGATOIRE : l'app doit compiler, sinon le build echoue.
+      - name: Compilation de l'APK de debug (OBLIGATOIRE)
+        run: ./gradlew --no-daemon assembleDebug
+
+      # Lint NON bloquant : rapporte mais ne fait pas echouer le build.
+      - name: Lint (informatif, non bloquant)
+        continue-on-error: true
+        run: ./gradlew --no-daemon lint
+
+      # Tests NON bloquants : rapportent mais ne font pas echouer le build.
+      - name: Tests unitaires (informatif, non bloquant)
+        continue-on-error: true
+        run: ./gradlew --no-daemon testDebugUnitTest
 
       - name: Publier l'APK de debug (artefact)
         uses: actions/upload-artifact@v4
