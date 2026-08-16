@@ -191,11 +191,9 @@ class Settings(BaseSettings):
 
     # --- Chemins de clés (passerelle) ----------------------------------------
     gateway_key_path: str = Field(default="keys/gateway_keys.json")
+    database_url: str = Field(default="")   # postgresql+asyncpg://... via .env (PostgreSQL, Phase 1+)
 
 @lru_cache
 def get_settings() -> Settings:
     """Retourne une instance unique et mise en cache des paramètres."""
     return Settings()
-
-# --- PostgreSQL (source de verite durable, Phase 1+) ---
-    database_url: str = Field(default="")   # postgresql+asyncpg://... via .env
