@@ -75,6 +75,13 @@ async def link_purchase(purchase_token: str, install_id: str) -> None:
     if purchase_token and install_id:
         await _redis.set(_link_key(_pth(purchase_token)), install_id, ex=LINK_TTL)
 
+        try:
+            from app.config import get_settings
+            if get_settings().enable_pg_dual_write:
+                from app.db import repo
+                await repo.db_link_purchase(purchase_token, install_id)
+        except Exception:
+            logger.warning("pg_dual_write_failed op=link_purchase", exc_info=True)
 
 async def deep_revoked(install_id: str) -> bool:
     """True si une RTDN a révoqué ce Pro (remboursement / hold / expiration).

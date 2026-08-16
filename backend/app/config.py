@@ -65,7 +65,7 @@ class Settings(BaseSettings):
     # PhishTank et URLhaus sont interrogeables sans clé (rate-limités).
     enable_phishtank: bool = True
     enable_urlhaus: bool = True
-
+    enable_pg_dual_write: bool = Field(default=False)
     # Délai max accordé à l'ensemble des providers de threat intel.
     threat_intel_timeout_seconds: float = 10.0
     # --- Étage IA (Gemini) — 2e ligne pour les cas ambigus -------------------
